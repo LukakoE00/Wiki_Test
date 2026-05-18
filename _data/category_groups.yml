@@ -1,0 +1,53 @@
+afflictions:
+  - key: symptoms
+    label: Symptoms
+
+  - key: head_brain
+    label: Head / Brain
+
+  - key: lungs
+    label: Lungs
+
+  - key: heart
+    label: Heart
+
+  - key: torso
+    label: Torso
+
+  - key: extremities
+    label: Extremities
+
+  - key: bones
+    label: Bones
+
+  - key: any_bodypart
+    label: Any Bodypart
+
+  - key: blood
+    label: Blood
+
+  - key: items
+    label: Items
+
+  - key: surgery
+    label: Surgery
+
+  - key: procedures
+    label: Procedures
+
+items:
+  - key: consumables
+    label: Consumables
+
+  - key: tools
+    label: Tools
+
+  - key: transplants
+    label: Transplants
+
+  - key: upgrades
+    label: Surgery Table Upgrades
+
+mechanics:
+
+surgeryprocedures:

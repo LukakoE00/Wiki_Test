@@ -164,7 +164,7 @@ main {
 /* We turn these into columns so we dont end up with a large amount of empty space in case specific blocks are larger than others (damn you, symptoms list!) */
 .blocks-categorypage {
     /* Determines content positioning */
-    columns: 200px 4;
+    column-count: 2;
     column-gap: 40px;
     padding: 0.5rem 0;
 }

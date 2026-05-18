@@ -12,16 +12,16 @@ layout: default
 
         {% assign items = site.wikipages | where: "category", page.category %}
         {% assign subgroups = items | group_by: "subcategory" %}
-        {% assign category_order = site.data.affliction_categories | sort: "order" %}
+        {% assign category_order = site.data.category_groups[page.category] %}
 
         {% for category in category_order %}
-            {% assign group = subgroups | where: "name", category.name | first %}
+            {% assign group = subgroups | where: "name", category.key | first %}
 
             {% if group %}
 
                 <div class="block">
 
-                    <h2>{{ group.name }}</h2>
+                    <h2>{{ category.label }}</h2>
 
                     {% for item in group.items %}
                         <a href="{{ item.url | relative_url }}">

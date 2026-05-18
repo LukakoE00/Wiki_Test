@@ -2,7 +2,7 @@
 layout: contentpage
 title: Open & Close Surgery
 category: procedures
-subcategory: Procedures
+subcategory: procedures
 permalink: /afflictions/procedures/open-close-surgery/
 ---
 

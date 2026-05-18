@@ -7,6 +7,7 @@ INTERNAL_DAMAGE: /afflictions/any-bodypart/internal-wounds/
 WOUNDS: /afflictions/any-bodypart/open-wounds/
 
 # Blood
+BLOOD_LOSS: /afflictions/blood/blood-loss/
 
 # Bones
 # Fractures
@@ -19,6 +20,7 @@ RIB_FRACTURES: /afflictions/bones/fractures/
 DISLOCATIONS: /afflictions/bones/dislocations/
 
 # Extremities
+ARTERIAL_BLEEDING: /afflictions/extremities/arterial_bleeding/
 
 # Head / Brain
 SPINAL_CORD_INJURY: /afflictions/head-brain/spinal-cord-injury/
@@ -34,3 +36,10 @@ PNEUMOTHORAX: /afflictions/lungs/pneumothorax/
 INTENSE_PAIN: /afflictions/symptoms/intense-pain/
 
 # Torso
+AORTIC_RUPTURE: /afflictions/torso/aortic-rupture/
+
+# ITEMS
+ANTIBIOTIC_GLUE:
+BANDAGES:
+PLASTISEAL:
+SUTURES:

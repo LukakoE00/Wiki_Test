@@ -3,7 +3,7 @@ layout: contentpage
 title: Bandaged
 contentheader: Bandaged (Affliction)
 category: afflictions
-subcategory: Any Bodypart
+subcategory: any_bodypart
 permalink: /afflictions/any-bodypart/bandaged/
 image: /images/svg/anybodypart.svg
 inline_image: /images/afflictions/any-bodypart/bandaged.png

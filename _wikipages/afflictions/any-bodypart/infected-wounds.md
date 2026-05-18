@@ -2,10 +2,33 @@
 layout: contentpage
 title: Infected Wounds
 category: afflictions
-subcategory: Any Bodypart
+subcategory: any_bodypart
 permalink: /afflictions/any-bodypart/infected-wounds/
 image: /images/svg/anybodypart.svg
 inline_image: /images/afflictions/any-bodypart/infected_wounds.png
----
 
-burns placeholder
+blocks:
+  - type: description
+    header: "Description:"
+    order: 1
+    text: |
+     placeholder
+
+  - type: caused_by
+    header: "Caused By:"
+    order: 2
+    text: |
+     placeholder
+
+  - type: effects
+    header: "Effects:"
+    order: 3
+    text: |
+     placeholder
+
+  - type: treatments
+    header: "Treatments:"
+    order: 4
+    text: |
+     placeholder
+---

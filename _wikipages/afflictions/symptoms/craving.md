@@ -2,10 +2,33 @@
 layout: contentpage
 title: Craving
 category: afflictions
-subcategory: Symptoms
+subcategory: symptoms
 permalink: /afflictions/symptoms/craving/
 image: /images/svg/symptoms.svg
 inline_image: /images/afflictions/symptoms/craving.png
----
 
-coughing placeholder
+blocks:
+  - type: description
+    header: "Description:"
+    order: 1
+    text: |
+     placeholder
+
+  - type: caused_by
+    header: "Caused By:"
+    order: 2
+    text: |
+     placeholder
+
+  - type: effects
+    header: "Effects:"
+    order: 3
+    text: |
+     placeholder
+
+  - type: treatments
+    header: "Treatments:"
+    order: 4
+    text: |
+     placeholder
+---
