@@ -32,6 +32,7 @@ layout: default
 
               <div class="block-contentpage-text">
 
+                <!-- This automatically pulls from the links.yml file in _data to turn keywords into inline links, so you don't need to manually add those links every time -->
                 {%- assign html = block.text | markdownify -%}
 
                 {%- if site.data.links -%}
