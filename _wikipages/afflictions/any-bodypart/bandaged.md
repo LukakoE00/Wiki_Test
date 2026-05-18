@@ -13,7 +13,7 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-      Bandages are an extremely versatile first aid item. It is advised that every crewmember keeps atleast some bandages on them at all times. Bandages will be turned dirty if they are applied on Wounds, with bleeding making a bandage dirty much faster than other wounds. Bandaged can be removed with Trauma Shears or a Diving Knife.
+      Bandages are an extremely versatile first aid item. It is advised that every crewmember keeps atleast some bandages on them at all times. Bandages will be turned dirty if they are applied on {{WOUNDS}}, with bleeding making a bandage dirty much faster than other wounds. Bandaged can be removed with Trauma Shears or a Diving Knife.
 
   - type: caused_by
     header: "Caused By:"
@@ -25,12 +25,12 @@ blocks:
     header: "Effects:"
     order: 3
     text: |
-      - Prevents Dislocations from causing Internal Damage or Intense Pain. Dirty bandages also have this effect.
-      - Prevents Pneumothorax from Rib Fractures
-      - Prevents Neck Fractures from causing Spinal Cord Injury
-      - Prevents Arm Fractures from reaching 100%. Dirty Bandages also have this effect.
-      - Removes slow down penalty and arm locking from Dislocations. Dirty Bandages also have this effect.
+      - Prevents {{DISLOCATIONS}} from causing {{INTERNAL_DAMAGE}} or {{INTENSE_PAIN}}. Dirty bandages also have this effect.
+      - Prevents {{PNEUMOTHORAX}} from {{RIB_FRACTURES}}
+      - Prevents {{NECK_FRACTURES}} from causing {{SPINAL_CORD_INJURY}}
+      - Prevents {{ARM_FRACTURES}} from reaching 100%. Dirty Bandages also have this effect.
+      - Removes slow down penalty and arm locking from {{DISLOCATIONS}}. Dirty Bandages also have this effect.
       - Slows you down by 10% for each bandage.
-      - Accelerates natural healing of Wounds and Burns
+      - Accelerates natural healing of {{WOUNDS}} and {{BURNS}}
       - Protects against {{INFECTED_WOUNDS}}
 ---

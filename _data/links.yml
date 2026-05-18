@@ -1,11 +1,36 @@
-INFECTED_WOUNDS: /afflictions/any-bodypart/infected-wounds/
-WOUNDS: /afflictions/any-bodypart/open-wounds/
-DISLOCATIONS: /afflictions/bones/dislocations/
-INTERNAL_DAMAGE: /afflictions/any-bodypart/internal-wounds/
-INTENSE_PAIN: /afflictions/symptoms/intense-pain/
-PNEUMOTHORAX: /afflictions/lungs/pneumothorax/
-RIB_FRACTURES: /afflictions/bones/fractures/
-NECK_FRACTURES: /afflictions/bones/fractures/
-SPINAL_CORD_INJURY: /afflictions/head-brain/spinal-cord-injury/
-ARM_FRACTURES: /afflictions/bones/fractures/
+# Used in Content Pages for automatic inline linking. Simply add new ones in the same formatting to auto-embed.
+
+# Any Bodypart
 BURNS: /afflictions/any-bodypart/burns/
+INFECTED_WOUNDS: /afflictions/any-bodypart/infected-wounds/
+INTERNAL_DAMAGE: /afflictions/any-bodypart/internal-wounds/
+WOUNDS: /afflictions/any-bodypart/open-wounds/
+
+# Blood
+
+# Bones
+# Fractures
+SKULL_FRACTURES: /afflictions/bones/fractures/
+NECK_FRACTURES: /afflictions/bones/fractures/
+ARM_FRACTURES: /afflictions/bones/fractures/
+LEG_FRACTURES: /afflictions/bones/fractures/
+RIB_FRACTURES: /afflictions/bones/fractures/
+# Dislocations
+DISLOCATIONS: /afflictions/bones/dislocations/
+
+# Extremities
+
+# Head / Brain
+SPINAL_CORD_INJURY: /afflictions/head-brain/spinal-cord-injury/
+
+# Heart
+
+# Lungs
+PNEUMOTHORAX: /afflictions/lungs/pneumothorax/
+
+# Surgery
+
+# Symptoms
+INTENSE_PAIN: /afflictions/symptoms/intense-pain/
+
+# Torso
