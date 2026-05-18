@@ -1,0 +1,14 @@
+- name: Afflictions
+  description: placeholder
+  slug: /afflictions/
+  order: 1
+
+- name: Items
+  description: placeholder
+  slug: /items/
+  order: 2
+
+- name: Surgical Procedures
+  description: placeholder
+  slug: /procedures/
+  order: 3

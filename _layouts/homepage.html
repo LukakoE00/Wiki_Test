@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="content">
+
+    <h1 class="contentheader">
+        {{ page.contentheader }}
+    </h1>
+
+    {% if page.content %}
+        <div class="content-intro">
+            {{ page.content | markdownify }}
+        </div>
+    {% endif %}
+
+    <div class="blocks-homepage">
+
+        {% assign sorted_categories = site.data.categories | sort: "order" %}
+
+        {% for cat in sorted_categories %}
+            <div class="block">
+
+                <h2>{{ cat.name }}</h2>
+
+                {% if cat.description %}
+                    <p>{{ cat.description }}</p>
+                {% endif %}
+
+                <a href="{{ cat.slug | relative_url }}">
+                    <span>Open</span>
+                </a>
+
+            </div>
+        {% endfor %}
+
+    </div>
+
+</div>

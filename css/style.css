@@ -1,0 +1,305 @@
+/* 
+Some might say "don't write comments, write documentation".
+God no! We will spam comments instead!
+*/
+
+/* Global variables */
+/* Used to sync colours across pages without having to change them manually every time */
+:root {
+    /* Backgrounds */
+    --colour-background-general: #6d6d6d;
+    --colour-background-header: #555555;
+    --colour-background-sidebar: #555555;
+    --colour-background-contentbox: #666666;
+
+    /* UI Elements */
+    --colour-borders: #000000;
+
+    /* Text Elements */
+    --colour-text-default: #000000;
+    --colour-text-link: #2b246b;
+    --colour-text-hover: #4e4e4e;
+}
+
+/* All-element selector */
+/* For when we need to blanket-apply specific formatting */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Formatting */
+/* The Header is applied to all HTML pages via the include system; it should be ontop of all other content, and moves along with page scrolling. */
+header {
+    /* Enforces Position */
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+
+    /* Determines content positioning */
+    height: 60px;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centers vertically */
+
+    /* Customization */
+    background: var(--colour-background-header);
+    border-bottom: 2px solid var(--colour-borders);
+}
+
+/* Navigation Bar */
+/* Determines how the Navigation bar looks and where it sits. Part of the Header. */
+.topnav input{
+    /* Enforces Position */
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    width: 250px;
+
+    /* Customization */
+    transition: width 0.2s ease;
+    border: 1px solid var(--colour-borders);
+}
+
+/* Navigation Bar Focussing */
+/* Once clicked on, the navigation bar grows a bit both for feedback and to give more visual space. */
+.topnav input:focus{
+    width: 350px;
+    max-width: 70vw;
+}
+
+/* Body Formatting */
+/* Present in all pages since it's part of the Default Layout. All content (except for the header / sidebar) fit within here*/
+body {
+    /* Determines content positioning */
+    display: flex;
+    flex-direction: column;
+
+    /* Customization */
+    color: var(--colour-text-default);
+    background-color: var(--colour-background-general);
+}
+
+/* Container Formatting */
+/* Used to seperate the Sidebar from the rest of the page (excluding the header); in Default and Contentpage layouts. */
+.container {
+    /* Determines content positioning */
+    display: flex;
+    flex: 1;
+}
+
+/* Sidebar Formatting */
+/* Like the header, present on all pages using Include. Always visible, though the content within does not stay sticky. Flips horizontally when on mobile. */
+#sidebar {
+    /* Enforces Position */
+    top: 60px;
+    position: sticky;
+    z-index: 999;
+    height: 100vh; /* Ensures it goes all the way down and doesn't randomly cut off. There must be a better way for this */
+    width: 150px;
+
+    /* Determines content positioning */
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    /* Customization */
+    background: var(--colour-background-sidebar);
+    border-right: 2px solid var(--colour-borders);
+}
+
+/* Sidebar 'links' */
+/* Determines the looks / size of the text links in the sidebar. */
+#sidebar a {
+    /* Determines content positioning */
+    padding: 6px 8px 6px 16px;
+    font-size: 25px;
+    display: block;
+
+    /* Customization */
+    text-decoration: none;
+    color: var(--colour-text-default);
+}
+
+/* Determines the look of links when hovering the cursor on them */
+sidebar a:hover {
+    color: var(--colour-text-hover);
+}
+
+/* Main Formatting */
+/* Part of the Body element that is supposed to properly contain page content alongside the Sidebar */
+main {
+    /* Determines content positioning */
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+/* Content Header Formatting */
+/* Effectively title text for that page, though not naming it the title to keep from confusing it with the *actual* title (which displays at the top of the page in the tab) */
+.contentheader {
+    /* Determines content positioning */
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+
+    /* Customization */
+    border-bottom: 1px solid var(--colour-borders);
+}
+
+
+/* Home Page Content Formatting */
+/* We want the blocks of information to be put side by side, though not as big as Content Page blocks and not in columns like Category Page blocks. */
+.blocks-homepage {
+    /* Determines content positioning */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 40px;
+    padding: 0.5rem 0;
+}
+
+/* Category Page Content Formatting */
+/* We turn these into columns so we dont end up with a large amount of empty space in case specific blocks are larger than others (damn you, symptoms list!) */
+.blocks-categorypage {
+    /* Determines content positioning */
+    columns: 200px 4;
+    column-gap: 40px;
+    padding: 0.5rem 0;
+}
+
+/* Content Page Content Formatting */
+/* The deepest layer, this is where actual information is given. Similar to the homepage, but standalone for more unique customization. */
+.blocks-contentpage {
+    /* Determines content positioning */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    align-items: start;
+}
+
+/* Content Page Blocks */
+/* These contain the text, images or other information we want to display on this page. */
+.block-contentpage {
+    /* Determines content positioning */
+    padding: 1.5rem;
+
+    /* Customization */
+    background: var(--colour-background-contentbox);
+    border: 2px solid var(--colour-borders);
+}
+
+/* Content Block Links */
+/* Like before, formatting for links. These will be inline, so we want to ensure they dont feel out of place but still clearly clickable. */
+.block-contentpage a {
+    /* Customization */
+    text-decoration: none;
+    color: var(--colour-text-link);
+    background: var(--colour-background-contentbox);
+}
+
+/* Content Block H2 */
+/* Really kicking in open doors with these comments. Edits the H2 within content blocks (auto-used by Liquid scripts) for better readability. */
+.block-contentpage h2 {
+    font-size: 1.4rem;
+}
+
+/* Content Block Text Area */
+/* Self explanatory but alas; edits the text within content blocks for better readability. */
+.block-contentpage-text {
+    line-height: 1.6;
+}
+
+/* Category Page Blocks */
+/* Each block is an element in which the 'links' to content pages are stored. */
+.block {
+    /* Determines content positioning */
+    display: inline-block;
+    width: 100%;
+    break-inside: avoid;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 1.5rem;
+
+    /* Customization */
+    background: var(--colour-background-contentbox);
+    border: 2px solid var(--colour-borders);
+}
+
+/* 'Links' to Content Pages */
+/* The thing mentioned above. Contains text and an image corresponding to a content page, sorted into categories. */
+.block a {
+    /* Enforces Size */
+    height: 40px;
+    padding: 3px;
+    margin-bottom: 6px;
+
+    /* Determines content positioning */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* Customization */
+    background: var(--colour-background-inlinelink);
+    border: 2px solid var(--colour-borders);
+    text-decoration: none;
+    color: var(--colour-text-default);
+}
+
+/* Link-To-Content on hover */
+/* How should it look when hovering? */
+.block a:hover {
+    text-decoration: none;
+}
+
+/* Link-To-Content image */
+/* How should the image look while in that block? */
+.block a img {
+    height: 2em;
+    width: auto;
+}
+
+
+/* Changes for Mobile */
+/* Makes sure that things remain readable on mobile devices. */
+@media (max-width: 768px){
+
+    .container{
+        flex-direction: column;
+    }
+
+    #sidebar{
+        display: flex;
+        flex-wrap: nowrap;
+
+        overflow-x: auto;
+        overflow-y: hidden;
+
+        white-space: nowrap;
+
+        height: 50px;
+        width: 100%;
+
+        border-right: none;
+        border-top: 1px solid var(--colour-borders);
+
+        position: fixed;
+        bottom: 0;
+        top: unset;
+    }
+
+    #sidebar a{
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .blocks-categorypage{
+        column-count: 1;
+    }
+
+    .topnav input{
+        width: 100%;
+        max-width: 200px;
+    }
+}

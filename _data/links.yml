@@ -1,0 +1,11 @@
+INFECTED_WOUNDS: /afflictions/any-bodypart/infected-wounds/
+WOUNDS: /afflictions/any-bodypart/open-wounds/
+DISLOCATIONS: /afflictions/bones/dislocations/
+INTERNAL_DAMAGE: /afflictions/any-bodypart/internal-wounds/
+INTENSE_PAIN: /afflictions/symptoms/intense-pain/
+PNEUMOTHORAX: /afflictions/lungs/pneumothorax/
+RIB_FRACTURES: /afflictions/bones/fractures/
+NECK_FRACTURES: /afflictions/bones/fractures/
+SPINAL_CORD_INJURY: /afflictions/head-brain/spinal-cord-injury/
+ARM_FRACTURES: /afflictions/bones/fractures/
+BURNS: /afflictions/any-bodypart/burns/
