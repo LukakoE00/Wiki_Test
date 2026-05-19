@@ -39,7 +39,21 @@ blocks:
     text: |
       #### First Degree Burns:
       - {{BANDAGES}} or {{PLASTISEAL}}.
-      - {{ANTIBIOTIC_OINTMENT}}
-      - 
+      - {{ANTIBIOTIC_OINTMENT}}.
+      - {{ANTIBIOTIC_GLUE}}.
+      - {{OPEN_CLOSE_SURGERY}} (apply {{PLASTISEAL}} before {{SUTURES}}).
+      - {{COMBAT_STIMULANT}}.
+
+      #### Second Degree Burns:
+      - {{BANDAGES}} or {{PLASTISEAL}}.
+      - {{ANTIBIOTIC_OINTMENT}}.
+      - {{ANTIBIOTIC_GLUE}}.
+      - {{COMBAT_STIMULANT}}.
+      - {{OPEN_CLOSE_SURGERY}} (apply {{PLASTISEAL}} before {{SUTURES}}).
+
+      #### Third Degree Burns:
+      - {{ANTIBIOTIC_GLUE}}.
+      - {{COMBAT_STIMULANT}}.
+      - {{OPEN_CLOSE_SURGERY}} (apply {{PLASTISEAL}} before {{SUTURES}}).
      
 ---

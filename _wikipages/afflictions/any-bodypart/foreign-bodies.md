@@ -12,23 +12,25 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     placeholder
-
+     Foreign bodies are often acquired after firefights or being caught in an explosion. Foreign bodies should be removed as quickly as possible in order to avoid {{ARTERIAL_BLEEDING}} or the patient contracting {{SEPSIS}}. Each use of tweezers will remove 3-10% foreign bodies.
   - type: caused_by
     header: "Caused By:"
     order: 2
     text: |
-     placeholder
-
+     - Explosions
+     - Gunshots (gunshots that break a bone will always cause foreign bodies)
   - type: effects
     header: "Effects:"
     order: 3
     text: |
-     placeholder
-
+     - {{ARTERIAL_BLEEDING}} (at 20% or more)
+     - {{AORTIC_RUPTURE}} (at 20% or more, if in the torso)
+     - {{SEPSIS}} (at 20% or more)
+     - {{INFLAMMATION}} (at 15% or more)
   - type: treatments
     header: "Treatments:"
     order: 4
     text: |
-     placeholder
+     - {{OPEN_CLOSE_SURGERY}} (use {{TWEEZERS}} before applying {{SUTURES}})
+     - Using {{TWEEZERS}} on open gunshot wound or deep tissue injury
 ---

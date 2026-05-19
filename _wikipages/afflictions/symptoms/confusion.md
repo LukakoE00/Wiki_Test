@@ -12,23 +12,23 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     placeholder
-
+     Confusion is a symptom, which means that it isn't fatal and doesn't cause any other afflictions.
+  
   - type: caused_by
     header: "Caused By:"
     order: 2
     text: |
-     placeholder
-
-  - type: effects
-    header: "Effects:"
-    order: 3
-    text: |
-     placeholder
-
+     - {{ACIDOSIS}} (15% or more)
+     - {{SEPSIS}} (40% or more)
+     - {{HYPOTENSION}} (30% or less)
+     - {{HYPOXEMIA}} (50% or more)
+     - {{WITHDRAWAL}} (alcohol withdrawal, 80% or more)
+     - {{CONCUSSION}}
+     - {{ANESTHESIA}}
+  
   - type: treatments
     header: "Treatments:"
-    order: 4
+    order: 3
     text: |
-     placeholder
+     - Treating the causes
 ---

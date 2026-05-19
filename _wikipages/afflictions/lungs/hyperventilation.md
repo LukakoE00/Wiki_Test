@@ -12,23 +12,28 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     placeholder
+     Hyperventilation is normally harmless, and can usually be ignored. Hyperventilation and {{HYPOVENTILATION}} will cancel each other out.
 
   - type: caused_by
     header: "Caused By:"
     order: 2
     text: |
-     placeholder
-
+     - {{HYPOTENSION}} (80% or less)
+     - {{HYPOXEMIA}} (10% or more)
+     - {{PNEUMOTHORAX}} (15% or more)
+     - {{SEPSIS}} (15% or more)
+     - {{ADRENALINE}}
+  
   - type: effects
     header: "Effects:"
     order: 3
     text: |
-     placeholder
-
+     - {{ALKALOSIS}}
+  
   - type: treatments
     header: "Treatments:"
     order: 4
     text: |
-     placeholder
+     - Treating the causes
+     - Inducing {{HYPOVENTILATION}}
 ---

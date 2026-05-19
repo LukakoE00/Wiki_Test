@@ -12,23 +12,26 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     placeholder
-
+     Hypoventilation is normally harmless, and can usually be ignored. Hypoventilation and {{HYPERVENTILATION}} will cancel each other out.
+  
   - type: caused_by
     header: "Caused By:"
     order: 2
     text: |
-     placeholder
-
+     - {{OPIATE_OVERDOSE}} (30% or more)
+     - {{OPIOIDS}}
+     - {{ANESTHESIA}}
+  
   - type: effects
     header: "Effects:"
     order: 3
     text: |
-     placeholder
-
+     - {{ACIDOSIS}}
+  
   - type: treatments
     header: "Treatments:"
     order: 4
     text: |
-     placeholder
+     - Treating the causes
+     - Inducing {{HYPERVENTILATION}}
 ---

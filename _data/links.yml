@@ -1,42 +1,127 @@
 # Used in Content Pages for automatic inline linking. Simply add new ones in the same formatting to auto-embed.
 
 # Any Bodypart
-BURNS: /afflictions/any-bodypart/burns/
-INFECTED_WOUNDS: /afflictions/any-bodypart/infected-wounds/
-INTERNAL_DAMAGE: /afflictions/any-bodypart/internal-wounds/
-WOUNDS: /afflictions/any-bodypart/open-wounds/
+BANDAGED: /afflictions/any-bodypart/bandaged
+BLEEDING: /afflictions/any-bodypart/bleeding
+BURNS: /afflictions/any-bodypart/burns
+CHILLED: /afflictions/any-bodypart/chilled
+FOREIGN_BODIES: /afflictions/any-bodypart/foreign_bodies
+INFECTED_WOUNDS: /afflictions/any-bodypart/infected-wounds
+# Internal Wounds
+INTERNAL_WOUNDS: /afflictions/any-bodypart/internal-wounds
+INTERNAL_DAMAGE: /afflictions/any-bodypart/internal-wounds
+BLUNT_FORCE_TRAUMA: /afflictions/any-bodypart/internal-wounds
+# Open Wounds
+OPEN_WOUNDS: /afflictions/any-bodypart/open-wounds
+LACERATIONS: /afflictions/any-bodypart/open-wounds
+GUNSHOT_WOUND: /afflictions/any-bodypart/open-wounds
 
 # Blood
-BLOOD_LOSS: /afflictions/blood/blood-loss/
+ACIDOSIS: /afflictions/blood/acidosis
+ALKALOSIS: /afflictions/blood/alkalosis
+BLOOD_LOSS: /afflictions/blood/blood_loss
+HEMOTRANSFUSION_SHOCK: /afflictions/blood/hemotransfusion_shock
+HYPERTENSION: /afflictions/blood/hypertension
+HYPOTENSION: /afflictions/blood/hypotension
+HYPOXEMIA: /afflictions/blood/hypoxemia
+SEPSIS: /afflictions/blood/sepsis
 
 # Bones
-# Fractures
-SKULL_FRACTURES: /afflictions/bones/fractures/
-NECK_FRACTURES: /afflictions/bones/fractures/
-ARM_FRACTURES: /afflictions/bones/fractures/
-LEG_FRACTURES: /afflictions/bones/fractures/
-RIB_FRACTURES: /afflictions/bones/fractures/
+BONE_DAMAGE: /afflictions/bones/bone_damage
+BONE_DEATH: /afflictions/bones/bone_death
 # Dislocations
-DISLOCATIONS: /afflictions/bones/dislocations/
+DISLOCATIONS: /afflictions/bones/dislocations
+# Fractures
+FRACTURES: /afflictions/bones/fractures
+SKULL_FRACTURES: /afflictions/bones/fractures
+NECK_FRACTURES: /afflictions/bones/fractures
+ARM_FRACTURES: /afflictions/bones/fractures
+LEG_FRACTURES: /afflictions/bones/fractures
+RIB_FRACTURES: /afflictions/bones/fractures
 
 # Extremities
-ARTERIAL_BLEEDING: /afflictions/extremities/arterial_bleeding/
+ARTERIAL_BLEEDING: /afflictions/extremities/arterial_bleeding
+CLAMPED_ARTERIES: /afflictions/extremities/clapmed_arteries
+GANGRENE: /afflictions/extremities/gangrene
+PLASTER_CAST: /afflictions/extremities/plaster_cast
+SURGICAL_AMPUTATION: /afflictions/extremities/surgical_amputation
+TRAUMATIC_AMPUTATION: /afflictions/extremities/traumatic_amputation
 
 # Head / Brain
-SPINAL_CORD_INJURY: /afflictions/head-brain/spinal-cord-injury/
+COMA: /afflictions/head-brain/coma
+CONCUSSION: /afflictions/head-brain/concussion
+DRUNK: /afflictions/head-brain/drunk
+NEUROTRAUMA: /afflictions/head-brain/neurotrauma
+OPIATE_OVERDOSE: /afflictions/head-brain/opiate_overdose
+SEIZURE: /afflictions/head-brain/seizure
+SPINAL_CORD_INJURY: /afflictions/head-brain/spinal_cord_injury
+STROKE: /afflictions/head-brain/stroke
+UNCONSCIOUSNESS: /afflictions/head-brain/unconsciousness
+WITHDRAWAL: /afflictions/head-brain/withdrawal
 
 # Heart
+CARDIAC_ARREST: /afflictions/heart/cardiac_arrest
+CARDIAC_TAMPONADE: /afflictions/heart/cardiac_tamponade
+HEART_ATTACK: /afflictions/heart/heart_attack
+HEART_DAMAGE: /afflictions/heart/heart_damage
+IRREGULAR_HEARTBEAT: /afflictions/heart/irregular_heartbeat
 
 # Lungs
-PNEUMOTHORAX: /afflictions/lungs/pneumothorax/
+HYPERVENTILATION: /afflictions/lungs/hyperventilation
+HYPOVENTILATION: /afflictions/lungs/hypoventilation
+LUNG_DAMAGE: /afflictions/lungs/lung_damage
+OXYGEN_LOW: /afflictions/lungs/oxygen_low
+PNEUMOTHORAX: /afflictions/lungs/pneumothorax
+RESPIRATORY_ARREST: /afflictions/lungs/respiratory_arrest
 
 # Surgery
+CLAMPED_BLEEDING: /afflictions/surgery/clamped_bleeding
+DRILLED_BONES: /afflictions/surgery/drilled_bones
+RETRACTED_SKIN: /afflictions/surgery/retracted_skin
+SAWED_BONES: /afflictions/surgery/sawed_bones
+SURGERY_INCISION: /afflictions/surgery/surgery_incision
+TRAUMATIC_SHOCK: /afflictions/surgery/traumatic_shock
 
 # Symptoms
-INTENSE_PAIN: /afflictions/symptoms/intense-pain/
+ABDOMINAL_DISCOMFORT: /afflictions/symptoms/abdominal_discomfort
+ABDOMINAL_PAIN: /afflictions/symptoms/abdominal_discomfort
+BLOATING: /afflictions/symptoms/bloating
+BLURRED_VISION: /afflictions/symptoms/blurred_vision
+CHEST_PAIN: /afflictions/symptoms/chest_pain
+CONFUSION: /afflictions/symptoms/confusion
+COUGH: /afflictions/symptoms/cough
+CRAVING: /afflictions/symptoms/craving
+FEVER: /afflictions/symptoms/fever
+HEADACHE: /afflictions/symptoms/headache
+INCREASED_HEARTRATE: /afflictions/symptoms/increased_heartrate
+INFLAMMATION: /afflictions/symptoms/inflammation
+INTENSE_PAIN: /afflictions/symptoms/intense_pain
+JAUNDICE: /afflictions/symptoms/jaundice
+LEG_SWELLING: /afflictions/symptoms/leg_swelling
+LIGHTHEADEDNESS: /afflictions/symptoms/lightheadedness
+NAUSEA: /afflictions/symptoms/nausea
+PALE_SKIN: /afflictions/symptoms/pale_skin
+PALPITATIONS: /afflictions/symptoms/palpitations
+SHORTNESS_OF_BREATH: /afflictions/symptoms/shortness_of_breath
+SPASMS: /afflictions/symptoms/spasms
+SWEATING: /afflictions/symptoms/sweating
+VOMITING_BLOOD: /afflictions/symptoms/vomiting_blood
+VOMITING: /afflictions/symptoms/vomiting
+WEAKNESS: /afflictions/symptoms/weakness
+WHEEZING: /afflictions/symptoms/wheezing
 
 # Torso
-AORTIC_RUPTURE: /afflictions/torso/aortic-rupture/
+ANALGESIA: /afflictions/torso/analgesia
+ANESTHESIA: /afflictions/torso/anesthesia
+AORTIC_RUPTURE: /afflictions/torso/aortic_rupture
+CYANIDE_POISONING: /afflictions/torso/cyanide_poisoning
+INTERNAL_BLEEDING: /afflictions/torso/internal_bleeding
+KIDNEY_DAMAGE: /afflictions/torso/kidney_damage
+LIVER_DAMAGE: /afflictions/torso/liver_damage
+MORBUSINE_POISONING: /afflictions/torso/morbusine_poisoning
+RADIATION_SICKNESS: /afflictions/torso/radiation_sickness
+SUFFORIN_POISONING: /afflictions/torso/sufforin_poisoning
+VANILLA_ORGAN_DAMAGE: /afflictions/torso/vanilla_organ_damage
 
 # ITEMS
 # Consumables
@@ -51,11 +136,85 @@ BANDAGES: /items/consumables/bandages
 BLOOD_PACKS: /items/consumables/blood_packs
 BROAD_SPECTRUM_ANTIBIOTICS: /items/consumables/broad_spectrum_antibiotics
 COMBAT_STIMULANT: /items/consumables/combat_stimulant
+DEUSIZINE: /items/consumables/deusizine
+DRAINAGE: /items/consumables/drainage
+EMPTY_BLOOD_PACK: /items/consumables/empty_blood_pack
+ENDOVASCULAR_BALLOON: /items/consumables/endovascular_balloon
+FENTANYL: /items/consumables/fentanyl
+GYPSUM: /items/consumables/gypsum
+HALOPERIDOL: /items/consumables/haloperidol
+HYPERZINE: /items/consumables/hyperzine
+LIQUID_OXYGENITE: /items/consumables/liquid_oxygenite
+MANNITOL: /items/consumables/mannitol
+MEDICAL_STENT: /items/consumables/medical_stent
+METHAMPHETAMINE: /items/consumables/methamphetamine
+MORPHINE: /items/consumables/morphine
+NALOXONE: /items/consumables/naloxone
+NEEDLE: /items/consumables/needle
+NITROGLYCERIN: /items/consumables/nitroglycerin
+OPIUM: /items/consumables/opium
+OSTEOSYNTHESIS_IMPLANTS: /items/consumables/osteosynthesis_implants
 PLASTISEAL: /items/consumables/plastiseal
+PROPOFOL: /items/consumables/propofol
+RAPTOR_BANE_EXTRACT: /items/consumables/raptor_bane_extract
+RINGERS_SOLUTION: /items/consumables/ringers_solution
+SALINE: /items/consumables/saline
+SODIUM_NITROPRUSSIDE: /items/consumables/sodium_nitroprusside
+SPINAL_CORD_IMPLANTS: /items/consumables/spinal_cord_implants
+STREPTOKINASE: /items/consumables/streptokinase
 SUTURES: /items/consumables/sutures
+THIAMINE: /items/consumables/thiamine
+TOURNIQUET: /items/consumables/tourniquet
 
 # Tools
+AED: /items/tools/aed
+AMBUBAG: /items/tools/ambubag
+ANTISEPTIC_SPRAYER: /items/tools/antiseptic_sprayer
+AUTOPULSE: /items/tools/autopulse
+BLUE_SHARK: /items/tools/blue_shark
+BODY_BAG: /items/tools/body_bag
+DIVING_KNIFE: /items/tools/diving_knife
+GEL_COOLANT_PACK: /items/tools/gel_coolant_pack
+HEALTH_SCANNER: /items/tools/health_scanner
+HEMATOLOGY_ANALYZER: /items/tools/hematology_analyzer
+HEMOSTAT: /items/tools/hemostats
+MANUAL_DEFIBRILLATOR: /items/tools/manual_defibrillator
+MUTLIPURPOSE_SCALPEL: /items/tools/multipurpose_scalpel
+REFRIGERATED_CONTAINER: /items/tools/refrigerated_container
+REFRIGERATED_CRATE: /items/tools/refrigerated_crate
+SCALPEL: /items/tools/scalpel
+SKIN_RETRACTORS: /items/tools/skin_retractors
+STASIS_BAG: /items/tools/stasis_bag
+SURGERY_TABLE: /items/tools/surgery_table
+SURGICAL_DRILL: /items/tools/surgical_drill
+SURGICAL_SAW: /items/tools/surgical_saw
+TRAUMA_SHEARS: /items/tools/trauma_shears
+TWEEZERS: /items/tools/tweezers
+WRENCH: /items/tools/wrench
 
 # Transplants
+ARM_TRANSPLANT: /items/transplants/arm_transplant
+BRAIN_TRANSPLANT: /items/transplants/brain_transplant
+HEART_TRANSPLANT: /items/transplants/heart_transplant
+KIDNEY_TRANSPLANT: /items/transplants/kidney_transplant
+LEG_TRANSPLANT: /items/transplants/leg_transplant
+LIVER_TRANSPLANT: /items/transplants/liver_transplant
+LUNG_TRANSPLANT: /items/transplants/lung_transplant
 
 # Upgrades
+ANALGESIC_TANK: /items/upgrades/analgesic_tank
+DIALYSIS_FILTER: /items/upgrades/dialysis_filter
+TOXIN_FILTER: /items/upgrades/toxin_filter
+
+# PROCEDURES
+AMPUTATION_SURGERY: /procedures/amputation_surgery
+AORTIC_RUPTURE_SURGERY: /procedures/open_close_surgery
+OPEN_CLOSE_SURGERY: /procedures/open_close_surgery
+ORGAN_TRANSPLANT_SURGERY: /procedures/organ_transplant_surgery
+OSTEOSYNTHETIC_SURGERY: /procedures/osteosynthetic_surgery
+
+# MECHANICS
+CONFIGURATION_MENU: /mechanics/configuration_menu
+FIBRILLATION: /mechanics/fibrillation
+IMMUNITY: /mechanics/immunity
+ORGAN_REJECTION: /mechanics/organ_rejection

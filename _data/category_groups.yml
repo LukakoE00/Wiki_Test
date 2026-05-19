@@ -32,9 +32,6 @@ afflictions:
   - key: surgery
     label: Surgery
 
-  - key: procedures
-    label: Procedures
-
 items:
   - key: consumables
     label: Consumables
@@ -48,6 +45,10 @@ items:
   - key: upgrades
     label: Surgery Table Upgrades
 
-mechanics:
-
 surgeryprocedures:
+  - key: base_procedures
+    label: Base Neurotrauma
+
+gamemechanics:
+  - key: base_mechanics
+    label: Base Neurotrauma

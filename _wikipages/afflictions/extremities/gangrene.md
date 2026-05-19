@@ -12,23 +12,25 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     placeholder
-
+     Gangrene is a rare occurrence, and only occurs due to neglecting an applied {{TOURNIQUET}} or {{SEPSIS}} . Once gangrene hits 15%, it is irreversible and the limb must be amputated.
+  
   - type: caused_by
     header: "Caused By:"
     order: 2
     text: |
-     placeholder
-
+     - Leaving a {{TOURNIQUET}} on for too long
+     - {{SEPSIS}} (5% or more)
+  
   - type: effects
     header: "Effects:"
     order: 3
     text: |
-     placeholder
-
+     - {{SEPSIS}} (at 15% or more)
+  
   - type: treatments
     header: "Treatments:"
     order: 4
     text: |
-     placeholder
+     - {{AMPUTATION_SURGERY}}
+     - Time (below 15%)
 ---

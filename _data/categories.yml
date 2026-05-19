@@ -12,3 +12,8 @@
   description: placeholder
   slug: /procedures/
   order: 3
+
+- name: Game Mechanics
+  description: placeholder
+  slug: /mechanics/
+  order: 4

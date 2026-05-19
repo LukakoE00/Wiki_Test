@@ -12,23 +12,27 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     placeholder
-
+     Vomiting usually isn't harmful, and can sometimes be beneficial due to it causing alkalosis. Vomiting will also slow your character down by 20%.
+  
   - type: caused_by
     header: "Caused By:"
     order: 2
     text: |
-     placeholder
-
+     - {{HEMOTRANSFUSION_SHOCK}} (between 0-40%)
+     - {{WITHDRAWAL}} (alcohol withdrawal, 60% or more)
+     - {{DRUNK}} (at 100%)
+     - {{KIDNEY_DAMAGE}} (60% or more)
+     - {{RAPTOR_BANE_EXTRACT}}
+  
   - type: effects
     header: "Effects:"
     order: 3
     text: |
-     placeholder
-
+     - {{ALKALOSIS}}
+  
   - type: treatments
     header: "Treatments:"
     order: 4
     text: |
-     placeholder
+     - Treating the causes
 ---

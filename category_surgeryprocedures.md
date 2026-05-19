@@ -1,7 +1,7 @@
 ---
-layout: categorypage
-title: Surgical Procedures
+layout: cgp_afflictions
+title: Surgical
 contentheader: Surgical Procedures
-category: procedures
+category: surgeryprocedures
 permalink: /procedures/
 ---

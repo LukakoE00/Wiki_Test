@@ -12,23 +12,28 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     placeholder
-
+     Nausea is a symptom, which means that it isn't fatal and doesn't cause any other afflictions.
+  
   - type: caused_by
     header: "Caused By:"
     order: 2
     text: |
-     placeholder
-
+     - {{HEMOTRANSFUSION_SHOCK}} (between 0-90%)
+     - {{WITHDRAWAL}} (40% or more)
+     - {{RADIATION_SICKNESS}} (80% or more)
+     - {{KIDNEY_DAMAGE}} (60% or more)
+     - {{CONCUSSION}}
+     - Being near uncontained organs
+  
   - type: effects
     header: "Effects:"
     order: 3
     text: |
-     placeholder
-
+     - Slows down character by 10%
+  
   - type: treatments
     header: "Treatments:"
     order: 4
     text: |
-     placeholder
+     - Treating the causes
 ---

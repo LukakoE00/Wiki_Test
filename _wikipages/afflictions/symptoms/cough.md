@@ -12,23 +12,19 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     placeholder
-
+     Cough is a symptom, which means that it isn't fatal and doesn't cause any other afflictions.
+  
   - type: caused_by
     header: "Caused By:"
     order: 2
     text: |
-     placeholder
-
-  - type: effects
-    header: "Effects:"
-    order: 3
-    text: |
-     placeholder
-
+     - {{LUNG_DAMAGE}} (50% or more)
+     - {{HEART_DAMAGE}} (50% or more)
+     - {{CARDIAC_TAMPONADE}} (20% or more)
+  
   - type: treatments
     header: "Treatments:"
-    order: 4
+    order: 3
     text: |
-     placeholder
+     - Treating the causes
 ---

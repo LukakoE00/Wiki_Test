@@ -12,23 +12,36 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     placeholder
-
+     Anesthesia is an affliction that prevents traumatic shock during surgery, and unlike {{ANALGESIA}}, doesn't require a {{SURGERY_TABLE}} to perform safe surgery. Anesthesia will immediately wear off upon reaching 100% strength. Anesthesia will also slow your character down by 50%.
+  
   - type: caused_by
     header: "Caused By:"
     order: 2
     text: |
-     placeholder
-
+     - {{PROPOFOL}}
+  
   - type: effects
     header: "Effects:"
     order: 3
     text: |
-     placeholder
-
+     - {{HYPOVENTILATION}} (at 40% or more)
+     - {{UNCONSCIOUSNESS}} (at 15% or more)
+     - {{ANALGESIA}} (doesn't give more than 5% analgesia)
+     - 50% slower movement speed
+     - Possible sideeffects include:
+       - {{HYPOTENSION}}
+       - {{CONFUSION}}
+       - {{BLURRED_VISION}}
+       - {{FEVER}}
+       - {{FIBRILLATION}}
+       - {{SEIZURE}}
+       - {{VOMITING_BLOOD}}
+       - Psychosis
+  
   - type: treatments
     header: "Treatments:"
     order: 4
     text: |
-     placeholder
+     - {{ANAPARALYZANT}}
+     - Time
 ---

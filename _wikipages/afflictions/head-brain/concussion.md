@@ -12,23 +12,34 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     placeholder
-
-  - type: caused_by
-    header: "Caused By:"
-    order: 2
-    text: |
-     placeholder
-
+     A concussion is caused by a severe attack to the head. It periodically brings nausea, blurred vision, headaches, and confusion. While a nuisance, concussions aren't lethal. As they are a type of damage, they can be treated with any items that will directly treat damage.
+  
   - type: effects
     header: "Effects:"
+    order: 2
+    text: |
+     - {{NAUSEA}}
+     - {{BLURRED_VISION}}
+     - {{HEADACHE}}
+     - {{CONFUSION}}
+  
+  - type: caused_by
+    header: "Caused By:"
     order: 3
     text: |
-     placeholder
-
-  - type: treatments
-    header: "Treatments:"
+     - {{INTERNAL_WOUNDS}}
+     - {{OPEN_WOUNDS}}
+  
+  - type: prevention
+    header: "Prevention:"
     order: 4
     text: |
-     placeholder
+     - Wearing a helmet
+  
+  - type: treatments
+    header: "Treatments:"
+    order: 5
+    text: |
+     - Bed rest
+     - Pomegrenade Extract
 ---
