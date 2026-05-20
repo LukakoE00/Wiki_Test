@@ -12,7 +12,7 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     Neurotrauma is one of the only things that can deal direct damage to your health. Neurotrauma is extremely dangerous and can build up very quickly, and upon reaching 200%, will instantly kill the player. The brain will heal at a rate of 0.1% per second, assuming that the config is unchanged and nothing is damaging it.
+     Neurotrauma is one of the only things that can deal direct damage to your health. Neurotrauma is extremely dangerous and can build up very quickly, and upon reaching 200%, will instantly kill the player. The brain will heal at a rate of 0.1% per second, assuming that the {{CONFIGURATION_MENU}} is unchanged and nothing is damaging it.
   
   - type: caused_by
     header: "Caused By:"
@@ -30,7 +30,7 @@ blocks:
      - {{CYANIDE_POISONING}}  (70% or more)
      - {{OPEN_WOUNDS}}, chance when inflicted on head
 
-     Additionally, {{SKULL_FRACTURES}} prevent the natural regeneration of neurotrauma. The gain or loss rate of neurotrauma depends on the affliction strengths of all its causes combined. The rate, including most common causes, can be calculated using {{COQGWS42WB}} created by \@‌arceronth.
+     Additionally, {{SKULL_FRACTURES}} prevent the natural regeneration of neurotrauma. The gain or loss rate of neurotrauma depends on the affliction strengths of all its causes combined. The rate, including most common causes, can be calculated using the [Neurotrauma Gain Calculator](https://www.desmos.com/calculator/coqgws42wb) created by @‌arceronth.
   
   - type: effects
     header: "Effects:"

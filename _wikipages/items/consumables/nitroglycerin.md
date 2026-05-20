@@ -12,19 +12,25 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     ### Medical skill check: 35
+     #### Medical skill check: 35
 
      A jar containing a very volatile vasodilator, liable to explode on impact or exposure to heat. While this drug is active, {{FIBRILLATION}} caused by {{HYPOTENSION}} will be reduced.
 
-     ### Application success:
+  - type: application_success
+    header: "Application Success:"
+    order: 2
+    text: |
 
-     \-45% Blood pressure
+     - \-45% Blood Pressure
 
      Effects last for 400 seconds.
 
-     ### Application failure:
+  - type: application_failure
+    header: "Application Failure:"
+    order: 3
+    text: |
 
-     \-45% Blood pressure
+     - \-45% Blood Pressure
 
      Effects last for 200 seconds.
 ---

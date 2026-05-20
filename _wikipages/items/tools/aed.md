@@ -18,5 +18,6 @@ blocks:
 
      At medical skill below 80, the {{MANUAL_DEFIBRILLATOR}} is worse in all regards. At 100 medical skill, the manual defibrillator is better in all regards.
 
-     !{{GRAPH2_PNG}}
+     #### Graph:
+     ![image info](../../images/page-specific/aed_graph.png)
 ---

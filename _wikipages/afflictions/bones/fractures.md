@@ -54,15 +54,18 @@ blocks:
 
      ### In rib fractures:
 
-     - {{PNEUMOTHORAX}} (unless {{BANDAGED}} )
+     - {{PNEUMOTHORAX}} (unless {{BANDAGED}})
      - {{CHEST_PAIN}}
   
   - type: treatments
     header: "Treatments:"
     order: 4
     text: |
-     - {{PLASTER_CAST}} **(ONLY FOR ARM AND LEG FRACTURES)**
-     - {{OSTEOSYNTHETIC_SURGERY}} (works on all fractures)
+     ### Arm / Leg fractures:
+     - {{PLASTER_CAST}}
+     - {{OSTEOSYNTHETIC_SURGERY}}
+     ### Rib, Skull and Neck fractures:
+     - {{OSTEOSYNTHETIC_SURGERY}}
   
   - type: first_aid
     header: "First Aid:"

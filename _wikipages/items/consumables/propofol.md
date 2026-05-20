@@ -27,5 +27,5 @@ blocks:
      - {{FIBRILLATION}}
      - {{SEIZURE}}
      - {{VOMITING_BLOOD}}
-     - Psychosis
+     - \-100% [Psychosis](https://barotraumagame.com/wiki/Psychosis)
 ---

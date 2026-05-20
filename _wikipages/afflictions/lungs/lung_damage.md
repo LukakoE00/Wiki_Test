@@ -12,7 +12,7 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     Lung damage is not lethal, as long as it is below 100%. The lungs will heal at a rate of 0.01% per second, assuming that the config is unchanged, nothing is damaging them and they're below 100% damage.
+     Lung damage is not lethal, as long as it is below 100%. The lungs will heal at a rate of 0.01% per second, assuming that the {{CONFIGURATION_MENU}} is unchanged, nothing is damaging them and they're below 100% damage.
   
   - type: caused_by
     header: "Caused By:"

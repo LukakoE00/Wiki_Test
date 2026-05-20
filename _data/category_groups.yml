@@ -60,3 +60,24 @@ gamemechanics:
   subcategories:
   - key: base_mechanics
     label: Base Neurotrauma
+
+general_information:
+  label: General Information
+  subcategories:
+  - key: issues
+    label: Issues
+
+  - key: tips
+    label: Tips
+
+  - key: faq
+    label: Frequently Asked Questions
+
+addons:
+  label: Addons
+  subcategories:
+  - key: on_wiki
+    label: On Wiki
+
+  - key: not_wiki
+    label: Not On Wiki

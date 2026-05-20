@@ -12,7 +12,7 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     ### Medical skill check: 60 (30 if the patient has {{ANALGESIA}})
+     #### Medical skill check: 60 (30 if the patient has {{ANALGESIA}})
 
      The wrench is used to treat {{DISLOCATIONS}}. To use, drag it onto the dislocated limb in the health interface and use it as a treatment, like you would a bandage. If the limb has no dislocation, the wrench will not do anything.
 
@@ -26,12 +26,18 @@ blocks:
      - Heavy Wrench
      - Murder Mystery Wrench
 
-     ### Application success:
+  - type: application_success
+    header: "Application Success:"
+    order: 2
+    text: |
 
-     Cures {{DISLOCATIONS}} on that limb
+     - Cures {{DISLOCATIONS}} on that limb
 
-     ### Application failure:
+  - type: application_failure
+    header: "Application Failure:"
+    order: 3
+    text: |
 
-     Causes {{FRACTURES}} on that limb
+     - Causes {{FRACTURES}} on that limb
 
 ---

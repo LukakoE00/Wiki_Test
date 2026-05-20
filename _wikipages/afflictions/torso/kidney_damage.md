@@ -12,7 +12,7 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     Kidney damage is usually survivable, as even if it has progressed to kidney failure, it will still kill extremely slowly. Kidney damage will not heal below 50% damage if it passes the 50% threshold, as one of the kidneys has died. The kidneys will heal at a rate of 0.01% per second if one kidney is alive, and will heal at a rate of 0.02% per second if both kidneys are alive, assuming that the config is unchanged and nothing is damaging them.
+     Kidney damage is usually survivable, as even if it has progressed to kidney failure, it will still kill extremely slowly. Kidney damage will not heal below 50% damage if it passes the 50% threshold, as one of the kidneys has died. The kidneys will heal at a rate of 0.01% per second if one kidney is alive, and will heal at a rate of 0.02% per second if both kidneys are alive, assuming that the {{CONFIGURATION_MENU}} is unchanged and nothing is damaging them.
 
      ---
 

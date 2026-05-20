@@ -12,7 +12,7 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     Heart damage is not lethal, as long as it is below 100%. The heart will heal at a rate of 0.01% per second, assuming that the config is unchanged, nothing is damaging it and it's below 100% damage.
+     Heart damage is not lethal, as long as it is below 100%. The heart will heal at a rate of 0.01% per second, assuming that the {{CONFIGURATION_MENU}} is unchanged, nothing is damaging it and it's below 100% damage.
 
   - type: caused_by
     header: "Caused By:"

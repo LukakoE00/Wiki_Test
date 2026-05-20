@@ -118,7 +118,6 @@ body {
     border-radius: 0.5em;
     padding: 0.2em;
     
-    
     display: flex;
     align-items: center;
 
@@ -141,8 +140,7 @@ sidebar a:hover {
 .sidebar-page {
     border-radius: 0.5em;
     padding: 0.2em;
-    
-    
+
     display: flex;
     align-items: center;
 
@@ -181,12 +179,22 @@ main {
 /* Effectively title text for that page, though not naming it the title to keep from confusing it with the *actual* title (which displays at the top of the page in the tab) */
 .contentheader {
     /* Determines content positioning */
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
+    gap: 0.5rem;
 
-    /* Customization */
+    /* Styling */
     border-bottom: 1px solid var(--colour-borders);
+}
+
+/* Scale the image next to the title so it doesn't take up half the page */
+.contentheader img {
+    height: 2em;
+    width: auto;
 }
 
 /* Home Page Content Formatting */
@@ -194,7 +202,7 @@ main {
 .blocks-homepage {
     /* Determines content positioning */
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 40px;
     padding: 0.5rem 0;
 }
@@ -361,7 +369,6 @@ main {
     height: 2em;
     width: auto;
 }
-
 
 /* Changes for Mobile */
 /* Makes sure that things remain readable on mobile devices. */

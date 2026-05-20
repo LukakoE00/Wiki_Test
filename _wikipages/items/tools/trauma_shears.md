@@ -12,19 +12,25 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     ### Medical skill check: 10
+     #### Medical Skill Check: 10
 
      A pair of scissors used to remove {{PLASTER_CAST}} and {{BANDAGED}}.
 
      It can be crafted at a medical fabricator or purchased from a merchant.
 
-     ### Application success:
+  - type: application_success
+    header: "Application Success:"
+    order: 2
+    text: |
 
-     Removes {{PLASTER_CAST}} , {{BANDAGED}} , and {{TRIAGE_CARD}} on the used limb.
+     - Removes {{PLASTER_CAST}} , {{BANDAGED}} , and {{TRIAGE_CARD}} on the used limb.
 
-     ### Application failure:
+  - type: application_failure
+    header: "Application Failure:"
+    order: 3
+    text: |
 
-     \+15% {{BLEEDING}}
-     \+10% {{OPEN_WOUNDS}}
+     - \+15% {{BLEEDING}}
+     - \+10% {{OPEN_WOUNDS}}
 
 ---

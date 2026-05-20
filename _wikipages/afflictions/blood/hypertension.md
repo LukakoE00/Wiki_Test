@@ -22,7 +22,7 @@ blocks:
      - {{LIVER_DAMAGE}}
      - {{BLOOD_PACKS}}
      - {{SALINE}}
-     - {{RINGER_S_SOLUTION}}
+     - {{RINGERS_SOLUTION}}
      - {{AUTOPULSE}}
      - {{DEUSIZINE}}
      - {{WITHDRAWAL}} (alcohol withdrawal)
@@ -42,6 +42,6 @@ blocks:
     order: 4
     text: |
      - Treating the causes
-     - Inducing {{BLOOD_LOSS}} (preferably with {{SURGERY_INCISION}} or an {{EMPTY_BLOOD_PACK}})
+     - Inducing {{BLOOD_LOSS}} (preferably with a {{SURGERY_INCISION}} or an {{EMPTY_BLOOD_PACK}})
      - {{NITROGLYCERIN}}
 ---

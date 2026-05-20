@@ -20,7 +20,6 @@ blocks:
     text: |
      - Failing {{AZATHIOPRINE}} skill check
      - {{BLOOD_PACKS}} who's donor had sepsis
-     - {{SURGICAL_INFECTION}}
      - {{GANGRENE}} (15% or more)
      - {{FOREIGN_BODIES}} (20% or more)
      - {{INFECTED_WOUNDS}} (50% or more)

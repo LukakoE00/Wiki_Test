@@ -12,21 +12,27 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     ### Medical skill check: 10
+     #### Medical Skill Check: 10
 
      An isotonic solution used to replace lost fluids, or to treat {{ALKALOSIS}}.
 
-     ### Application success:
+  - type: application_success
+    header: "Application Success:"
+    order: 2
+    text: |
 
-     \+30% Blood pressure
-     \+0.07% {{ACIDOSIS}} per second
+     - \+30% Blood Pressure
+     - \+0.07% {{ACIDOSIS}} per second
 
      Effects last for 200 seconds.
 
-     ### Application failure:
+  - type: application_failure
+    header: "Application Failure:"
+    order: 3
+    text: |
 
-     \+30% Blood pressure
-     \+0.07% {{ACIDOSIS}} per second
+     - \+30% Blood Pressure
+     - \+0.07% {{ACIDOSIS}} per second
 
      Effects last for 120 seconds.
 

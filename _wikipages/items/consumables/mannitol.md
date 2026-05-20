@@ -12,23 +12,29 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     ### Medical skill check: 60
+     #### Medical Skill Check: 60
 
-     Mannitol is a medication used to treat {{48_NEUROTRAUMA}} and halve its gain. In return, it causes various organ damage. For mannitol to treat Neurotrauma, {{HYPOTENSION}} must be greater than 70% and {{HYPOXEMIA}} must be less than 30%
+     Mannitol is a medication used to treat {{NEUROTRAUMA}} and halve its gain. In return, it causes various organ damage. For Mannitol to treat {{NEUROTRAUMA}}, Blood Pressure must be greater than 70% and {{HYPOXEMIA}} must be less than 30%
 
-     ### Application success:
+  - type: application_success
+    header: "Application Success:"
+    order: 2
+    text: |
 
-     \+50% Mannitol (treats up to 100% {{NEUROTRAUMA}})
-     \+5% {{VANILLA_ORGAN_DAMAGE}}
-     \+10% {{HEART_DAMAGE}}
-     \+10% {{KIDNEY_DAMAGE}}
+     - \+50% Mannitol (treats up to 100% {{NEUROTRAUMA}})
+     - \+5% {{VANILLA_ORGAN_DAMAGE}}
+     - \+10% {{HEART_DAMAGE}}
+     - \+10% {{KIDNEY_DAMAGE}}
 
-     ### Application failure:
+  - type: application_failure
+    header: "Application Failure:"
+    order: 3
+    text: |
 
-     \+30% Mannitol (treats up to 60% {{NEUROTRAUMA}})
-     \+10% {{VANILLA_ORGAN_DAMAGE}}
-     \+20% {{HEART_DAMAGE}}
-     \+20% {{KIDNEY_DAMAGE}}
+     - \+30% Mannitol (treats up to 60% {{NEUROTRAUMA}})
+     - \+10% {{VANILLA_ORGAN_DAMAGE}}
+     - \+20% {{HEART_DAMAGE}}
+     - \+20% {{KIDNEY_DAMAGE}}
 
      Effects occur over 10 seconds.
 

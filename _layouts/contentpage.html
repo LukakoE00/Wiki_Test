@@ -10,6 +10,10 @@ layout: default
 
         <h1 class="contentheader">
           {{ page.contentheader | default: page.title }}
+
+          {% if page.inline_image %}
+            <img src="{{ page.inline_image | relative_url }}" alt="{{ page.title }}">
+          {% endif %}
         </h1>
 
         {% assign blocks = page.blocks | default: "" %}

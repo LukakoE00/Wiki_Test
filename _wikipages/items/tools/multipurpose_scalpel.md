@@ -18,11 +18,11 @@ blocks:
 
      The mode of this Scalpel is changed by equipping the item (akin to a weapon or tool) and clicking on the available UI buttons which appear.
 
-     ### Mode: Surgery Incision
+     #### Mode: Surgery Incision
 
      In this mode, the item behaves identically to a regular {{SCALPEL}}.
 
-     ### Mode: Bandages, Casts, Malpractice
+     #### Mode: Bandages, Casts, Malpractice
 
      In this mode, as long as the patient has a bandage or a cast, the item functions identically to {{TRAUMA_SHEARS}}.
      Is this not the case, then using it will result in the patient getting stabbed. Depending on location and surgical status of the patient, this can cause serious damage.
@@ -33,7 +33,7 @@ blocks:
      - causing neurotrauma on opened heads
      - causing specific organ damage and internal bleeding on opened torsos
 
-     ### Mode: Adaptive Organ Extraction
+     #### Mode: Adaptive Organ Extraction
 
      In this mode, the item will have the ability to extract any organ from a patient, and it is a required item for {{ORGAN_TRANSPLANT_SURGERY}}. The organ extracted depends on which limb has {{RETRACTED_SKIN}}, and which limb the Multipurpose Scalpel is used on:
 

@@ -14,8 +14,6 @@ blocks:
     text: |
      A heart attack must be treated as soon as possible to reduce the risk of heart failure.
 
-     ---
-
   - type: caused_by
     header: "Caused By:"
     order: 2

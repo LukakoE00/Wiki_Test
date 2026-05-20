@@ -1,7 +1,7 @@
 ---
 layout: homepage
 title: Homepage
-contentheader: Neurotrauma Wiki Home Page
+contentheader: Home Page
 ---
 
 *It's always Lua.*
@@ -15,7 +15,3 @@ Work-in-progress hopeful replacement for Trello; since Trello makes me sad.
 ### Trellos:
 
 [Trello (EN)](https://trello.com/b/lA0BSokX/neurotrauma-fork-guide) - [Trello (RU)](https://trello.com/b/pHfpSxGk) - [Trello (CN)](https://trello.com/b/L1OlKnqk) - [Trello (ES)](https://trello.com/b/wzfXQY0n)
-
-### Well-known Addons:
-
-[NT: Informative Descriptions](https://steamcommunity.com/sharedfiles/filedetails/?id=3294275235) - [NT: Pharmacy](https://steamcommunity.com/sharedfiles/filedetails/?id=3247838390) - [NT: Cybernetics Enhanced](https://steamcommunity.com/sharedfiles/filedetails/?id=3324062208) - [NT: Surgery Plus](https://steamcommunity.com/sharedfiles/filedetails/?id=3478084070) - [NT: Symbiote](https://steamcommunity.com/sharedfiles/filedetails/?id=3478666406)

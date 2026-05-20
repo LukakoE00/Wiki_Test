@@ -10,7 +10,7 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     ### This method of curing Aortic Rupture is only used if 'Hardmode Aortic Rupture' is enabled in the config.
+     ### This method of curing Aortic Rupture is only used if 'Hardmode Aortic Rupture' is enabled in the {{CONFIGURATION_MENU}}.
 
      Steps:
 

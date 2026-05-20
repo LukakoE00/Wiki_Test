@@ -17,14 +17,14 @@ blocks:
      When used in a Surgery Table, provides up to 14% {{ANALGESIA}} to the patient **laying** on the table, and its condition reduces by 0.7% per second.
 
      When used in an Ambubag, condition reduces by 25%, and provides:
-     \+56% {{ANALGESIA}}
-     \+40%{{OPIATE_ADDICTION}}
-     \+30% {{OPIATE_OVERDOSE}}
-     \-75% {{WITHDRAWAL}}
+     - \+56% {{ANALGESIA}}
+     - \+40%{{OPIATE_ADDICTION}}
+     - \+30% {{OPIATE_OVERDOSE}}
+     - \-75% {{WITHDRAWAL}}
 
-     If the patient is more than 30% {{DRUNK}}, instead provides:
-     \+106% {{ANALGESIA}}
-     \+40%{{OPIATE_ADDICTION}}
-     \+60% {{OPIATE_OVERDOSE}}
-     \-75% {{WITHDRAWAL}}
+     #### If the patient is more than 30% {{DRUNK}}, instead provides:
+     - \+106% {{ANALGESIA}}
+     - \+40%{{OPIATE_ADDICTION}}
+     - \+60% {{OPIATE_OVERDOSE}}
+     - \-75% {{WITHDRAWAL}}
 ---

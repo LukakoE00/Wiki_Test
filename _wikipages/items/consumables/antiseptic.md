@@ -12,7 +12,7 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     #### This item is only usable in-game if enabled via the Config under 'Item Availability'.
+     #### This item is only usable in-game if enabled via the {{CONFIGURATION_MENU}} under 'Item Availability'.
 
      Antiseptic is an item whose only use is to be loaded into the {{ANTISEPTIC_SPRAYER}}. For each spray of the antiseptic sprayer, 10% condition will be used from the antiseptic.
 

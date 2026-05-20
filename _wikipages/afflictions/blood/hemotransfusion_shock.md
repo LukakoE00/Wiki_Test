@@ -32,7 +32,7 @@ blocks:
      - {{HEART_DAMAGE}} (between 0-70%)
      - {{KIDNEY_DAMAGE}} (between 0-70%)
      - {{LUNG_DAMAGE}} (between 0-70%)
-     - {{9_SHORTNESS_OF_BREATH}} (between 0-70%)
+     - {{SHORTNESS_OF_BREATH}} (between 0-70%)
      - {{ABDOMINAL_PAIN}} (between 0-80%)
      - {{WHEEZING}} (between 0-90%)
   

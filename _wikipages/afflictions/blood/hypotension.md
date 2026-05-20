@@ -46,7 +46,7 @@ blocks:
      - Treating the causes
      - {{BLOOD_PACKS}}
      - {{SALINE}}
-     - {{RINGER_S_SOLUTION}}
+     - {{RINGERS_SOLUTION}}
      - {{AUTOPULSE}}
      - {{ADRENALINE}}
      - {{DEUSIZINE}}

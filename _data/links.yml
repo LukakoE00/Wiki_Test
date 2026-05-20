@@ -7,6 +7,7 @@ BURNS: /afflictions/any-bodypart/burns
 CHILLED: /afflictions/any-bodypart/chilled
 FOREIGN_BODIES: /afflictions/any-bodypart/foreign_bodies
 INFECTED_WOUNDS: /afflictions/any-bodypart/infected-wounds
+OINTMENTED: /afflictions/any-bodypart/ointmented/
 # Internal Wounds
 INTERNAL_WOUNDS: /afflictions/any-bodypart/internal-wounds
 INTERNAL_DAMAGE: /afflictions/any-bodypart/internal-wounds
@@ -58,6 +59,9 @@ SPINAL_CORD_INJURY: /afflictions/head-brain/spinal_cord_injury
 STROKE: /afflictions/head-brain/stroke
 UNCONSCIOUSNESS: /afflictions/head-brain/unconsciousness
 WITHDRAWAL: /afflictions/head-brain/withdrawal
+OPIATE_WITHDRAWAL: /afflictions/head-brain/withdrawal
+ALCOHOL_WITHDRAWAL: /afflictions/head-brain/withdrawal
+CHEMICAL_WITHDRAWAL: /afflictions/head-brain/withdrawal
 
 # Heart
 CARDIAC_ARREST: /afflictions/heart/cardiac_arrest
@@ -179,7 +183,7 @@ HEALTH_SCANNER: /items/tools/health_scanner
 HEMATOLOGY_ANALYZER: /items/tools/hematology_analyzer
 HEMOSTAT: /items/tools/hemostats
 MANUAL_DEFIBRILLATOR: /items/tools/manual_defibrillator
-MUTLIPURPOSE_SCALPEL: /items/tools/multipurpose_scalpel
+MULTIPURPOSE_SCALPEL: /items/tools/multipurpose_scalpel
 REFRIGERATED_CONTAINER: /items/tools/refrigerated_container
 REFRIGERATED_CRATE: /items/tools/refrigerated_crate
 SCALPEL: /items/tools/scalpel

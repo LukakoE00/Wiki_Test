@@ -12,23 +12,5 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     placeholder
-
-  - type: caused_by
-    header: "Caused By:"
-    order: 2
-    text: |
-     placeholder
-
-  - type: effects
-    header: "Effects:"
-    order: 3
-    text: |
-     placeholder
-
-  - type: treatments
-    header: "Treatments:"
-    order: 4
-    text: |
-     placeholder
+     The fourth step in most surgical procedures. Having retracted skin without a {{SURGERY_TABLE}}  nearby will cause 2% {{TRAUMATIC_SHOCK}} per second for each instance of retracted skin. Most surgical procedures, such as {{OSTEOSYNTHETIC_SURGERY}} or {{ORGAN_TRANSPLANT_SURGERY}} stem off from this step.
 ---

@@ -12,16 +12,22 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     ### Medical skill check: 30
+     #### Medical Skill Check: 30
 
      In addition to the normal uses of a knife, they can be used to remove {{BANDAGES}}.
 
-     ### Application success:
+  - type: application_success
+    header: "Application Success:"
+    order: 2
+    text: |
 
-     Removes {{BANDAGES}} on the limb the knife was used on.
+     - Removes {{BANDAGED}} on the limb the knife was used on.
 
-     ### Application failure:
+  - type: application_failure
+    header: "Application Failure:"
+    order: 3
+    text: |
 
-     \+15% {{BLEEDING}}
-     \+10% {{OPEN_WOUNDS}}
+     - \+15% {{BLEEDING}}
+     - \+10% {{OPEN_WOUNDS}}
 ---

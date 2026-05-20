@@ -12,23 +12,7 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     placeholder
+     The second step in **all** surgical procedures. Having an unclamped (no {{CLAMPED_BLEEDING}}) surgical incision will cause 0.7% {{BLOOD_LOSS}}  per second for each incision, and having a surgical incision without {{ANALGESIA}} or another sedation method ( {{UNCONSCIOUSNESS}} or {{ANESTHESIA}}) will cause 2% {{TRAUMATIC_SHOCK}} per second for each incision.
 
-  - type: caused_by
-    header: "Caused By:"
-    order: 2
-    text: |
-     placeholder
-
-  - type: effects
-    header: "Effects:"
-    order: 3
-    text: |
-     placeholder
-
-  - type: treatments
-    header: "Treatments:"
-    order: 4
-    text: |
-     placeholder
+     If a bot on the player team has this affliction, they will be stunned until the surgery is complete. This prevents them from walking away during an operation, and allows the player to force them to lay in a {{SURGERY_TABLE}} to use its filters.
 ---

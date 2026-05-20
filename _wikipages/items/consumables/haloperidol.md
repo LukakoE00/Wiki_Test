@@ -11,20 +11,26 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     ### Medical skill check: 37
+     #### Medical Skill Check: 37
 
      An antipsychotic drug also useful in the treatment of alcohol withdrawal.
 
-     ### Application success:
+  - type: application_success
+    header: "Application Success:"
+    order: 2
+    text: |
 
-     \-100% {{PSYCHOSIS}}
-     \-100% {{HALLUCINATING}}
-     \-100% alcohol {{WITHDRAWAL}}
+     - \-100% [Psychosis](https://barotraumagame.com/wiki/Psychosis)
+     - \-100% [Hallucinating](https://barotraumagame.com/wiki/Hallucinating)
+     - \-100% {{ALCOHOL_WITHDRAWAL}}
 
-     ### Application failure:
+  - type: application_failure
+    header: "Application Failure:"
+    order: 3
+    text: |
 
-     \-25% {{PSYCHOSIS}}
-     \-25% {{HALLUCINATING}}
-     \-25% alcohol {{WITHDRAWAL}}
+     - \-25% [Psychosis](https://barotraumagame.com/wiki/Psychosis)
+     - \-25% [Hallucinating](https://barotraumagame.com/wiki/Hallucinating)
+     - \-25% alcohol {{ALCOHOL_WITHDRAWAL}}
 
 ---

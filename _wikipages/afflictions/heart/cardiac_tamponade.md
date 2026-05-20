@@ -41,5 +41,5 @@ blocks:
     text: |
      - {{NEEDLE}}
      - {{SALINE}}
-     - {{RINGER_S_SOLUTION}}
+     - {{RINGERS_SOLUTION}}
 ---

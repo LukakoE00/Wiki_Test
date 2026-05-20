@@ -12,11 +12,14 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     ### Medical skill check: None
+     #### Medical Skill Check: None.
 
-     A blood thinner. Using streptokinase will prevent natural {{BLEEDING}}regeneration and increases the chance of getting a {{STROKE}} if the patient has more than 150% {{HYPERTENSION}}.
+     A blood thinner. Using Streptokinase will prevent natural {{BLEEDING}}regeneration and increases the chance of getting a {{STROKE}} if the patient has more than 150% {{HYPERTENSION}}.
 
-     ### On application:
+  - type: effects
+    header: "Effects:"
+    order: 2
+    text: |
 
      - Fully treats {{HEART_ATTACK}} and {{HEMOTRANSFUSION_SHOCK}}
 

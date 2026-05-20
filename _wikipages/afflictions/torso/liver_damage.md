@@ -12,7 +12,7 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     Liver damage, if progressed to liver failure, is fatal and can cause massive blood loss in the form of {{INTERNAL_BLEEDING}}. The liver will heal at a rate of 0.01% per second, assuming that the config is unchanged, nothing is damaging it and it's below 100% damage.
+     Liver damage, if progressed to liver failure, is fatal and can cause massive blood loss in the form of {{INTERNAL_BLEEDING}}. The liver will heal at a rate of 0.01% per second, assuming that the {{CONFIGURATION_MENU}} is unchanged, nothing is damaging it and it's below 100% damage.
 
   - type: caused_by
     header: "Caused By:"

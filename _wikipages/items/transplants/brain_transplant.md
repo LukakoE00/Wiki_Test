@@ -12,7 +12,7 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     ### Medical skill check: 100
+     #### Medical Skill Check: 100
 
      A vital organ. The patient’s consciousness and {{NEUROTRAUMA}} are directly linked to it. Unlike other organs, the brain is typically not transplanted.
 

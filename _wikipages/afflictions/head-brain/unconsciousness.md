@@ -12,7 +12,7 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     Unconsciousness usually means that something **very wrong** has happened, and the patient will need treatment as soon as possible. Unconsciousness will hide mental symptoms (cards hidden by this affliction are tagged with the "Mental Symptom" label), and will also function as a {{SURGERY_TABLE}} for surgery, meaning that you can safely do surgery without a table or {{ANALGESIA}} / {{ANESTHESIA}}  as long as your patient is unconscious.
+     Unconsciousness usually means that something **very wrong** has happened, and the patient will need treatment as soon as possible. Unconsciousness will hide mental symptoms, and will also function as a {{SURGERY_TABLE}} for surgery, meaning that you can safely do surgery without a table or {{ANALGESIA}} / {{ANESTHESIA}} as long as your patient is unconscious.
   
   - type: caused_by
     header: "Caused By:"

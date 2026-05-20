@@ -19,7 +19,7 @@ blocks:
     order: 2
     text: |
      - {{OPIATE_OVERDOSE}} (30% or more)
-     - {{OPIOIDS}}
+     - Opioids like {{OPIUM}}, {{MORPHINE}} or {{FENTANYL}}
      - {{ANESTHESIA}}
   
   - type: effects

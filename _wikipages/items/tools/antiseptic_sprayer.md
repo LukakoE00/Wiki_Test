@@ -12,7 +12,7 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     #### This item is only usable in-game if enabled via the Config under 'Item Availability'.
+     #### This item is only usable in-game if enabled via the {{CONFIGURATION_MENU}} under 'Item Availability'.
 
      A sprayer which sprays {{ANTISEPTIC}} onto {{INFECTED_WOUNDS}}. Using the antiseptic sprayer with antiseptic in it will treat 100% infected wounds, give 20% {{OINTMENTED}} and use up 10% of the antiseptic.
 

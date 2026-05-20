@@ -12,24 +12,30 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     ### Medical skill check: 39
+     #### Medical Skill Check: 39
 
      Naloxone is used to treat the effects of opiates.
 
-     ### Application success:
+  - type: application_success
+    header: "Application Success:"
+    order: 2
+    text: |
 
-     \-60% Opiate {{WITHDRAWAL}}
-     \-60% {{OPIATE_OVERDOSE}}
-     \-60% Opiate addiction
-     \-60% {{ANALGESIA}}
-     \-60% {{OPIOIDS}}
+     - \-60% {{OPIATE_WITHDRAWAL}}
+     - \-60% {{OPIATE_OVERDOSE}}
+     - \-60% [Opiate Addiction](https://barotraumagame.com/wiki/Opiate_Addiction)
+     - \-60% {{ANALGESIA}}
+     - \-60% Opioids
 
-     ### Application failure:
+  - type: application_failure
+    header: "Application Failure:"
+    order: 3
+    text: |
 
-     \-30% Opiate {{WITHDRAWAL}}
-     \-30% {{OPIATE_OVERDOSE}}
-     \-30% Opiate addiction
-     \-60% {{ANALGESIA}}
-     \-60% {{OPIOIDS}}
-     \+15% {{COMA}} (50% chance)
+     - \-30% {{OPIATE_WITHDRAWAL}}
+     - \-30% {{OPIATE_OVERDOSE}}
+     - \-30% [Opiate Addiction](https://barotraumagame.com/wiki/Opiate_Addiction)
+     - \-60% {{ANALGESIA}}
+     - \-60% Opioids
+     - \+15% {{COMA}} (50% chance)
 ---

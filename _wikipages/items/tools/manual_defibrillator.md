@@ -16,7 +16,8 @@ blocks:
 
      The chance for these is depicted in the graph below, with cyan being the chance to reset fibrillation, pink being the chance to cause cardiac arrest and orange being the chance to cure it. The X axis is medical skill and the Y axis is the chance to do something (with 1 being 100%).
 
-     At medical skill below 80, the {{AUTOMATED_EXTERNAL_DEFIBRILLATOR_AED}} has better chances in all regards. At 100 medical skill, the manual defibrillator is superior. Manual defibrillator becomes perfectly safe, and is guaranteed to cure cardiac arrest and fibrillation.
+     At medical skill below 80, the {{AED}} has better chances in all regards. At 100 medical skill, the manual defibrillator is superior. Manual defibrillator becomes perfectly safe, and is guaranteed to cure cardiac arrest and fibrillation.
 
-     !{{GRAPH_PNG}}
+     #### Graph:
+     ![image info](../../images/page-specific/aed_graph.png)
 ---

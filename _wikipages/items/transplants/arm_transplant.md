@@ -16,6 +16,9 @@ blocks:
 
      Severed arms require refrigeration or they will expire.
      Bionic arms are synthetic and don’t require refrigeration, but are otherwise biologically equivalent to natural arms.
+
+     To add it to a patient, perform{{AMPUTATION_SURGERY}}, and use the respective limb after 100% sawed bones.
+  
   - type: treats
     header: "Treats:"
     order: 2
@@ -24,7 +27,4 @@ blocks:
      - Missing arm
        - {{TRAUMATIC_AMPUTATION}}
        - {{SURGICAL_AMPUTATION}}
-
-     To add, perform{{AMPUTATION_SURGERY}}, and use the respective limb after 100% sawed bones.
-
 ---

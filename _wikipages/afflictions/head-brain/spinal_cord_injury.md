@@ -31,5 +31,5 @@ blocks:
     header: "Treatments:"
     order: 4
     text: |
-     - Apply {{SPINAL_CORD_IMPLANTS}} before applying {{SUTURES}}during an {{OSTEOSYNTHETIC_SURGERY}}(make sure to repair the {{FRACTURES}} also)
+     - Apply {{SPINAL_CORD_IMPLANTS}} before applying {{SUTURES}} during an {{OSTEOSYNTHETIC_SURGERY}}(make sure to repair the {{FRACTURES}} also)
 ---

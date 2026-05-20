@@ -12,11 +12,14 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     ### Medical skill check: None
+     ### Medical Skill Check: None
 
      A funny little blue shark that might just cure your mental instability.
 
-     ### On application:
+  - type: effects
+    header: "Effects:"
+    order: 2
+    text: |
 
      Treats 2% Psychosis and makes a squeaking noise. Must be used in the Health UI!
 

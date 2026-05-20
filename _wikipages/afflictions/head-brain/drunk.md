@@ -29,9 +29,10 @@ blocks:
     header: "Caused By:"
     order: 3
     text: |
-     - {{ETHANOL}}
-     - {{RUM}}
-     - {{BEER_BOTTLE}}
+     - Drinking alcohol, such as:
+     - [Ethanol](https://barotraumagame.com/wiki/Ethanol)
+     - [Rum](https://barotraumagame.com/wiki/Rum)
+     - [Beer](https://barotraumagame.com/wiki/Beer_Bottle)
   
   - type: treatments
     header: "Treatments:"

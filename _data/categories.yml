@@ -17,3 +17,13 @@
   description: This page contains a list of the various Neurotrauma-specific changes or additions to game mechanics, and the changes they make.
   slug: /mechanics/
   order: 4
+
+- name: General Information
+  description: Here you can find additional information; often encountered 'issues', frequently asked questions as well as tips and tricks for the mod to (hopefully) help you get by better.
+  slug: /general_information/
+  order: 5
+
+- name: Addons
+  description: This page contains a list of Neurotrauma Addons; officially and non-officially supported. Find their Workshop pages, guides and other information listed here.
+  slug: /addons/
+  order: 6

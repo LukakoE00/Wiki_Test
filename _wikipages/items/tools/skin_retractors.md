@@ -12,18 +12,24 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     ### Medical skill check: 30
+     #### Medical Skill Check: 30
 
      The fourth step in most surgical procedures. The retractors will **not** work without 100% {{CLAMPED_BLEEDING}}.
 
      This item is not directly craftable. To obtain it from a fabricator, the player must craft the “Surgery toolbox (kit)”.
 
-     ### Application success:
+  - type: application_success
+    header: "Application Success:"
+    order: 2
+    text: |
 
-     Gives the patient {{RETRACTED_SKIN}} on the limb the tool was used on.
+     - Gives the patient {{RETRACTED_SKIN}} on the limb the tool was used on.
 
-     ### Application failure:
+  - type: application_failure
+    header: "Application Failure:"
+    order: 2
+    text: |
 
-     \+10% {{INTERNAL_WOUNDS}}
+     - \+10% {{INTERNAL_WOUNDS}}
 
 ---

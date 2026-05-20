@@ -45,5 +45,5 @@ blocks:
      - CPR
      - {{AUTOPULSE}}
      - {{ADRENALINE}}
-     - {{MANUAL_DEFIBRILLATOR}} or {{AUTOMATED_EXTERNAL_DEFIBRILLATOR_AED}}
+     - {{MANUAL_DEFIBRILLATOR}} or {{AED}}
 ---

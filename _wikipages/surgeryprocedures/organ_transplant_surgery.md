@@ -10,7 +10,7 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     (if {{ORGAN_REJECTION}} is turned on in the config): Make sure to use {{AZATHIOPRINE}} before placing the organ in, and make sure their immunity is 10% or lower. If organ damage is 100% after placing it in, that means it got rejected.
+     (if {{ORGAN_REJECTION}} is turned on in the {{CONFIGURATION_MENU}}): Make sure to use {{AZATHIOPRINE}} before placing the organ in, and make sure their immunity is 10% or lower. If organ damage is 100% after placing it in, that means it got rejected.
   
   - type: steps
     header: "Steps:"

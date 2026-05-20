@@ -32,7 +32,7 @@ blocks:
     order: 4
     text: |
      - Treating the causes
-     - {{MANUAL_DEFIBRILLATOR}} or {{AUTOMATED_EXTERNAL_DEFIBRILLATOR_AED}}
+     - {{MANUAL_DEFIBRILLATOR}} or {{AED}}
      - CPR
      - {{AUTOPULSE}}
 ---

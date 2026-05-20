@@ -12,18 +12,18 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     Plaster casts are extremely important for treating limb {{FRACTURES}}. Assuming the config is unchanged, getting a fracture on a limb that is already casted will break the cast. Plaster casts can be removed with {{TRAUMA_SHEARS}} .
+     Plaster casts are extremely important for treating limb {{FRACTURES}}. Assuming the {{CONFIGURATION_MENU}} is unchanged, getting a fracture on a limb that is already casted will break the cast. Plaster casts can be removed with {{TRAUMA_SHEARS}}.
   
   - type: caused_by
     header: "Caused By:"
     order: 2
     text: |
-     - Applying {{GYPSUM}} to a limb with {{BANDAGED}}
+     - Applying {{GYPSUM}} to a limb with {{BANDAGED}}.
   
   - type: effects
     header: "Effects:"
     order: 3
     text: |
-     - Slowly treats limb {{FRACTURES}} by 0.33% per second
-     - Slows you down by 20% for each cast
+     - Slowly treats limb {{FRACTURES}} by 0.33% per second.
+     - Slows you down by 20% for each cast.
 ---

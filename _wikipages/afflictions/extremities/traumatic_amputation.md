@@ -20,8 +20,7 @@ blocks:
     text: |
      - {{INTERNAL_WOUNDS}}
      - {{OPEN_WOUNDS}}
-     - {{MATERIAL_LOSS}} (99% or more)
-     - {{OPEN_WOUNDS}}, more than 75%, unique to head amputations
+     - {{OPEN_WOUNDS}}, more than 75% (unique to head amputations)
   
   - type: effects
     header: "Effects:"
@@ -39,7 +38,7 @@ blocks:
 
      ### In arm amputations:
 
-     - 1 arm amputation will prevent you from using that arm (you cant hold 2-handed items anymore
+     - 1 arm amputation will prevent you from using that arm (you cant hold 2-handed items anymore).
      - 2 arm amputations will prevent you from interacting with anything, such as doors, ladders, buttons, etc.
 
      ### In head amputations:

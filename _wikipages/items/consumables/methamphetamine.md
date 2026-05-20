@@ -12,30 +12,36 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     ### Medical skill check: 35
+     #### Medical Skill Check: 35
 
      A stimulant.
 
-     ### Application success:
+  - type: application_success
+    header: "Application Success:"
+    order: 2
+    text: |
 
-     \+70% Hyperactivity
-     \+15% {{VANILLA_ORGAN_DAMAGE}}
-     \+15% {{NEUROTRAUMA}}
-     \+15% Chem addiction
-     \+30% Psychosis
-     \-22.5% Stun
-     \-90% Chem {{WITHDRAWAL}}
+     - \+70% [Hyperactivity](https://barotraumagame.com/wiki/Hyperactivity)
+     - \+15% {{VANILLA_ORGAN_DAMAGE}}
+     - \+15% {{NEUROTRAUMA}}
+     - \+15% [Chem addiction](https://barotraumagame.com/wiki/Chem_Addiction)
+     - \+30% [Psychosis](https://barotraumagame.com/wiki/Psychosis)
+     - \-22.5% [Stun](https://barotraumagame.com/wiki/Stun)
+     - \-90% {{CHEMICAL_WITHDRAWAL}}
 
-     ### Application failure:
+  - type: application_failure
+    header: "Application Failure:"
+    order: 3
+    text: |
 
-     \+50% Hyperactivity
-     \+30% {{VANILLA_ORGAN_DAMAGE}}
-     \+30% {{NEUROTRAUMA}}
-     \+30% Chem addiction
-     \+45% Psychosis
-     \-22.5% Stun
-     \-90% Chem {{WITHDRAWAL}}
+     - \+50% [Hyperactivity](https://barotraumagame.com/wiki/Hyperactivity)
+     - \+30% {{VANILLA_ORGAN_DAMAGE}}
+     - \+30% {{NEUROTRAUMA}}
+     - \+30% [Chem addiction](https://barotraumagame.com/wiki/Chem_Addiction)
+     - \+45% [Psychosis](https://barotraumagame.com/wiki/Psychosis)
+     - \-22.5% [Stun](https://barotraumagame.com/wiki/Stun)
+     - \-90% {{CHEMICAL_WITHDRAWAL}}
 
-     Hyperactivity occurs instantly, while the other effects occur over 30 seconds.
+     [Hyperactivity](https://barotraumagame.com/wiki/Hyperactivity) occurs instantly, while the other effects occur over 30 seconds.
 
 ---

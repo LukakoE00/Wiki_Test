@@ -12,23 +12,5 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     placeholder
-
-  - type: caused_by
-    header: "Caused By:"
-    order: 2
-    text: |
-     placeholder
-
-  - type: effects
-    header: "Effects:"
-    order: 3
-    text: |
-     placeholder
-
-  - type: treatments
-    header: "Treatments:"
-    order: 4
-    text: |
-     placeholder
+     The third step in most surgical procedures. Having clamped bleeding will prevent {{BLOOD_LOSS}} caused by {{SURGERY_INCISION}} . This affliction is required for the next step, the {{SKIN_RETRACTORS}}.
 ---

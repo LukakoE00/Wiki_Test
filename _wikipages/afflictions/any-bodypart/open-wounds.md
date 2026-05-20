@@ -47,7 +47,7 @@ blocks:
      - Time, unless it is over 50 strength
      - {{BANDAGED}}, unless it is over 50 strength
      - {{SUTURES}}
-     - Pomegrenade Extract
+     - [Pomegrenade Extract](https://barotraumagame.com/wiki/Pomegrenade_Extract)
      - {{COMBAT_STIMULANT}}
 
   - type: deep_tissue_injury
@@ -81,7 +81,7 @@ blocks:
      - Time, unless it is over 50 strength
      - {{BANDAGED}}, unless it is over 50 strength
      - {{SUTURES}}
-     - Pomegrenade Extract
+     - [Pomegrenade Extract](https://barotraumagame.com/wiki/Pomegrenade_Extract)
      - {{COMBAT_STIMULANT}}
 
   - type: gunshot_wound
@@ -117,7 +117,7 @@ blocks:
      - Time, unless it is over 50 strength
      - {{BANDAGED}}, unless it is over 50 strength
      - {{SUTURES}}
-     - Pomegrenade Extract
+     - [Pomegrenade Extract](https://barotraumagame.com/wiki/Pomegrenade_Extract)
      - {{COMBAT_STIMULANT}}
 
   - type: bite_wounds
@@ -148,7 +148,7 @@ blocks:
      - Time, unless it is over 100 strength
      - {{BANDAGED}}, unless it is over 100 strength
      - {{SUTURES}}
-     - Pomegrenade Extract
+     - [Pomegrenade Extract](https://barotraumagame.com/wiki/Pomegrenade_Extract)
      - {{COMBAT_STIMULANT}}
 
 ---

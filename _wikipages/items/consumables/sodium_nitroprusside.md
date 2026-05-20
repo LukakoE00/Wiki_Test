@@ -12,21 +12,27 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     #### This item is only usable in-game if enabled via the Config under 'Item Availability'.
+     #### This item is only usable in-game if enabled via the {{CONFIGURATION_MENU}} under 'Item Availability'.
 
-     Medical skill check: 10
+     #### Medical Skill Check: 10
 
      A medication to reduce blood pressure. While this drug is active, {{FIBRILLATION}} caused by {{HYPOTENSION}} will be reduced. Identical effect and affliction to {{NITROGLYCERIN}}.
 
-     ### Application success:
+  - type: application_success
+    header: "Application Success:"
+    order: 2
+    text: |
 
-     \-45% Blood pressure
+     - \-45% Blood Pressure
 
      Effects last for 200 seconds.
 
-     ### Application failure:
+  - type: application_failure
+    header: "Application Failure:"
+    order: 3
+    text: |
 
-     \-45% Blood pressure
+     - \-45% Blood Pressure
 
      Effects last for 120 seconds.
 

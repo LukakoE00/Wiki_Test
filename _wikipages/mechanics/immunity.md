@@ -10,7 +10,7 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     Immunity helps fight {{INFECTED_WOUNDS}} and increases natural healing. If your immunity is 6% or lower, you can use incompatible blood types without triggering {{HEMOTRANSFUSION_SHOCK}}. Immunity must be below 10% to safely transplant organs if you have organ rejection turned on in the config menu.
+     Immunity helps fight {{INFECTED_WOUNDS}} and increases natural healing. If your immunity is 6% or lower, you can use incompatible blood types without triggering {{HEMOTRANSFUSION_SHOCK}}. Immunity must be below 10% to safely transplant organs if you have organ rejection turned on in the {{CONFIGURATION_MENU}} menu.
   
   - type: reduced_by
     header: "Reduced By:"
