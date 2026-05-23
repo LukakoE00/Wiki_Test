@@ -9,41 +9,29 @@ layout: default
     </h1>
 
     <div class="blocks-categorypage_items">
-
         {% assign category_data = site.data.category_groups[page.category] %}
         {% assign items = site.wikipages | where: "category", page.category %}
         {% assign subgroups = items | group_by: "subcategory" %}
 
         {% if category_data and category_data.subcategories %}
-
             {% for sub in category_data.subcategories %}
-
                 {% assign group = subgroups | where: "name", sub.key | first %}
-
                 {% if group %}
 
                     <div class="block">
-
                         <h2>{{ sub.label }}</h2>
 
                         {% for item in group.items %}
                             <a href="{{ item.url | relative_url }}">
                                 <span>{{ item.title }}</span>
-
                                 {% if item.inline_image %}
                                     <img src="{{ item.inline_image | relative_url }}" alt="{{ item.title }}">
                                 {% endif %}
                             </a>
                         {% endfor %}
-
                     </div>
-
                 {% endif %}
-
             {% endfor %}
-
         {% endif %}
-
     </div>
-
 </div>

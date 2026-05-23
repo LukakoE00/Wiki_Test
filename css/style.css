@@ -298,9 +298,128 @@ main {
     /* Determines content positioning */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-auto-rows: auto;
     gap: 1.5rem;
     align-items: start;
 }
+
+.contentpage-layout {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 1.5rem;
+    align-items: start;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    position: sticky;
+    top: 1rem;
+}
+
+/* Info card on the right side, similar to Baro Wiki's table */
+.infobox-card {
+    padding: 1.5rem;
+    background: var(--colour-background-contentbox);
+    border: 1px solid var(--colour-borders);
+    border-radius: var(--size-bordercurves);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Title! */
+.infobox-card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--colour-borders);
+}
+
+/* Subheader! */
+.infobox-section-header {
+    font-weight: 600;
+    opacity: 0.9;
+    margin-bottom: 0.25rem;
+}
+
+/* Empty row for the table-esque content */
+.infobox-row {
+    padding: 0.2rem 0;
+    opacity: 0.85;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* Linked page text */
+.infobox-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+    color: var(--colour-text-link);
+}
+
+/* Icon next to the linked text */
+.infobox-inlineicon {
+    height: 24px;
+    width: auto;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+/* LABELS */
+/* Container for the labels */
+.infobox-labels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+/* Label look, similar to the other links */
+.infobox-label {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.infobox-label:hover {
+    filter: brightness(1.2);
+}
+
+/* GO MY LABELS!!! */
+.infobox-label--item { background-color: #216E4E; color: #ffffff; }
+.infobox-label--not-visible-ingame { background-color: #4BCE97; color: #ffffff; }
+.infobox-label--visible-on-health-interface { background-color: #4BCE97; color: #ffffff; }
+.infobox-label--visible-on-hematology-analyzer { background-color: #4BCE97; color: #ffffff; }
+.infobox-label--visible-on-scanner { background-color: #4BCE97; color: #ffffff; }
+.infobox-label--affliction { background-color: #7F5F01; color: #ffffff; }
+.infobox-label--lethality-depends { background-color: #9E4C00; color: #ffffff; }
+.infobox-label--very-important { background-color: #FCA700; color: #ffffff; }
+.infobox-label--first-aid { background-color: #AE2E24; color: #ffffff; }
+.infobox-label--lethal { background-color: #F87168; color: #ffffff; }
+.infobox-label--important { background-color: #C97CF4; color: #ffffff; }
+.infobox-label--non-lethal { background-color: #C97CF4; color: #ffffff; }
+.infobox-label--mechanic { background-color: #1558BC; color: #ffffff; }
+.infobox-label--information { background-color: #669DF1; color: #ffffff; }
+.infobox-label--procedure { background-color: #206A83; color: #ffffff; }
+.infobox-label--surgery { background-color: #206A83; color: #ffffff; }
+.infobox-label--essential { background-color: #94C748; color: #ffffff; }
+.infobox-label--mental-symptom { background-color: #50253F; color: #ffffff; }
+.infobox-label--niche { background-color: #96999E; color: #ffffff; }
+.infobox-label--cybernetics-expansion { background-color: #164555; color: #ffffff; }
+.infobox-label--surgery-plus-expansion { background-color: #6CC3E0; color: #ffffff; }
 
 /* Content Page Blocks */
 /* These contain the text, images or other information we want to display on this page. */
@@ -316,7 +435,8 @@ main {
 
 /* Content Block Links */
 /* Like before, formatting for links. These will be inline, so we want to ensure they dont feel out of place but still clearly clickable. */
-.block-contentpage a {
+.block-contentpage a,
+.meta-item-link {
     /* Customization */
     text-decoration: none;
     color: var(--colour-text-link);
@@ -436,6 +556,10 @@ main {
         display: block;
         font-size: 18px;
         padding: 10px;
+    }
+
+    .contentpage-layout {
+        grid-template-columns: 1fr;
     }
 
     .blocks-categorypage_afflictions{

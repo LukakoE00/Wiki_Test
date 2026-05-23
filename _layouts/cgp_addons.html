@@ -9,9 +9,7 @@ layout: default
       <section>
 
         <h1 class="contentheader">
-
           {{ page.contentheader | default: page.title }}
-
           {% if page.inline_image %}
             <img src="{{ page.inline_image | relative_url }}" alt="{{ page.title }}">
           {% endif %}
@@ -19,69 +17,48 @@ layout: default
         </h1>
 
         {% assign blocks = page.blocks | default: "" %}
-
-        {% if blocks != "" %}
-          {% assign sorted_blocks = blocks | sort: "order" %}
-        {% else %}
-          {% assign sorted_blocks = "" %}
-        {% endif %}
+          {% if blocks != "" %}
+            {% assign sorted_blocks = blocks | sort: "order" %}
+          {% else %}
+            {% assign sorted_blocks = "" %}
+          {% endif %}
 
         <div class="blocks-contentpage">
-
           {% for block in sorted_blocks %}
 
             <section class="block-contentpage {{ block.type }}">
-
               {% if block.header %}
                 <h2>{{ block.header }}</h2>
               {% endif %}
 
               <div class="block-contentpage-text">
-
                 {%- assign html = block.text | markdownify -%}
-
                 {%- if site.data.links -%}
                   {%- for item in site.data.links -%}
-
                     {%- assign token = item[0] -%}
                     {%- assign url = item[1] -%}
-
                     {%- assign placeholder = token | prepend: "{{" | append: "}}" -%}
-
                     {%- capture link_html -%}
                       <a href="{{ url | relative_url }}">{{ token | replace: "_", " " | capitalize }}</a>
                     {%- endcapture -%}
-
                     {%- assign html = html | replace: placeholder, link_html -%}
-
                   {%- endfor -%}
                 {%- endif -%}
-
                 {{ html }}
-
               </div>
-
             </section>
-
           {% endfor %}
-
         </div>
 
         {% assign related_items = site.wikipages | where: "addon", page.addon | where_exp: "item", "item.url != page.url" %}
         {% assign grouped_items = related_items | group_by: "subcategory" %}
 
           <div class="blocks-categorypage_afflictions">
-
             {% for subgroup in grouped_items %}
-
               <section class="block">
-
                 <h2>{{ subgroup.name | replace: "_", " " | capitalize }}</h2>
-
                 <div class="category-grid">
-
                   {% for item in subgroup.items %}
-
                     <a class="category-card" href="{{ item.url | relative_url }}">
                       <span>{{ item.title }}</span>
                       {% if item.inline_image %}
@@ -89,13 +66,9 @@ layout: default
                       {% endif %}
                     </a>
                   {% endfor %}
-
                 </div>
-
               </section>
-
             {% endfor %}
-
           </div>
       </section>
     </div>

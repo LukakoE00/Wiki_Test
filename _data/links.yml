@@ -1,251 +1,633 @@
-# Used in Content Pages for automatic inline linking. Simply add new ones in the same formatting to auto-embed.
+# Used in Content Pages for automatic inline linking.
+
+# RESOURCES
+IRON:
+  url: /images/resources/iron.png
+  image: /images/resources/iron.png
+
+# AFFLICTIONS
 
 # Any Bodypart
-BANDAGED: /afflictions/any-bodypart/bandaged
-BLEEDING: /afflictions/any-bodypart/bleeding
-BURNS: /afflictions/any-bodypart/burns
-CHILLED: /afflictions/any-bodypart/chilled
-FOREIGN_BODIES: /afflictions/any-bodypart/foreign_bodies
-INFECTED_WOUNDS: /afflictions/any-bodypart/infected-wounds
-OINTMENTED: /afflictions/any-bodypart/ointmented/
+BANDAGED:
+  url: /afflictions/any-bodypart/bandaged
+  image: /images/afflictions/any-bodypart/bandaged.png
+BLEEDING:
+  url: /afflictions/any-bodypart/bleeding
+  image: /images/afflictions/any-bodypart/bleeding.png
+BURNS:
+  url: /afflictions/any-bodypart/burns
+  image: /images/afflictions/any-bodypart/burns.png
+CHILLED:
+  url: /afflictions/any-bodypart/chilled
+  image: /images/afflictions/any-bodypart/chilled.png
+FOREIGN_BODIES:
+  url: /afflictions/any-bodypart/foreign_bodies
+  image: /images/afflictions/any-bodypart/foreign_bodies.png
+INFECTED_WOUNDS:
+  url: /afflictions/any-bodypart/infected-wounds
+  image: /images/afflictions/any-bodypart/infected_wounds.png
+OINTMENTED:
+  url: /afflictions/any-bodypart/ointmented/
+  image: /images/afflictions/any-bodypart/ointmented.png
 # Internal Wounds
-INTERNAL_WOUNDS: /afflictions/any-bodypart/internal-wounds
-INTERNAL_DAMAGE: /afflictions/any-bodypart/internal-wounds
-BLUNT_FORCE_TRAUMA: /afflictions/any-bodypart/internal-wounds
+INTERNAL_WOUNDS:
+  url: /afflictions/any-bodypart/internal-wounds
+  image: /images/afflictions/any-bodypart/internal_wounds.png
+INTERNAL_DAMAGE:
+  url: /afflictions/any-bodypart/internal-wounds
+BLUNT_FORCE_TRAUMA:
+  url: /afflictions/any-bodypart/internal-wounds
 # Open Wounds
-OPEN_WOUNDS: /afflictions/any-bodypart/open-wounds
-LACERATIONS: /afflictions/any-bodypart/open-wounds
-GUNSHOT_WOUND: /afflictions/any-bodypart/open-wounds
-BITE_WOUNDS: /afflictions/any-bodypart/open-wounds
-DEEP_TISSUE_INJURY: /afflictions/any-bodypart/open-wounds
+OPEN_WOUNDS:
+  url: /afflictions/any-bodypart/open-wounds
+  image: /images/afflictions/any-bodypart/open_wounds.png
+LACERATIONS:
+  url: /afflictions/any-bodypart/open-wounds
+GUNSHOT_WOUND:
+  url: /afflictions/any-bodypart/open-wounds
+BITE_WOUNDS:
+  url: /afflictions/any-bodypart/open-wounds
+DEEP_TISSUE_INJURY:
+  url: /afflictions/any-bodypart/open-wounds
 
 # Blood
-ACIDOSIS: /afflictions/blood/acidosis
-ALKALOSIS: /afflictions/blood/alkalosis
-BLOOD_LOSS: /afflictions/blood/blood_loss
-HEMOTRANSFUSION_SHOCK: /afflictions/blood/hemotransfusion_shock
-HYPERTENSION: /afflictions/blood/hypertension
-HYPOTENSION: /afflictions/blood/hypotension
-HYPOXEMIA: /afflictions/blood/hypoxemia
-SEPSIS: /afflictions/blood/sepsis
+ACIDOSIS:
+  url: /afflictions/blood/acidosis
+  image: /images/afflictions/blood/acidosis.png
+ALKALOSIS:
+  url: /afflictions/blood/alkalosis
+  image: /images/afflictions/blood/alkalosis.png
+BLOOD_LOSS:
+  url: /afflictions/blood/blood_loss
+  image: /images/afflictions/blood/blood_loss.png
+HEMOTRANSFUSION_SHOCK:
+  url: /afflictions/blood/hemotransfusion_shock
+  image: /images/afflictions/blood/hemotransfusion_shock.png
+HYPERTENSION:
+  url: /afflictions/blood/hypertension
+  image: /images/afflictions/blood/hypertension.png
+HYPOTENSION:
+  url: /afflictions/blood/hypotension
+  image: /images/afflictions/blood/hypotension.png
+HYPOXEMIA:
+  url: /afflictions/blood/hypoxemia
+  image: /images/afflictions/blood/hypoxemia.png
+SEPSIS:
+  url: /afflictions/blood/sepsis
+  image: /images/afflictions/blood/sepsis.png
 
 # Bones
-BONE_DAMAGE: /afflictions/bones/bone_damage
-BONE_DEATH: /afflictions/bones/bone_death
+BONE_DAMAGE:
+  url: /afflictions/bones/bone_damage
+  image: /images/afflictions/bones/bone_damage.png
+BONE_DEATH:
+  url: /afflictions/bones/bone_death
+  image: /images/afflictions/bones/bone_death.png
 # Dislocations
-DISLOCATIONS: /afflictions/bones/dislocations
+DISLOCATIONS:
+  url: /afflictions/bones/dislocations
+  image: /images/afflictions/bones/dislocations.png
 # Fractures
-FRACTURES: /afflictions/bones/fractures
-SKULL_FRACTURES: /afflictions/bones/fractures
-NECK_FRACTURES: /afflictions/bones/fractures
-ARM_FRACTURES: /afflictions/bones/fractures
-LEG_FRACTURES: /afflictions/bones/fractures
-RIB_FRACTURES: /afflictions/bones/fractures
+FRACTURES:
+  url: /afflictions/bones/fractures
+  image: /images/afflictions/bones/fractures.png
+SKULL_FRACTURES:
+  url: /afflictions/bones/fractures
+NECK_FRACTURES:
+  url: /afflictions/bones/fractures
+ARM_FRACTURES:
+  url: /afflictions/bones/fractures
+LEG_FRACTURES:
+  url: /afflictions/bones/fractures
+RIB_FRACTURES:
+  url: /afflictions/bones/fractures
 
 # Extremities
-ARTERIAL_BLEEDING: /afflictions/extremities/arterial_bleeding
-CLAMPED_ARTERIES: /afflictions/extremities/clapmed_arteries
-GANGRENE: /afflictions/extremities/gangrene
-PLASTER_CAST: /afflictions/extremities/plaster_cast
-SURGICAL_AMPUTATION: /afflictions/extremities/surgical_amputation
-TRAUMATIC_AMPUTATION: /afflictions/extremities/traumatic_amputation
+ARTERIAL_BLEEDING:
+  url: /afflictions/extremities/arterial_bleeding
+  image: /images/afflictions/extremities/arterial_bleeding.png
+CLAMPED_ARTERIES:
+  url: /afflictions/extremities/clapmed_arteries
+  image: /images/afflictions/extremities/clapmed_arteries.png
+GANGRENE:
+  url: /afflictions/extremities/gangrene
+  image: /images/afflictions/extremities/gangrene.png
+PLASTER_CAST:
+  url: /afflictions/extremities/plaster_cast
+  image: /images/afflictions/extremities/plaster_cast.png
+SURGICAL_AMPUTATION:
+  url: /afflictions/extremities/surgical_amputation
+  image: /images/afflictions/extremities/surgical_amputation.png
+TRAUMATIC_AMPUTATION:
+  url: /afflictions/extremities/traumatic_amputation
+  image: /images/afflictions/extremities/traumatic_amputation.png
 
 # Head / Brain
-COMA: /afflictions/head-brain/coma
-CONCUSSION: /afflictions/head-brain/concussion
-DRUNK: /afflictions/head-brain/drunk
-NEUROTRAUMA: /afflictions/head-brain/neurotrauma
-OPIATE_OVERDOSE: /afflictions/head-brain/opiate_overdose
-SEIZURE: /afflictions/head-brain/seizure
-SPINAL_CORD_INJURY: /afflictions/head-brain/spinal_cord_injury
-STROKE: /afflictions/head-brain/stroke
-UNCONSCIOUSNESS: /afflictions/head-brain/unconsciousness
-WITHDRAWAL: /afflictions/head-brain/withdrawal
-OPIATE_WITHDRAWAL: /afflictions/head-brain/withdrawal
-ALCOHOL_WITHDRAWAL: /afflictions/head-brain/withdrawal
-CHEMICAL_WITHDRAWAL: /afflictions/head-brain/withdrawal
+COMA:
+  url: /afflictions/head-brain/coma
+  image: /images/afflictions/head-brain/coma.png
+CONCUSSION:
+  url: /afflictions/head-brain/concussion
+  image: /images/afflictions/head-brain/concussion.png
+DRUNK:
+  url: /afflictions/head-brain/drunk
+  image: /images/afflictions/head-brain/drunk.png
+NEUROTRAUMA:
+  url: /afflictions/head-brain/neurotrauma
+  image: /images/afflictions/head-brain/neurotrauma.png
+OPIATE_OVERDOSE:
+  url: /afflictions/head-brain/opiate_overdose
+  image: /images/afflictions/head-brain/opiate_overdose.png
+SEIZURE:
+  url: /afflictions/head-brain/seizure
+  image: /images/afflictions/head-brain/seizure.png
+SPINAL_CORD_INJURY:
+  url: /afflictions/head-brain/spinal_cord_injury
+  image: /images/afflictions/head-brain/spinal_cord_injury.png
+STROKE:
+  url: /afflictions/head-brain/stroke
+  image: /images/afflictions/head-brain/stroke.png
+UNCONSCIOUSNESS:
+  url: /afflictions/head-brain/unconsciousness
+  image: /images/afflictions/head-brain/unconsciousness.png
+WITHDRAWAL:
+  url: /afflictions/head-brain/withdrawal
+  image: /images/afflictions/head-brain/withdrawal.png
+OPIATE_WITHDRAWAL:
+  url: /afflictions/head-brain/withdrawal
+  image: /images/afflictions/head-brain/withdrawal.png
+ALCOHOL_WITHDRAWAL:
+  url: /afflictions/head-brain/withdrawal
+  image: /images/afflictions/head-brain/withdrawal.png
+CHEMICAL_WITHDRAWAL:
+  url: /afflictions/head-brain/withdrawal
+  image: /images/afflictions/head-brain/withdrawal.png
 
 # Heart
-CARDIAC_ARREST: /afflictions/heart/cardiac_arrest
-CARDIAC_TAMPONADE: /afflictions/heart/cardiac_tamponade
-HEART_ATTACK: /afflictions/heart/heart_attack
-HEART_DAMAGE: /afflictions/heart/heart_damage
-IRREGULAR_HEARTBEAT: /afflictions/heart/irregular_heartbeat
+CARDIAC_ARREST:
+  url: /afflictions/heart/cardiac_arrest
+  image: /images/afflictions/heart/cardiac_arrest.png
+CARDIAC_TAMPONADE:
+  url: /afflictions/heart/cardiac_tamponade
+  image: /images/afflictions/heart/cardiac_tamponade.png
+HEART_ATTACK:
+  url: /afflictions/heart/heart_attack
+  image: /images/afflictions/heart/heart_attack.png
+HEART_DAMAGE:
+  url: /afflictions/heart/heart_damage
+  image: /images/afflictions/heart/heart_damage.png
+IRREGULAR_HEARTBEAT:
+  url: /afflictions/heart/irregular_heartbeat
+  image: /images/afflictions/heart/irregular_heartbeat.png
 
 # Lungs
-HYPERVENTILATION: /afflictions/lungs/hyperventilation
-HYPOVENTILATION: /afflictions/lungs/hypoventilation
-LUNG_DAMAGE: /afflictions/lungs/lung_damage
-OXYGEN_LOW: /afflictions/lungs/oxygen_low
-PNEUMOTHORAX: /afflictions/lungs/pneumothorax
-RESPIRATORY_ARREST: /afflictions/lungs/respiratory_arrest
+HYPERVENTILATION:
+  url: /afflictions/lungs/hyperventilation
+  image: /images/afflictions/lungs/hyperventilation.png
+HYPOVENTILATION:
+  url: /afflictions/lungs/hypoventilation
+  image: /images/afflictions/lungs/hypoventilation.png
+LUNG_DAMAGE:
+  url: /afflictions/lungs/lung_damage
+  image: /images/afflictions/lungs/lung_damage.png
+OXYGEN_LOW:
+  url: /afflictions/lungs/oxygen_low
+  image: /images/afflictions/lungs/oxygen_low.png
+PNEUMOTHORAX:
+  url: /afflictions/lungs/pneumothorax
+  image: /images/afflictions/lungs/pneumothorax.png
+RESPIRATORY_ARREST:
+  url: /afflictions/lungs/respiratory_arrest
+  image: /images/afflictions/lungs/respiratory_arrest.png
 
 # Surgery
-CLAMPED_BLEEDING: /afflictions/surgery/clamped_bleeding
-DRILLED_BONES: /afflictions/surgery/drilled_bones
-RETRACTED_SKIN: /afflictions/surgery/retracted_skin
-SAWED_BONES: /afflictions/surgery/sawed_bones
-SURGERY_INCISION: /afflictions/surgery/surgery_incision
-TRAUMATIC_SHOCK: /afflictions/surgery/traumatic_shock
+CLAMPED_BLEEDING:
+  url: /afflictions/surgery/clamped_bleeding
+  image: /images/afflictions/surgery/clamped_bleeding.png
+DRILLED_BONES:
+  url: /afflictions/surgery/drilled_bones
+  image: /images/afflictions/surgery/drilled_bones.png
+RETRACTED_SKIN:
+  url: /afflictions/surgery/retracted_skin
+  image: /images/afflictions/surgery/retracted_skin.png
+SAWED_BONES:
+  url: /afflictions/surgery/sawed_bones
+  image: /images/afflictions/surgery/sawed_bones.png
+SURGERY_INCISION:
+  url: /afflictions/surgery/surgery_incision
+  image: /images/afflictions/surgery/surgery_incision.png
+TRAUMATIC_SHOCK:
+  url: /afflictions/surgery/traumatic_shock
+  image: /images/afflictions/surgery/traumatic_shock.png
 
 # Symptoms
-ABDOMINAL_DISCOMFORT: /afflictions/symptoms/abdominal_discomfort
-ABDOMINAL_PAIN: /afflictions/symptoms/abdominal_discomfort
-BLOATING: /afflictions/symptoms/bloating
-BLURRED_VISION: /afflictions/symptoms/blurred_vision
-CHEST_PAIN: /afflictions/symptoms/chest_pain
-CONFUSION: /afflictions/symptoms/confusion
-COUGH: /afflictions/symptoms/cough
-CRAVING: /afflictions/symptoms/craving
-FEVER: /afflictions/symptoms/fever
-HEADACHE: /afflictions/symptoms/headache
-INCREASED_HEARTRATE: /afflictions/symptoms/increased_heartrate
-INFLAMMATION: /afflictions/symptoms/inflammation
-INTENSE_PAIN: /afflictions/symptoms/intense_pain
-JAUNDICE: /afflictions/symptoms/jaundice
-LEG_SWELLING: /afflictions/symptoms/leg_swelling
-LIGHTHEADEDNESS: /afflictions/symptoms/lightheadedness
-NAUSEA: /afflictions/symptoms/nausea
-PALE_SKIN: /afflictions/symptoms/pale_skin
-PALPITATIONS: /afflictions/symptoms/palpitations
-SHORTNESS_OF_BREATH: /afflictions/symptoms/shortness_of_breath
-SPASMS: /afflictions/symptoms/spasms
-SWEATING: /afflictions/symptoms/sweating
-VOMITING_BLOOD: /afflictions/symptoms/vomiting_blood
-VOMITING: /afflictions/symptoms/vomiting
-WEAKNESS: /afflictions/symptoms/weakness
-WHEEZING: /afflictions/symptoms/wheezing
+ABDOMINAL_DISCOMFORT:
+  url: /afflictions/symptoms/abdominal_discomfort
+  image: /images/afflictions/symptoms/abdominal_pain.png
+ABDOMINAL_PAIN:
+  url: /afflictions/symptoms/abdominal_discomfort
+  image: /images/afflictions/symptoms/abdominal_pain.png
+BLOATING:
+  url: /afflictions/symptoms/bloating
+  image: /images/afflictions/symptoms/abdominal_pain.png
+BLURRED_VISION:
+  url: /afflictions/symptoms/blurred_vision
+  image: /images/afflictions/symptoms/blurred_vision.png
+CHEST_PAIN:
+  url: /afflictions/symptoms/chest_pain
+  image: /images/afflictions/symptoms/abdominal_pain.png
+CONFUSION:
+  url: /afflictions/symptoms/confusion
+  image: /images/afflictions/symptoms/confusion.png
+COUGH:
+  url: /afflictions/symptoms/cough
+  image: /images/afflictions/symptoms/cough.png
+CRAVING:
+  url: /afflictions/symptoms/craving
+  image: /images/afflictions/symptoms/craving.png
+FEVER:
+  url: /afflictions/symptoms/fever
+  image: /images/afflictions/symptoms/fever.png
+HEADACHE:
+  url: /afflictions/symptoms/headache
+  image: /images/afflictions/symptoms/headache.png
+INCREASED_HEARTRATE:
+  url: /afflictions/symptoms/increased_heartrate
+  image: /images/afflictions/symptoms/increased_heartrate.png
+INFLAMMATION:
+  url: /afflictions/symptoms/inflammation
+  image: /images/afflictions/symptoms/inflammation.png
+INTENSE_PAIN:
+  url: /afflictions/symptoms/intense_pain
+  image: /images/afflictions/symptoms/intense_pain.png
+JAUNDICE:
+  url: /afflictions/symptoms/jaundice
+  image: /images/afflictions/symptoms/jaundice.png
+LEG_SWELLING:
+  url: /afflictions/symptoms/leg_swelling
+  image: /images/afflictions/symptoms/leg_swelling.png
+LIGHTHEADEDNESS:
+  url: /afflictions/symptoms/lightheadedness
+  image: /images/afflictions/symptoms/lightheadedness.png
+NAUSEA:
+  url: /afflictions/symptoms/nausea
+  image: /images/afflictions/symptoms/nausea.png
+PALE_SKIN:
+  url: /afflictions/symptoms/pale_skin
+  image: /images/afflictions/symptoms/pale_skin.png
+PALPITATIONS:
+  url: /afflictions/symptoms/palpitations
+  image: /images/afflictions/symptoms/palpitations.png
+SHORTNESS_OF_BREATH:
+  url: /afflictions/symptoms/shortness_of_breath
+  image: /images/afflictions/symptoms/shortness_of_breath.png
+SPASMS:
+  url: /afflictions/symptoms/spasms
+  image: /images/afflictions/symptoms/spasms.png
+SWEATING:
+  url: /afflictions/symptoms/sweating
+  image: /images/afflictions/symptoms/sweating.png
+VOMITING_BLOOD:
+  url: /afflictions/symptoms/vomiting_blood
+  image: /images/afflictions/symptoms/vomiting_blood.png
+VOMITING:
+  url: /afflictions/symptoms/vomiting
+  image: /images/afflictions/symptoms/nausea.png
+WEAKNESS:
+  url: /afflictions/symptoms/weakness
+  image: /images/afflictions/symptoms/weakness.png
+WHEEZING:
+  url: /afflictions/symptoms/wheezing
+  image: /images/afflictions/symptoms/wheezing.png
 
 # Torso
-ANALGESIA: /afflictions/torso/analgesia
-ANESTHESIA: /afflictions/torso/anesthesia
-AORTIC_RUPTURE: /afflictions/torso/aortic_rupture
-CYANIDE_POISONING: /afflictions/torso/cyanide_poisoning
-INTERNAL_BLEEDING: /afflictions/torso/internal_bleeding
-KIDNEY_DAMAGE: /afflictions/torso/kidney_damage
-LIVER_DAMAGE: /afflictions/torso/liver_damage
-MORBUSINE_POISONING: /afflictions/torso/morbusine_poisoning
-RADIATION_SICKNESS: /afflictions/torso/radiation_sickness
-SUFFORIN_POISONING: /afflictions/torso/sufforin_poisoning
-VANILLA_ORGAN_DAMAGE: /afflictions/torso/vanilla_organ_damage
+ANALGESIA:
+  url: /afflictions/torso/analgesia
+  image: /images/afflictions/torso/analgesia.png
+ANESTHESIA:
+  url: /afflictions/torso/anesthesia
+  image: /images/afflictions/torso/anesthesia.png
+AORTIC_RUPTURE:
+  url: /afflictions/torso/aortic_rupture
+  image: /images/afflictions/torso/aortic_rupture.png
+CYANIDE_POISONING:
+  url: /afflictions/torso/cyanide_poisoning
+  image: /images/afflictions/torso/toxic_poisoning.png
+INTERNAL_BLEEDING:
+  url: /afflictions/torso/internal_bleeding
+  image: /images/afflictions/torso/internal_bleeding.png
+KIDNEY_DAMAGE:
+  url: /afflictions/torso/kidney_damage
+  image: /images/afflictions/torso/kidney_damage.png
+LIVER_DAMAGE:
+  url: /afflictions/torso/liver_damage
+  image: /images/afflictions/torso/liver_damage.png
+MORBUSINE_POISONING:
+  url: /afflictions/torso/morbusine_poisoning
+  image: /images/afflictions/torso/morbusine_poisoning.png
+RADIATION_SICKNESS:
+  url: /afflictions/torso/radiation_sickness
+  image: /images/afflictions/torso/radiation_sickness.png
+SUFFORIN_POISONING:
+  url: /afflictions/torso/sufforin_poisoning
+  image: /images/afflictions/torso/toxic_poisoning.png
+VANILLA_ORGAN_DAMAGE:
+  url: /afflictions/torso/vanilla_organ_damage
+  image: /images/afflictions/torso/vanilla_organ_damage.png
 
 # ITEMS
 # Consumables
-ADRENALINE: /items/consumables/adrenaline
-ALIEN_BLOOD: /items/consumables/alien_blood
-ANAPARALYZANT: /items/consumables/anaparalyzant
-ANTIBIOTIC_GLUE: /items/consumables/antibiotic_glue
-ANTIBIOTIC_OINTMENT: /items/consumables/antibiotic_ointment
-ANTISEPTIC: /items/consumables/antiseptic
-AZATHIOPRINE: /items/consumables/azathioprine
-BANDAGES: /items/consumables/bandages
-BLOOD_PACKS: /items/consumables/blood_packs
-BROAD_SPECTRUM_ANTIBIOTICS: /items/consumables/broad_spectrum_antibiotics
-COMBAT_STIMULANT: /items/consumables/combat_stimulant
-DEUSIZINE: /items/consumables/deusizine
-DRAINAGE: /items/consumables/drainage
-EMPTY_BLOOD_PACK: /items/consumables/empty_blood_pack
-ENDOVASCULAR_BALLOON: /items/consumables/endovascular_balloon
-FENTANYL: /items/consumables/fentanyl
-GYPSUM: /items/consumables/gypsum
-HALOPERIDOL: /items/consumables/haloperidol
-HYPERZINE: /items/consumables/hyperzine
-LIQUID_OXYGENITE: /items/consumables/liquid_oxygenite
-MANNITOL: /items/consumables/mannitol
-MEDICAL_STENT: /items/consumables/medical_stent
-METHAMPHETAMINE: /items/consumables/methamphetamine
-MORPHINE: /items/consumables/morphine
-NALOXONE: /items/consumables/naloxone
-NEEDLE: /items/consumables/needle
-NITROGLYCERIN: /items/consumables/nitroglycerin
-OPIUM: /items/consumables/opium
-OSTEOSYNTHESIS_IMPLANTS: /items/consumables/osteosynthesis_implants
-PLASTISEAL: /items/consumables/plastiseal
-PROPOFOL: /items/consumables/propofol
-RAPTOR_BANE_EXTRACT: /items/consumables/raptor_bane_extract
-RINGERS_SOLUTION: /items/consumables/ringers_solution
-SALINE: /items/consumables/saline
-SODIUM_NITROPRUSSIDE: /items/consumables/sodium_nitroprusside
-SPINAL_CORD_IMPLANTS: /items/consumables/spinal_cord_implants
-STREPTOKINASE: /items/consumables/streptokinase
-SUTURES: /items/consumables/sutures
-THIAMINE: /items/consumables/thiamine
-TOURNIQUET: /items/consumables/tourniquet
+ADRENALINE:
+  url: /items/consumables/adrenaline
+  image: /images/items/consumables/adrenaline.png
+ALIEN_BLOOD:
+  url: /items/consumables/alien_blood
+  image: /images/items/consumables/alien_blood.png
+ANAPARALYZANT:
+  url: /items/consumables/anaparalyzant
+  image: /images/items/consumables/anaparalyzant.png
+ANTIBIOTIC_GLUE:
+  url: /items/consumables/antibiotic_glue
+  image: /images/items/consumables/antibiotic_glue.png
+ANTIBIOTIC_OINTMENT:
+  url: /items/consumables/antibiotic_ointment
+  image: /images/items/consumables/antibiotic_ointment.png
+ANTISEPTIC:
+  url: /items/consumables/antiseptic
+  image: /images/items/consumables/antiseptic.png
+AZATHIOPRINE:
+  url: /items/consumables/azathioprine
+  image: /images/items/consumables/azathioprine.png
+BANDAGES:
+  url: /items/consumables/bandages
+  image: /images/items/consumables/bandages.png
+BLOOD_PACKS:
+  url: /items/consumables/blood_packs
+  image: /images/items/consumables/blood_packs.png
+BROAD_SPECTRUM_ANTIBIOTICS:
+  url: /items/consumables/broad_spectrum_antibiotics
+  image: /images/items/consumables/broad_spectrum_antibiotics.png
+COMBAT_STIMULANT:
+  url: /items/consumables/combat_stimulant
+  image: /images/items/consumables/combat_stimulant.png
+DEUSIZINE:
+  url: /items/consumables/deusizine
+  image: /images/items/consumables/deusizine.png
+DRAINAGE:
+  url: /items/consumables/drainage
+  image: /images/items/consumables/drainage.png
+EMPTY_BLOOD_PACK:
+  url: /items/consumables/empty_blood_pack
+  image: /images/items/consumables/empty_blood_pack.png
+ENDOVASCULAR_BALLOON:
+  url: /items/consumables/endovascular_balloon
+  image: /images/items/consumables/endovascular_balloon.png
+FENTANYL:
+  url: /items/consumables/fentanyl
+  image: /images/items/consumables/fentanyl.png
+GYPSUM:
+  url: /items/consumables/gypsum
+  image: /images/items/consumables/gypsum.png
+HALOPERIDOL:
+  url: /items/consumables/haloperidol
+  image: /images/items/consumables/haloperidol.png
+HYPERZINE:
+  url: /items/consumables/hyperzine
+  image: /images/items/consumables/hyperzine.png
+LIQUID_OXYGENITE:
+  url: /items/consumables/liquid_oxygenite
+  image: /images/items/consumables/liquid_oxygenite.png
+MANNITOL:
+  url: /items/consumables/mannitol
+  image: /images/items/consumables/mannitol.png
+MEDICAL_STENT:
+  url: /items/consumables/medical_stent
+  image: /images/items/consumables/medical_stent.png
+METHAMPHETAMINE:
+  url: /items/consumables/methamphetamine
+  image: /images/items/consumables/methamphetamine.png
+MORPHINE:
+  url: /items/consumables/morphine
+  image: /images/items/consumables/morphine.png
+NALOXONE:
+  url: /items/consumables/naloxone
+  image: /images/items/consumables/naloxone.png
+NEEDLE:
+  url: /items/consumables/needle
+  image: /images/items/consumables/needle.png
+NITROGLYCERIN:
+  url: /items/consumables/nitroglycerin
+  image: /images/items/consumables/nitroglycerin.png
+OPIUM:
+  url: /items/consumables/opium
+  image: /images/items/consumables/opium.png
+OSTEOSYNTHESIS_IMPLANTS:
+  url: /items/consumables/osteosynthesis_implants
+  image: /images/items/consumables/osteosynthesis_implants.png
+PLASTISEAL:
+  url: /items/consumables/plastiseal
+  image: /images/items/consumables/plastiseal.png
+PROPOFOL:
+  url: /items/consumables/propofol
+  image: /images/items/consumables/propofol.png
+RAPTOR_BANE_EXTRACT:
+  url: /items/consumables/raptor_bane_extract
+  image: /images/items/consumables/raptor_bane_extract.png
+RINGERS_SOLUTION:
+  url: /items/consumables/ringers_solution
+  image: /images/items/consumables/ringers_solution.png
+SALINE:
+  url: /items/consumables/saline
+  image: /images/items/consumables/saline.png
+SODIUM_NITROPRUSSIDE:
+  url: /items/consumables/sodium_nitroprusside
+  image: /images/items/consumables/sodium_nitroprusside.png
+SPINAL_CORD_IMPLANTS:
+  url: /items/consumables/spinal_cord_implants
+  image: /images/items/consumables/spinal_cord_implants.png
+STREPTOKINASE:
+  url: /items/consumables/streptokinase
+  image: /images/items/consumables/streptokinase.png
+SUTURES:
+  url: /items/consumables/sutures
+  image: /images/items/consumables/sutures.png
+THIAMINE:
+  url: /items/consumables/thiamine
+  image: /images/items/consumables/thiamine.png
+TOURNIQUET:
+  url: /items/consumables/tourniquet
+  image: /images/items/consumables/tourniquet.png
 
 # Tools
-AED: /items/tools/aed
-AMBUBAG: /items/tools/ambubag
-ANTISEPTIC_SPRAYER: /items/tools/antiseptic_sprayer
-AUTOPULSE: /items/tools/autopulse
-BLUE_SHARK: /items/tools/blue_shark
-BODY_BAG: /items/tools/body_bag
-DIVING_KNIFE: /items/tools/diving_knife
-GEL_COOLANT_PACK: /items/tools/gel_coolant_pack
-HEALTH_SCANNER: /items/tools/health_scanner
-HEMATOLOGY_ANALYZER: /items/tools/hematology_analyzer
-HEMOSTAT: /items/tools/hemostats
-MANUAL_DEFIBRILLATOR: /items/tools/manual_defibrillator
-MULTIPURPOSE_SCALPEL: /items/tools/multipurpose_scalpel
-REFRIGERATED_CONTAINER: /items/tools/refrigerated_container
-REFRIGERATED_CRATE: /items/tools/refrigerated_crate
-SCALPEL: /items/tools/scalpel
-SKIN_RETRACTORS: /items/tools/skin_retractors
-STASIS_BAG: /items/tools/stasis_bag
-SURGERY_TABLE: /items/tools/surgery_table
-SURGICAL_DRILL: /items/tools/surgical_drill
-SURGICAL_SAW: /items/tools/surgical_saw
-TRAUMA_SHEARS: /items/tools/trauma_shears
-TWEEZERS: /items/tools/tweezers
-WRENCH: /items/tools/wrench
+AED:
+  url: /items/tools/aed
+  image: /images/items/tools/aed.png
+AMBUBAG:
+  url: /items/tools/ambubag
+  image: /images/items/tools/ambubag.png
+ANTISEPTIC_SPRAYER:
+  url: /items/tools/antiseptic_sprayer
+  image: /images/items/tools/antiseptic_sprayer.png
+AUTOPULSE:
+  url: /items/tools/autopulse
+  image: /images/items/tools/autopulse.png
+BLUE_SHARK:
+  url: /items/tools/blue_shark
+  image: /images/items/tools/blue_shark.png
+BODY_BAG:
+  url: /items/tools/body_bag
+  image: /images/items/tools/body_bag.png
+DIVING_KNIFE:
+  url: /items/tools/diving_knife
+  image: /images/items/tools/diving_knife.png
+GEL_COOLANT_PACK:
+  url: /items/tools/gel_coolant_pack
+  image: /images/items/tools/gel_coolant_pack.png
+HEALTH_SCANNER:
+  url: /items/tools/health_scanner
+  image: /images/items/tools/health_scanner.png
+HEMATOLOGY_ANALYZER:
+  url: /items/tools/hematology_analyzer
+  image: /images/items/tools/hematology_analyzer.png
+HEMOSTAT:
+  url: /items/tools/hemostat
+  image: /images/items/tools/hemostat.png
+MANUAL_DEFIBRILLATOR:
+  url: /items/tools/manual_defibrillator
+  image: /images/items/tools/manual_defibrillator.png
+MULTIPURPOSE_SCALPEL:
+  url: /items/tools/multipurpose_scalpel
+  image: /images/items/tools/multipurpose_scalpel.png
+REFRIGERATED_CONTAINER:
+  url: /items/tools/refrigerated_container
+  image: /images/items/tools/refrigerated_container.png
+REFRIGERATED_CRATE:
+  url: /items/tools/refrigerated_crate
+  image: /images/items/tools/refrigerated_crate.png
+SCALPEL:
+  url: /items/tools/scalpel
+  image: /images/items/tools/scalpel.png
+SKIN_RETRACTORS:
+  url: /items/tools/skin_retractors
+  image: /images/items/tools/skin_retractors.png
+STASIS_BAG:
+  url: /items/tools/stasis_bag
+  image: /images/items/tools/stasis_bag.png
+SURGERY_TABLE:
+  url: /items/tools/surgery_table
+  image: /images/items/tools/surgery_table.png
+SURGICAL_DRILL:
+  url: /items/tools/surgical_drill
+  image: /images/items/tools/surgical_drill.png
+SURGICAL_SAW:
+  url: /items/tools/surgical_saw
+  image: /images/items/tools/surgical_saw.png
+TRAUMA_SHEARS:
+  url: /items/tools/trauma_shears
+  image: /images/items/tools/trauma_shears.png
+TWEEZERS:
+  url: /items/tools/tweezers
+  image: /images/items/tools/tweezers.png
+WRENCH:
+  url: /items/tools/wrench
+  image: /images/items/tools/wrench.png
 
 # Transplants
-ARM_TRANSPLANT: /items/transplants/arm_transplant
-BRAIN_TRANSPLANT: /items/transplants/brain_transplant
-HEART_TRANSPLANT: /items/transplants/heart_transplant
-KIDNEY_TRANSPLANT: /items/transplants/kidney_transplant
-LEG_TRANSPLANT: /items/transplants/leg_transplant
-LIVER_TRANSPLANT: /items/transplants/liver_transplant
-LUNG_TRANSPLANT: /items/transplants/lung_transplant
+ARM_TRANSPLANT:
+  url: /items/transplants/arm_transplant
+  image: /images/items/transplants/arm_transplant.png
+BRAIN_TRANSPLANT:
+  url: /items/transplants/brain_transplant
+  image: /images/items/transplants/brain_transplant.png
+HEART_TRANSPLANT:
+  url: /items/transplants/heart_transplant
+  image: /images/items/transplants/heart_transplant.png
+KIDNEY_TRANSPLANT:
+  url: /items/transplants/kidney_transplant
+  image: /images/items/transplants/kidney_transplant.png
+LEG_TRANSPLANT:
+  url: /items/transplants/leg_transplant
+  image: /images/items/transplants/leg_transplant.png
+LIVER_TRANSPLANT:
+  url: /items/transplants/liver_transplant
+  image: /images/items/transplants/liver_transplant.png
+LUNG_TRANSPLANT:
+  url: /items/transplants/lung_transplant
+  image: /images/items/transplants/lung_transplant.png
 
 # Upgrades
-ANALGESIC_TANK: /items/upgrades/analgesic_tank
-DIALYSIS_FILTER: /items/upgrades/dialysis_filter
-TOXIN_FILTER: /items/upgrades/toxin_filter
+ANALGESIC_TANK:
+  url: /items/upgrades/analgesic_tank
+  image: /images/items/upgrades/analgesic_tank.png
+DIALYSIS_FILTER:
+  url: /items/upgrades/dialysis_filter
+  image: /images/items/upgrades/dialysis_filter.png
+TOXIN_FILTER:
+  url: /items/upgrades/toxin_filter
+  image: /images/items/upgrades/toxin_filter.png
 
 # PROCEDURES
-AMPUTATION_SURGERY: /procedures/amputation_surgery
-AORTIC_RUPTURE_SURGERY: /procedures/open_close_surgery
-OPEN_CLOSE_SURGERY: /procedures/open_close_surgery
-ORGAN_TRANSPLANT_SURGERY: /procedures/organ_transplant_surgery
-OSTEOSYNTHETIC_SURGERY: /procedures/osteosynthetic_surgery
+AMPUTATION_SURGERY:
+  url: /procedures/amputation_surgery
+AORTIC_RUPTURE_SURGERY:
+  url: /procedures/open_close_surgery
+OPEN_CLOSE_SURGERY:
+  url: /procedures/open_close_surgery
+ORGAN_TRANSPLANT_SURGERY:
+  url: /procedures/organ_transplant_surgery
+OSTEOSYNTHETIC_SURGERY:
+  url: /procedures/osteosynthetic_surgery
 
 # MECHANICS
-CONFIGURATION_MENU: /mechanics/configuration_menu
-FIBRILLATION: /mechanics/fibrillation
-IMMUNITY: /mechanics/immunity
-ORGAN_REJECTION: /mechanics/organ_rejection
+CONFIGURATION_MENU:
+  url: /mechanics/configuration_menu
+FIBRILLATION:
+  url: /mechanics/fibrillation
+IMMUNITY:
+  url: /mechanics/immunity
+ORGAN_REJECTION:
+  url: /mechanics/organ_rejection
 
 # TIPS
-HOW_TO_DIAGNOSE: /general_information/tips/tip2/
+HOW_TO_DIAGNOSE:
+  url: /general_information/tips/tip2/
 
 # ADDONS
 
 # Cybernetics Enhanced
 # Afflictions
-BENT_METAL: /afflictions/cybernetics_enhanced/bent_metal
-DAMAGED_ELECTRONICS: /afflictions/cybernetics_enhanced/damaged_electronics
-LOOSE_SCREWS: /afflictions/cybernetics_enhanced/loose_screws
-MATERIAL_LOSS: /afflictions/cybernetics_enhanced/material_loss
+BENT_METAL:
+  url: /afflictions/cybernetics_enhanced/bent_metal
+  image: /images/addon_cybernetics_enhanced/afflictions/bent_metal.png
+DAMAGED_ELECTRONICS:
+  url: /afflictions/cybernetics_enhanced/damaged_electronics
+  image: /images/addon_cybernetics_enhanced/afflictions/damaged_electronics.png
+LOOSE_SCREWS:
+  url: /afflictions/cybernetics_enhanced/loose_screws
+  image: /images/addon_cybernetics_enhanced/afflictions/loose_screws.png
+MATERIAL_LOSS:
+  url: /afflictions/cybernetics_enhanced/material_loss
+  image: /images/addon_cybernetics_enhanced/afflictions/material_loss.png
 
 # Items
-CYBERARM: /items/cybernetics_enhanced/cyberarm
-CYBERLEG: /items/cybernetics_enhanced/cyberleg
-WELDING_TOOL: /items/cybernetics_enhanced/welding_tool
-
-# ADDONS
+CYBERARM:
+  url: /items/cybernetics_enhanced/cyberarm
+  image: /images/addon_cybernetics_enhanced/items/cyberarm.png
+CYBERLEG:
+  url: /items/cybernetics_enhanced/cyberleg
+  image: /images/addon_cybernetics_enhanced/items/cyberleg.png
+WELDING_TOOL:
+  url: /items/cybernetics_enhanced/welding_tool
+  image: /images/addon_cybernetics_enhanced/items/welding_tool.png
 
 # Surgery Plus
-# Item
-SURGEON_CLOTHES: /items/surgery_plus/surgeon_clothes
-SURGICAL_DRAPES: /items/surgery_plus/surgical_drapes
-SURGICAL_MASK: /items/surgery_plus/surgical_mask
+# Items
+SURGEON_CLOTHES:
+  url: /items/surgery_plus/surgeon_clothes
+  image: /images/surgery_plus/items/surgeon_clothes.png
+SURGICAL_DRAPES:
+  url: /items/surgery_plus/surgical_drapes
+  image: /images/surgery_plus/items/surgical_drapes.png
+SURGICAL_MASK:
+  url: /items/surgery_plus/surgical_mask
+  image: /images/surgery_plus/items/surgical_mask.png

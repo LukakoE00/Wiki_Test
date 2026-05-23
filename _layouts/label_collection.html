@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<div class="container">
+  <main>
+    <div class="content">
+      <section>
+
+        <h1 class="contentheader">Pages containing Label: "{{ page.label }}"</h1>
+
+        {% assign matching_pages = "" | split: "" %}
+        {% for p in site.wikipages %}
+          {% if p.infobox %}
+            {% for group in p.infobox %}
+              {% if group.title == "Labels" %}
+                {% for section in group.sections %}
+                  {% for label in section.items %}
+                    {% if label == page.label %}
+                      {% assign matching_pages = matching_pages | push: p %}
+                    {% endif %}
+                  {% endfor %}
+                {% endfor %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+
+          <div class="blocks-categorypage_afflictions">
+            <div class="block">
+                {% for p in matching_pages %}
+                    <a href="{{ p.url | relative_url }}">
+                        {{ p.title }}
+                        {% if p.inline_image %}
+                        <img src="{{ p.inline_image | relative_url }}" alt="{{ p.title }}">
+                        {% endif %}
+                    </a>
+                {% endfor %}
+            </div>
+          </div>
+      </section>
+    </div>
+  </main>
+</div>

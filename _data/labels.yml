@@ -1,0 +1,63 @@
+Item:
+  url: /labels/item
+
+Not Visible Ingame:
+  url: /labels/not_visible_ingame
+
+Visible on Health Interface:
+  url: /labels/visible_on_health_interface
+
+Visible on Hematology Analyzer:
+  url: /labels/visible_on_hematology_analyzer
+
+Visible on Scanner:
+  url: /labels/visible_on_scanner
+
+Affliction:
+  url: /labels/affliction
+
+Lethality Depends:
+  url: /labels/lethality_depends
+
+Very Important:
+  url: /labels/very_important
+
+First Aid:
+  url: /labels/first_aid
+
+Lethal:
+  url: /labels/lethal
+
+Important:
+  url: /labels/important
+
+Non-Lethal:
+  url: /labels/non-lethal
+
+Mechanic:
+  url: /labels/mechanic
+
+Information:
+  url: /labels/information
+
+Procedure:
+  url: /labels/procedure
+
+Surgery:
+  url: /labels/surgery
+
+Essential:
+  url: /labels/essential
+
+Mental Symptom:
+  url: /labels/mental_symptom
+
+Niche:
+  url: /labels/niche
+
+# ADDONS
+Cybernetics Expansion:
+  url: /labels/cybernetics_expansion
+
+Surgery Plus Expansion:
+  url: /labels/surgery_plus_expansion

@@ -10,115 +10,114 @@ layout: default
       <section>
 
         <h1 class="contentheader">
-
           {{ page.contentheader | default: page.title }}
-
           {% if page.inline_image %}
             <img src="{{ page.inline_image | relative_url }}" alt="{{ page.title }}">
           {% endif %}
-
         </h1>
 
-        {% assign blocks = page.blocks | default: "" %}
+        {% assign sorted_blocks = page.blocks | sort: "order" %}
+        {% if sorted_blocks %}
+        <div class="contentpage-layout">
 
-        {% if blocks != "" %}
-          {% assign sorted_blocks = blocks | sort: "order" %}
-        {% else %}
-          {% assign sorted_blocks = "" %}
-        {% endif %}
+          <div class="content-left">
+            {% for block in sorted_blocks %}
+              {% unless block.type == "price" or block.type == "crafting_cost" or block.type == "infobox" %}
 
-        <div class="blocks-contentpage">
+              <section class="block-contentpage {{ block.type }}">
+                {% if block.header %}<h2>{{ block.header }}</h2>{% endif %}
 
-          {% for block in sorted_blocks %}
+                <div class="block-contentpage-text">
+                  {%- assign html = block.text | markdownify -%}
+                  {%- if site.data.links -%}
+                    {%- for link in site.data.links -%}
+                      {%- assign token = link[0] -%}
+                      {%- assign url = link[1].url -%}
+                      {%- assign img_src = link[1].image -%}
+                      {%- assign placeholder = token | prepend: "{{" | append: "}}" -%}
+                      {%- if html contains placeholder -%}
+                        {%- if img_src -%}
+                          {%- capture link_html -%}<a href="{{ url | relative_url }}"><img class="infobox-inlineicon" src="{{ img_src | relative_url }}" alt="{{ token | replace: '_', ' ' | capitalize }}"> {{ token | replace: "_", " " | capitalize }}</a>{%- endcapture -%}
+                        {%- else -%}
+                          {%- capture link_html -%}<a href="{{ url | relative_url }}">{{ token | replace: "_", " " | capitalize }}</a>{%- endcapture -%}
+                        {%- endif -%}
+                        {%- assign html = html | replace: placeholder, link_html -%}
+                      {%- endif -%}
+                    {%- endfor -%}
+                  {%- endif -%}
+                  {{ html }}
+                </div>
 
-            <section class="block-contentpage {{ block.type }}">
+              </section>
+              {% endunless %}
+            {% endfor %}
+          </div>
 
-              {% if block.header %}
-                <h2>{{ block.header }}</h2>
-              {% endif %}
+          <aside class="content-right">
+            {% if page.infobox %}
+              {% for group in page.infobox %}
 
-              <div class="block-contentpage-text">
+                <div class="infobox-card">
+                  {% if group.title %}<div class="infobox-card-title">{{ group.title }}</div>{% endif %}
+                  {% if group.sections %}
+                    {% for section in group.sections %}
 
-                {%- assign html = block.text | markdownify -%}
+                      <div class="infobox-section">
+                        {% if section.header %}<div class="infobox-section-header">{{ section.header }}</div>{% endif %}
+                        {% if section.items %}
 
-                {%- if site.data.links -%}
+                          {% if group.title == "Labels" %}
+                            <div class="infobox-labels">
+                              {% for section in group.sections %}
+                                {% for label in section.items %}
+                                  {%- assign label_data = site.data.labels[label] -%}
+                                  {%- assign label_class = label | downcase | replace: " ", "-" -%}
+                                  {% if label_data %}
+                                    <a class="infobox-label infobox-label--{{ label_class }}" href="{{ label_data.url | relative_url }}">
+                                      {{ label }}
+                                    </a>
+                                  {% endif %}
+                                {% endfor %}
+                              {% endfor %}
+                            </div>
 
-                  {%- for item in site.data.links -%}
+                          {% else %}
+                            {% for item in section.items %}
+                              <div class="infobox-row">
+                                {%- assign row_html = item -%}
+                                {%- for link in site.data.links -%}
+                                  {%- assign token = link[0] -%}
+                                  {%- assign url = link[1].url -%}
+                                  {%- assign img_src = link[1].image -%}
+                                  {%- assign placeholder = token | prepend: "{{" | append: "}}" -%}
+                                  {%- if row_html contains placeholder -%}
+                                    {%- if img_src -%}
+                                      {%- capture replacement -%}<a class="infobox-link" href="{{ url | relative_url }}"><img class="infobox-inlineicon" src="{{ img_src | relative_url }}" alt="{{ token | replace: '_', ' ' | capitalize }}"> {{ token | replace: "_", " " | capitalize }}</a>{%- endcapture -%}
+                                    {%- else -%}
+                                      {%- capture replacement -%}<a class="infobox-link" href="{{ url | relative_url }}">{{ token | replace: "_", " " | capitalize }}</a>{%- endcapture -%}
+                                    {%- endif -%}
+                                    {%- assign row_html = row_html | replace: placeholder, replacement -%}
+                                  {%- endif -%}
+                                {%- endfor -%}
+                                {{ row_html }}
+                              </div>
+                            {% endfor %}
+                          {% endif %}
 
-                    {%- assign token = item[0] -%}
-                    {%- assign url = item[1] -%}
-
-                    {%- assign placeholder = token | prepend: "{{" | append: "}}" -%}
-
-                    {%- capture link_html -%}
-                      <a href="{{ url | relative_url }}">{{ token | replace: "_", " " | capitalize }}</a>
-                    {%- endcapture -%}
-
-                    {%- assign html = html | replace: placeholder, link_html -%}
-
-                  {%- endfor -%}
-
-                {%- endif -%}
-
-                {{ html }}
-
-              </div>
-
-            </section>
-
-          {% endfor %}
-
-        </div>
-
-        {% if page.type == "addon" %}
-
-          {% assign related_items = site.wikipages | where: "category", page.category | where_exp: "item", "item.url != page.url" %}
-          {% assign grouped_items = related_items | group_by: "subcategory" %}
-          {% if related_items.size > 0 %}
-
-            <div class="blocks-category-links">
-
-              {% for subgroup in grouped_items %}
-
-                <section class="block-category-group">
-
-                  <h2>
-                    {{ subgroup.name
-                      | replace: "_", " "
-                      | capitalize }}
-                  </h2>
-
-                  <div class="category-grid">
-
-                    {% for item in subgroup.items %}
-
-                      <a class="category-card" href="{{ item.url | relative_url }}">
-
-                        {% if item.inline_image %}
-                          <img src="{{ item.inline_image | relative_url }}" alt="{{ item.title }}">
                         {% endif %}
-
-                        <span>{{ item.title }}</span>
-
-                      </a>
+                      </div>
 
                     {% endfor %}
-
-                  </div>
-
-                </section>
+                  {% endif %}
+                </div>
 
               {% endfor %}
+            {% endif %}
+          </aside>
 
-            </div>
-
-          {% endif %}
-
+        </div>
         {% endif %}
-
       </section>
-
     </div>
-
   </main>
 </div>

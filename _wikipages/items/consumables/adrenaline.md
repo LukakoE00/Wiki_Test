@@ -7,6 +7,50 @@ permalink: /items/consumables/adrenaline
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/consumables/adrenaline.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Niche
+          - Not Visible Ingame
+          - Visible on Health Interface
+          - Visible on Hematology Analyzer
+          - Visible on Scanner
+          - Affliction
+          - Lethality Depends
+          - Very Important
+          - First Aid
+          - Lethal
+          - Important
+          - Non-Lethal
+          - Mechanic
+          - Information
+          - Procedure
+          - Surgery
+          - Essential
+          - Mental Symptom
+          - Niche
+          - Cybernetics Expansion
+          - Surgery Plus Expansion
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: None"
+          - "Maximum stack : 8"
+
+  - title: Crafting
+    sections:
+      - items:
+          - "Craftable?: No"
+          - "Deconstructible?: No"
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: At least 20 bucks"
+
 blocks:
   - type: description
     header: "Description:"

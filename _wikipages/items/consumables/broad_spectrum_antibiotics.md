@@ -26,7 +26,7 @@ blocks:
 
      - 0.2% {{VANILLA_ORGAN_DAMAGE}} a second for 100 seconds
      - 0.175% {{KIDNEY_DAMAGE}} a second for 100 seconds
-     - 0.175%{{LIVER_DAMAGE}} a second for 100 seconds
+     - 0.175% {{LIVER_DAMAGE}} a second for 100 seconds
      - 0.1% {{HEART_DAMAGE}} a second for 100 seconds
      - 0.1% {{LUNG_DAMAGE}} a second for 100 seconds
      - In total, the organs will end up with 20% Organ Damage, 17.5% Kidney and Liver Damage, and 10% Heart and Lung Damage.

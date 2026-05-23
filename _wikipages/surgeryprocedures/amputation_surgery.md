@@ -17,9 +17,9 @@ blocks:
      5. {{SURGICAL_SAW}}
      6. (optional) install a new replacement matching {{ARM_TRANSPLANT}} or {{LEG_TRANSPLANT}}
      7. {{SUTURES}}
-     8. (optional; requires NT Cybernetics addon) {{CYBERNETIC_ARM}} and {{CYBERNETIC_LEG}} can be installed onto amputated limbs without needing to be surgically open to attach.
+     8. (optional; requires NT Cybernetics addon) {{CYBERARM}} and {{CYBERLEG}} can be installed onto amputated limbs without needing to be surgically open to attach.
 
-     Doing this procedure will not yield the limb if the limb has more than 15% {{108_GANGRENE}}
+     Doing this procedure will not yield the limb if the limb has more than 15% {{GANGRENE}}
 
      This procedure causes {{SURGICAL_AMPUTATION}} unless #6 was installed.
 ---

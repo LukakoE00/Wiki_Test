@@ -18,7 +18,7 @@ blocks:
      1. Put them in {{STASIS_BAG}} if they're in rapidly deteriorating condition
      2. Diagnose problems and figure out which steps from below are relevant
      3. Put a {{TOURNIQUET}} on any {{ARTERIAL_BLEEDING}}
-     4. If there's major regular bleeding, apply {{SUTURES}} them and give some {{BLOOD_PACKS}} if necessary - be sure to continue doing so in further steps if required. If they have any {{INTERNAL_BLEEDING}} or {{AORTIC_BLEEDING}} that will need to be fixed before transfusing Blood or you will waste {{BLOOD_PACKS}}. Consider using {{LIQUID_OXYGENITE}} further down to stabilize the patient for those surgeries.
+     4. If there's major regular bleeding, apply {{SUTURES}} them and give some {{BLOOD_PACKS}} if necessary - be sure to continue doing so in further steps if required. If they have any {{INTERNAL_BLEEDING}} or {{AORTIC_RUPTURE}} that will need to be fixed before transfusing Blood or you will waste {{BLOOD_PACKS}}. Consider using {{LIQUID_OXYGENITE}} further down to stabilize the patient for those surgeries.
      5. Use a {{NEEDLE}} if {{PNEUMOTHORAX}} is high
      6. If in {{STASIS_BAG}}, prepare the patient for removal from bag by giving them drugs they might need:
      - \- {{AZATHIOPRINE}} if they need an Organ Transplant and you have Organ Rejection enabled.
