@@ -14,8 +14,6 @@ blocks:
     text: |
      Low levels of radiation sickness are easily treatable, but if radiation sickness gets high enough, it will quickly begin killing the organs. Lungs will take more damage from radiation than other organs. Radiation sickness will appear on the health scanner at 25% and above.
 
-     ---
-
   - type: caused_by
     header: "Caused By:"
     order: 2

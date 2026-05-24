@@ -88,6 +88,11 @@ TITANIUM_ALUMINIUM_ALLOY:
   url: https://barotraumagame.com/wiki/Titanium-Aluminium_Alloy
   image: /images/non-neurotrauma/resources/titanium_aluminium_alloy.png
 
+# OTHER ITEMS
+VOLATILE_FULGURIUM_FUEL_ROD:
+  url: https://barotraumagame.com/wiki/Volatile_Fulgurium_Fuel_Rod
+  image: /images/non-neurotrauma/resources/volatile_fulgurium_fuel_rod.png
+
 # PLANTS
 SLIME_BACTERIA:
   url: https://barotraumagame.com/wiki/Slime_Bacteria
@@ -109,15 +114,27 @@ CYANIDE:
 CYANIDE_ANTIDOTE:
   url: https://barotraumagame.com/wiki/Cyanide_Antidote
   image: /images/non-neurotrauma/resources/cyanide_antidote.png
+MORBUSINE:
+  url: https://barotraumagame.com/wiki/Morbusine
+  image: /images/non-neurotrauma/resources/morbusine.png
 MORBUSINE_ANTIDOTE:
   url: https://barotraumagame.com/wiki/Morbusine_Antidote
   image: /images/non-neurotrauma/resources/morbusine_antidote.png
+SUFFORIN:
+  url: https://barotraumagame.com/wiki/Sufforin
+  image: /images/non-neurotrauma/resources/sufforin.png
 SUFFORIN_ANTIDOTE:
   url: https://barotraumagame.com/wiki/Sufforin_Antidote
   image: /images/non-neurotrauma/resources/sufforin_antidote.png
 STABILOZINE:
   url: https://barotraumagame.com/wiki/Stabilozine
   image: /images/non-neurotrauma/resources/stabilozine.png
+RADIOTOXIN:
+  url: https://barotraumagame.com/wiki/Radiotoxin
+  image: /images/non-neurotrauma/resources/radiotoxin.png
+ANTIRAD:
+  url: https://barotraumagame.com/wiki/Antirad
+  image: /images/non-neurotrauma/resources/antirad.png
 
 # NON-NEUROTRAUMA MEDICAL AFFLICTIONS
 OPIATE_ADDICTION:
