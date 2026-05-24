@@ -19,6 +19,9 @@ ELECTRICAL:
 IRON:
   url: https://barotraumagame.com/wiki/Iron
   image: /images/non-neurotrauma/resources/iron.png
+TIN:
+  url: https://barotraumagame.com/wiki/Tin
+  image: /images/non-neurotrauma/resources/tin.png
 SILICON:
   url: https://barotraumagame.com/wiki/Silicon
   image: /images/non-neurotrauma/resources/silicon.png
