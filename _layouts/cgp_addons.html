@@ -57,35 +57,83 @@ layout: default
         {% assign information_group = grouped_items | where: "name", "information" | first %}
         {% assign other_groups = grouped_items | where_exp: "group", "group.name != 'information'" %}
 
+        <!-- Auto-generate blocks of content based on markdown files; if we want to include pages that already exist, we add them manually in te respective addon's .md file -->
+        <!-- See pharmacy.md for an example of this; Binders have 3 new pages + 1 old page (Mannitol), so we add a Category for 'Binders' and add Mannitol in; the rest follows -->
           <div class="blocks-categorypage_afflictions">
+            {% assign manual_titles = page.manual_blocks | map: "title" %}
+              {% if information_group %}
 
-            {% if information_group %}
-              <section class="block">
-                <h2>{{ information_group.name | replace: "_", " " | capitalize }}</h2>
-                {% for item in information_group.items %}
-                  <a href="{{ item.url | relative_url }}">
-                    <span>{{ item.title }}</span>
-                    {% if item.inline_image %}
-                      <img src="{{ item.inline_image | relative_url }}" alt="{{ item.title }}">
-                    {% endif %}
-                  </a>
-                {% endfor %}
-              </section>
-            {% endif %}
+                <section class="block">
+                  <h2>{{ information_group.name | replace: "_", " " | capitalize }}</h2>
+                  {% for item in information_group.items %}
+                    <a href="{{ item.url | relative_url }}">
+                      <span>{{ item.title }}</span>
 
-            {% for subgroup in other_groups %}
-              <section class="block">
-                <h2>{{ subgroup.name | replace: "_", " " | capitalize }}</h2>
-                {% for item in subgroup.items %}
-                  <a href="{{ item.url | relative_url }}">
-                    <span>{{ item.title }}</span>
-                    {% if item.inline_image %}
-                      <img src="{{ item.inline_image | relative_url }}" alt="{{ item.title }}">
+                      {% if item.inline_image %}
+                        <img src="{{ item.inline_image | relative_url }}" alt="{{ item.title }}">
+                      {% endif %}
+                    </a>
+                  {% endfor %}
+                </section>
+              {% endif %}
+
+
+              {% for subgroup in other_groups %}
+                {% assign subgroup_title = subgroup.name | replace: "_", " " | capitalize %}
+                {% unless manual_titles contains subgroup_title %}
+
+                  <section class="block">
+                    <h2>{{ subgroup_title }}</h2>
+                    {% for item in subgroup.items %}
+                      <a href="{{ item.url | relative_url }}">
+                        <span>{{ item.title }}</span>
+                        {% if item.inline_image %}
+                          <img src="{{ item.inline_image | relative_url }}" alt="{{ item.title }}">
+                        {% endif %}
+                      </a>
+                    {% endfor %}
+                  </section>
+
+                {% endunless %}
+              {% endfor %}
+
+              {% if page.manual_blocks %}
+                {% for manual_group in page.manual_blocks %}
+                  <section class="block">
+
+                    <h2>{{ manual_group.title }}</h2>
+                    {% assign subgroup_key = manual_group.title | downcase | replace: " ", "_" %}
+                    {% assign auto_group = grouped_items | where: "name", subgroup_key | first %}
+                    {% if auto_group %}
+                      {% for item in auto_group.items %}
+                        <a href="{{ item.url | relative_url }}">
+                          <span>{{ item.title }}</span>
+
+                          {% if item.inline_image %}
+                            <img src="{{ item.inline_image | relative_url }}" alt="{{ item.title }}">
+                          {% endif %}
+                        </a>
+                      {% endfor %}
                     {% endif %}
-                  </a>
+                    {% for raw_item in manual_group.items %}
+                      {% assign token = raw_item | remove: "{{" | remove: "}}" | strip %}
+                      {% assign link_data = site.data.links[token] %}
+                      {% if link_data %}
+                        {% assign linked_page = site.wikipages | where: "url", link_data.url | first %}
+                        <a href="{{ link_data.url | relative_url }}">
+                          <span>
+                            {{ linked_page.title | default: token | replace: "_", " " | capitalize }}
+                          </span>
+                          {% if linked_page.inline_image %}
+                            <img src="{{ linked_page.inline_image | relative_url }}" alt="{{ linked_page.title }}">
+                          {% endif %}
+                        </a>
+                      {% endif %}
+                    {% endfor %}
+                  </section>
+
                 {% endfor %}
-              </section>
-            {% endfor %}
+              {% endif %}
           </div>
       </section>
     </div>

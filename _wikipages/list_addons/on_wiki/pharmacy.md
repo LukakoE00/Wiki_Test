@@ -1,8 +1,8 @@
 ---
 layout: cgp_addons
-title: "NT: Pharmacy"
+title: "NT: Pharmacy (WIP PAGES)"
 category: addons
-subcategory: not_wiki
+subcategory: on_wiki
 addon: pharmacy
 permalink: /addons/pharmacy/
 
@@ -26,4 +26,16 @@ blocks:
       - [Trello](https://trello.com/b/lA0BSokX/neurotrauma-and-medical-guide)
       - [Workshop Page](https://steamcommunity.com/sharedfiles/filedetails/?id=3247838390)
       - [GitHub Repository](https://github.com/OlegBSTU/Neurotrauma/tree/main/NT%20Pharmacy)
+
+manual_blocks:
+  - title: Bases
+    items:
+      - "{{ALIEN_BLOOD}}"
+      - "{{BLOOD_PACKS}}"
+      - "{{RINGERS_SOLUTION}}"
+      - "{{SALINE}}"
+
+  - title: Binders
+    items:
+      - "{{MANNITOL}}"
 ---

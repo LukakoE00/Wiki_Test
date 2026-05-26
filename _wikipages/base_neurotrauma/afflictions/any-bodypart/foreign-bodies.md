@@ -3,7 +3,7 @@ layout: contentpage
 title: Foreign Bodies
 category: afflictions
 subcategory: any_bodypart
-permalink: /afflictions/any-bodypart/foreign-bodies/
+permalink: /afflictions/any-bodypart/foreign_bodies/
 image: /images/svg/anybodypart.svg
 inline_image: /images/base_neurotrauma/afflictions/any-bodypart/foreign_bodies.png
 

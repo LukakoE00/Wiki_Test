@@ -31,7 +31,7 @@ God no! We will spam comments instead!
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 /* Header Formatting */
@@ -426,10 +426,13 @@ main {
 .infobox-label--mental-symptom { background-color: #50253F; color: #000000; }
 .infobox-label--niche { background-color: #96999E; color: #000000; }
 .infobox-label--toggleable { background-color: #1558BC; color: #000000; }
+
+/* Expansions */
 .infobox-label--cybernetics-expansion { background-color: #164555; color: #000000; }
 .infobox-label--surgery-plus-expansion { background-color: #6CC3E0; color: #000000; }
 .infobox-label--eyes-expansion { background-color: #6CC3E0; color: #000000; }
 .infobox-label--infections-expansion { background-color: #6CC3E0; color: #000000; }
+.infobox-label--pharmacy-expansion { background-color: #6CC3E0; color: #000000; }
 
 /* Just list all pages side by side in the Label-specific pages */
 .blocks-labelpage {

@@ -44,7 +44,7 @@ blocks:
      - {{CARDIAC_ARREST}}  (at 40% or more)
      - {{RESPIRATORY_ARREST}}  (at 30% or more)
      - {{NEUROTRAUMA}}  (equal to strength divided by 100 per second, 10% or more is the point at which it outpaces natural regeneration)
-     - [Psychosis](barotraumagame.com/wiki/Psychosis) (equal to strength divided by 100 per second)
+     - {{PSYCHOSIS}} (equal to strength divided by 100 per second)
   
   - type: treatments
     header: "Treatments:"

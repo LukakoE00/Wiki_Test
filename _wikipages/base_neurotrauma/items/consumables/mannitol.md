@@ -7,6 +7,14 @@ permalink: /items/consumables/mannitol
 image: /images/svg/anybodypart.svg
 inline_image: //images/base_neurotrauma/items/consumables/mannitol.png
 
+addons:
+  - id: vanilla
+    label: Base Neurotrauma
+
+  - id: pharmacy
+    label: NT Pharmacy Ingredient
+
+
 infobox:
   - title: Labels
     sections:
@@ -44,12 +52,14 @@ infobox:
 blocks:
   - type: description
     header: "Description:"
+    addon: vanilla
     order: 1
     text: |
      Mannitol is a medication used to treat {{NEUROTRAUMA}} and halve its gain. In return, it causes various organ damage. For Mannitol to treat {{NEUROTRAUMA}}, Blood Pressure must be greater than 70% and {{HYPOXEMIA}} must be less than 30%
 
   - type: application_success
     header: "Application Success:"
+    addon: vanilla
     order: 2
     text: |
 
@@ -60,6 +70,7 @@ blocks:
 
   - type: application_failure
     header: "Application Failure:"
+    addon: vanilla
     order: 3
     text: |
 
@@ -70,4 +81,32 @@ blocks:
 
      Effects occur over 10 seconds.
 
+# ------------------------------------------ NT PHARMACY INGREDIENT -------------------------------------------
+
+  - type: description
+    header: "Description:"
+    addon: pharmacy
+    order: 1
+    text: |
+      #### - Type: "Binder"
+      #### - Skill Required: {{MEDICAL}} 60
+      <br>
+      In pill form, Mannitol does not cause organ damage like it does for the base item.
+
+  - type: effects
+    header: "Crafting Success:"
+    addon: pharmacy
+    order: 2
+    text: |
+      - Multiplies output yield by 2x
+      - Adds 10% Mannitol affliction (1/5th a normal Mannitol) to all created pills
+
+
+  - type: effects
+    header: "Crafting Failure:"
+    addon: pharmacy
+    order: 3
+    text: |
+      - Multiplies output yield by 2x
+      - Adds 5% Mannitol affliction (1/10th a normal Mannitol) to all created pills
 ---

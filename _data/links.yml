@@ -78,9 +78,6 @@ PLASTIC:
 ORGANIC_FIBER:
   url: https://barotraumagame.com/wiki/Organic_Fiber
   image: /images/non-neurotrauma/resources/organic_fiber.png
-ETHANOL:
-  url: https://barotraumagame.com/wiki/Ethanol
-  image: /images/non-neurotrauma/resources/ethanol.png
 RUBBER:
   url: https://barotraumagame.com/wiki/Rubber
   image: /images/non-neurotrauma/resources/rubber.png
@@ -90,6 +87,9 @@ SULPHURIC_ACID:
 ELASTIN:
   url: https://barotraumagame.com/wiki/Elastin
   image: /images/non-neurotrauma/resources/elastin.png
+ETHANOL:
+  url: https://barotraumagame.com/wiki/Ethanol
+  image: /images/non-neurotrauma/resources/ethanol.png
 TITANIUM_ALUMINIUM_ALLOY:
   url: https://barotraumagame.com/wiki/Titanium-Aluminium_Alloy
   image: /images/non-neurotrauma/resources/titanium_aluminium_alloy.png
@@ -112,6 +112,9 @@ SEA_YEAST_SHROOM:
 RAPTOR_BANE:
   url: https://barotraumagame.com/wiki/Raptor_Bane
   image: /images/non-neurotrauma/resources/raptor_bane.png
+ELASTIN_PLANT:
+  url: https://barotraumagame.com/wiki/Elastin_Plant
+  image: /images/non-neurotrauma/resources/elastin_plant.png
 
 # NON-NEUROTRAUMA MEDICAL ITEMS
 ANABOLIC_STEROIDS:
@@ -1032,3 +1035,7 @@ DEBRIDEMENT:
 SAMPLE_COLLECTION:
   url: /afflictions/nt_infections/sample_collection/
   image: /images/addon_infections/procedures/sample_collection.png
+
+# ----------------------------------------- PHARMACY ------------------------------------------------
+# NT PHARMACY
+
