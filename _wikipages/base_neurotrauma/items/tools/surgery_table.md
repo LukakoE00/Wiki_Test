@@ -5,7 +5,7 @@ category: items
 subcategory: tools
 permalink: /items/tools/surgery_table
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/tools/surgery_table.png
+inline_image: /images/base_neurotrauma/items/tools/surgery_table.png
 
 infobox:
   - title: Labels
@@ -37,7 +37,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 200 marks"
+          - "Base Price: 200 Marks"
           - "Buyable at Merchant: Medical"
 
 blocks:

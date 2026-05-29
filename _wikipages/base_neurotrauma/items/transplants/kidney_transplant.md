@@ -5,7 +5,7 @@ category: items
 subcategory: transplants
 permalink: /items/transplants/kidney_transplant
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/transplants/kidney_transplant.png
+inline_image: /images/base_neurotrauma/items/transplants/kidney_transplant.png
 
 infobox:
   - title: Labels
@@ -34,7 +34,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 400 marks"
+          - "Base Price: 400 Marks"
           - "Buyable at Merchant: Medical"
 
 blocks:

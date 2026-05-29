@@ -5,7 +5,7 @@ category: items
 subcategory: tools
 permalink: /items/tools/antiseptic_sprayer
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/tools/antiseptic_sprayer.png
+inline_image: /images/base_neurotrauma/items/tools/antiseptic_sprayer.png
 
 infobox:
   - title: Labels
@@ -35,7 +35,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 75 marks"
+          - "Base Price: 75 Marks"
           - "Buyable at Merchant: Medical"
 
 blocks:

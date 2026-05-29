@@ -5,7 +5,7 @@ category: items
 subcategory: tools
 permalink: /items/tools/manual_defibrillator
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/tools/manual_defibrillator.png
+inline_image: /images/base_neurotrauma/items/tools/manual_defibrillator.png
 
 infobox:
   - title: Labels
@@ -38,7 +38,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 100 marks"
+          - "Base Price: 100 Marks"
           - "Buyable at Merchant: Medical"
 
 blocks:

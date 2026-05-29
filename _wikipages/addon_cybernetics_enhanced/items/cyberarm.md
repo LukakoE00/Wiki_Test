@@ -42,7 +42,7 @@ infobox:
   - title: Store (Normal)
     sections:
       - items:
-          - "Base Price: 500 marks"
+          - "Base Price: 500 Marks"
           - "Buyable at Merchant: Medical, Engineering, Research"
           
   - title: Crafting (Waterproof)
@@ -69,7 +69,7 @@ infobox:
     sections:
       - items:
           - "Minimum Difficulty: 15%"
-          - "Base Price: 2000 marks"
+          - "Base Price: 2000 Marks"
           - "Buyable at Merchant: Medical, Engineering, Research"
 
 blocks:

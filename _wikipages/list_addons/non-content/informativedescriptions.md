@@ -1,9 +1,9 @@
 ---
 layout: contentpage
-title: "BetterHealthUI (Rework)"
+title: "NT: Informative Descriptions"
 category: addons
-subcategory: not_wiki
-permalink: /addons/betterhealthui/
+subcategory: non_content
+permalink: /addons/informative_descriptions/
 
 blocks:
   - type: description
@@ -17,9 +17,10 @@ blocks:
       <br><br>
 
       #### Compatibility:
-      - No known incompatibilities.
+      - Has support for: Base Neurotrauma, NT: Cybernetics, NT: Cybernetics Enhanced, NT: Cybernetics Improved.
+      - Can sometimes crash in the Submarine Editor if too many mods are loaded.
       <br><br>
 
       #### Links:
-      - [Workshop Page](https://steamcommunity.com/sharedfiles/filedetails/?id=3231293294)
+      - [Workshop Page](https://steamcommunity.com/sharedfiles/filedetails/?id=3294275235)
 ---

@@ -20,7 +20,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 100 marks"
+          - "Base Price: 100 Marks"
           - "Buyable at Merchant: Medical"
 
 blocks:

@@ -5,7 +5,7 @@ category: items
 subcategory: tools
 permalink: /items/tools/refrigerated_crate
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/tools/refrigerated_crate.png
+inline_image: /images/base_neurotrauma/items/tools/refrigerated_crate.png
 
 infobox:
   - title: Labels
@@ -36,7 +36,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 150 marks"
+          - "Base Price: 150 Marks"
           - "Buyable at Merchant: Medical"
 
 blocks:

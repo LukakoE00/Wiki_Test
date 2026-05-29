@@ -5,7 +5,7 @@ category: items
 subcategory: consumables
 permalink: /items/consumables/saline
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/consumables/saline.png
+inline_image: /images/base_neurotrauma/items/consumables/saline.png
 
 addons:
   - id: vanilla
@@ -43,7 +43,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 50 marks"
+          - "Base Price: 50 Marks"
           - "Buyable at Outposts: All"
           - "Buyable at Merchant: Medical"
 

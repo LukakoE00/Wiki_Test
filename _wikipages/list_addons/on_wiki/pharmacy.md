@@ -1,6 +1,6 @@
 ---
 layout: cgp_addons
-title: "NT: Pharmacy (WIP PAGES)"
+title: "NT: Pharmacy"
 category: addons
 subcategory: on_wiki
 addon: pharmacy
@@ -26,6 +26,7 @@ blocks:
       - [Trello](https://trello.com/b/lA0BSokX/neurotrauma-and-medical-guide)
       - [Workshop Page](https://steamcommunity.com/sharedfiles/filedetails/?id=3247838390)
       - [GitHub Repository](https://github.com/OlegBSTU/Neurotrauma/tree/main/NT%20Pharmacy)
+      - [Pill Calculator](https://docs.google.com/spreadsheets/d/1ERe6xAUqteAaiMdoqHVKsDStj8fVw_k0JSMISiOrzKQ/edit#gid=1792080105) (Copy it into google drive to calculate effects)
 
 manual_blocks:
   - title: Bases
@@ -38,4 +39,30 @@ manual_blocks:
   - title: Binders
     items:
       - "{{MANNITOL}}"
+  
+  - title: Active ingredients (positive)
+    items:
+      - "{{ADRENALINE}}"
+      - "{{ANAPARALYZANT}}"
+      - "{{AZATHIOPRINE}}"
+      - "{{BROAD_SPECTRUM_ANTIBIOTICS}}"
+      - "{{COMBAT_STIMULANT}}"
+      - "{{DEUSIZINE}}"
+      - "{{FENTANYL}}"
+      - "{{HALOPERIDOL}}"
+      - "{{HYPERZINE}}"
+      - "{{LIQUID_OXYGENITE}}"
+      - "{{MANNITOL_PLUS}}"
+      - "{{METHAMPHETAMINE}}"
+      - "{{MORPHINE}}"
+      - "{{NALOXONE}}"
+      - "{{NITROGLYCERIN}}"
+      - "{{OPIUM}}"
+      - "{{PROPOFOL}}"
+      - "{{STREPTOKINASE}}"
+      - "{{THIAMINE}}"
+
+  - title: Active ingredients (negative)
+    items:
+      - "{{RAPTOR_BANE_EXTRACT}}"
 ---

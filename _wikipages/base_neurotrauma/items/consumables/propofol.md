@@ -5,7 +5,14 @@ category: items
 subcategory: consumables
 permalink: /items/consumables/propofol
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/consumables/propofol.png
+inline_image: /images/base_neurotrauma/items/consumables/propofol.png
+
+addons:
+  - id: vanilla
+    label: Base Neurotrauma
+
+  - id: pharmacy
+    label: NT Pharmacy Ingredient
 
 infobox:
   - title: Labels
@@ -33,12 +40,13 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 200 marks"
-          - "Buyable at Merchant: Medical"
+          - "Base Price: 200 Marks"
+          - "Buyable at Outposts: Merchant: Medical"
 
 blocks:
   - type: description
     header: "Description:"
+    addon: vanilla
     order: 1
     text: |
      **Propofol is no longer craftable**
@@ -57,4 +65,23 @@ blocks:
      - {{SEIZURE}}
      - {{VOMITING_BLOOD}}
      - \-100% {{PSYCHOSIS}}
+
+# ------------------------------------------ NT PHARMACY INGREDIENT -------------------------------------------
+
+  - type: description
+    header: "Description:"
+    addon: pharmacy
+    order: 1
+    text: |
+      #### - Type: "Active Ingredient"
+      #### - Skill Required: {{MEDICAL}} 0
+      <br>
+      An active pill ingredient made from {{PROPOFOL}}; has positive effects.
+
+  - type: effects
+    header: "Crafting Success:"
+    addon: pharmacy
+    order: 2
+    text: |
+      - Minor {{ANALGESIA}} until full effect as per base {{PROPOFOL}}.
 ---

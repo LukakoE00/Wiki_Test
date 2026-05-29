@@ -5,7 +5,7 @@ category: items
 subcategory: tools
 permalink: /items/tools/body_bag
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/tools/body_bag.png
+inline_image: /images/base_neurotrauma/items/tools/body_bag.png
 
 infobox:
   - title: Labels
@@ -33,7 +33,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 60 marks"
+          - "Base Price: 60 Marks"
           - "Buyable at Merchant: Medical"
 
 blocks:

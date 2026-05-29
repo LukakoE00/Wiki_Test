@@ -59,7 +59,7 @@ layout: default
 
         <!-- Auto-generate blocks of content based on markdown files; if we want to include pages that already exist, we add them manually in te respective addon's .md file -->
         <!-- See pharmacy.md for an example of this; Binders have 3 new pages + 1 old page (Mannitol), so we add a Category for 'Binders' and add Mannitol in; the rest follows -->
-          <div class="blocks-categorypage_afflictions">
+          <div class="blocks-categorypage_addons">
             {% assign manual_titles = page.manual_blocks | map: "title" %}
               {% if information_group %}
 

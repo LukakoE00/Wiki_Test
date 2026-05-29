@@ -5,7 +5,14 @@ category: items
 subcategory: consumables
 permalink: /items/consumables/methamphetamine
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/consumables/methamphetamine.png
+inline_image: /images/base_neurotrauma/items/consumables/methamphetamine.png
+
+addons:
+  - id: vanilla
+    label: Base Neurotrauma
+
+  - id: pharmacy
+    label: NT Pharmacy Ingredient
 
 infobox:
   - title: Labels
@@ -38,22 +45,23 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 50 marks"
+          - "Base Price: 50 Marks"
           - "Buyable at Outposts: Colony, Research"
           - "Buyable at Merchant: Military"
 
 blocks:
   - type: description
     header: "Description:"
+    addon: vanilla
     order: 1
     text: |
      A stimulant.
 
   - type: application_success
     header: "Application Success:"
+    addon: vanilla
     order: 2
     text: |
-
      - \+70% {{HYPERACTIVITY}}
      - \+15% {{VANILLA_ORGAN_DAMAGE}}
      - \+15% {{NEUROTRAUMA}}
@@ -64,9 +72,9 @@ blocks:
 
   - type: application_failure
     header: "Application Failure:"
+    addon: vanilla
     order: 3
     text: |
-
      - \+50% {{HYPERACTIVITY}}
      - \+30% {{VANILLA_ORGAN_DAMAGE}}
      - \+30% {{NEUROTRAUMA}}
@@ -77,4 +85,39 @@ blocks:
 
      {{HYPERACTIVITY}} occurs instantly, while the other effects occur over 30 seconds.
 
+# ------------------------------------------ NT PHARMACY INGREDIENT -------------------------------------------
+
+  - type: description
+    header: "Description:"
+    addon: pharmacy
+    order: 1
+    text: |
+      #### - Type: "Active Ingredient"
+      #### - Skill Required: {{MEDICAL}} 35
+      <br>
+      An active pill ingredient made from {{METHAMPHETAMINE}}; has positive effects.
+
+  - type: effects
+    header: "Crafting Success:"
+    addon: pharmacy
+    order: 2
+    text: |
+      - +35% {{HYPERACTIVITY}} (210/600 max, 0-35% movement speed, 0-30% swimming speed, 0-35% melee attack speed), -1/s
+      - +7 Organ damage
+      - +7 {{NEUROTRAUMA}}
+      - +15 {{PSYCHOSIS}}
+      - +7 {{CHEMICAL_ADDICTION}}
+      - -45 {{WITHDRAWAL}}
+
+  - type: effects
+    header: "Crafting Failure:"
+    addon: pharmacy
+    order: 3
+    text: |
+      - +25% {{HYPERACTIVITY}} (150/600 max, 0-35% movement speed, 0-30% swimming speed, 0-35% melee attack speed), -1/s
+      - +15 Organ damage
+      - +15 {{NEUROTRAUMA}}
+      - +22 {{PSYCHOSIS}}
+      - +15 {{CHEMICAL_ADDICTION}}
+      - -45 {{WITHDRAWAL}}
 ---

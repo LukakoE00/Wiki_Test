@@ -7,10 +7,10 @@ God no! We will spam comments instead!
 /* Used to sync colours across pages without having to change them manually every time */
 :root {
     /* Backgrounds */
-    --colour-background-general: rgb(36, 37, 40);
-    --colour-background-header: rgb(31, 31, 31);
-    --colour-background-sidebar: rgb(36, 37, 40);
-    --colour-background-contentbox: rgb(31, 31, 31);
+    --colour-background-general: #5E5C57;
+    --colour-background-header: #3D3D41;
+    --colour-background-sidebar: #3D3B40;
+    --colour-background-contentbox: #302F29;
 
     /* UI Elements */
     --colour-borders: #00000085;
@@ -51,7 +51,7 @@ header {
 
     /* Customization */
     background: var(--colour-background-header);
-    border-bottom: 1px solid var(--colour-borders);
+    border-bottom: 1.5px solid var(--colour-borders);
 }
 
 header h2 a {
@@ -73,7 +73,7 @@ header h2 a:hover {
 
     /* Customization */
     transition: width 0.2s ease;
-    border: 1px solid var(--colour-borders);
+    border: 1.5px solid var(--colour-borders);
 }
 
 /* Navigation Bar Focussing */
@@ -106,9 +106,9 @@ header h2 a:hover {
     /* Customization */
     background: var(--colour-background-general);
     border-top: none;
-    border-right: 1px solid var(--colour-borders);
-    border-left: 1px solid var(--colour-borders);
-    border-bottom: 1px solid var(--colour-borders);
+    border-right: 1.5px solid var(--colour-borders);
+    border-left: 1.5px solid var(--colour-borders);
+    border-bottom: 1.5px solid var(--colour-borders);
     border-radius: var(--size-bordercurves);
 }
 
@@ -157,9 +157,10 @@ body {
     position: sticky;
     z-index: 999;
     height: 100vh; /* Ensures it goes all the way down and doesn't randomly cut off. There must be a better way for this */
-    width: 150px;
+    width: 180px;
     padding-top: 10px;
     padding-right: 5px;
+    padding-left: 5px;
 
     /* Determines content positioning */
     overflow-y: auto;
@@ -167,7 +168,7 @@ body {
 
     /* Customization */
     background: var(--colour-background-sidebar);
-    border-right: 1px solid var(--colour-borders);
+    border-right: 1.5px solid var(--colour-borders);
 }
 
 /* Sidebar 'links' */
@@ -182,7 +183,7 @@ body {
     /* Customization */
     margin-bottom: 1rem;
     background: var(--colour-background-contentbox);
-    border: 1px solid var(--colour-borders);
+    border: 1.5px solid var(--colour-borders);
     color: var(--colour-text-default);
     text-decoration: none;
 }
@@ -216,7 +217,7 @@ main {
     gap: 0.5rem;
 
     /* Styling */
-    border-bottom: 1px solid var(--colour-borders);
+    border-bottom: 1.5px solid var(--colour-borders);
 }
 
 /* Scale the image next to the title so it doesn't take up half the page */
@@ -246,13 +247,13 @@ main {
 
     /* Customization */
     background: var(--colour-background-contentbox);
-    border: 1px solid var(--colour-borders);
+    border: 1.5px solid var(--colour-borders);
     border-radius: 5px;
 }
 
 /* Links within the top block */
 .homepage-top-block a {
-    border: 1px solid var(--colour-borders);
+    border: 1.5px solid var(--colour-borders);
     padding: 4px;
     display: inline-block;
     margin: 0.20rem;
@@ -286,6 +287,14 @@ main {
 .blocks-categorypage_afflictions {
     /* Determines content positioning */
     column-count: 4;
+    column-gap: 40px;
+    padding: 0.5rem 0;
+}
+
+/* Middle-ground for Addon content */
+.blocks-categorypage_addons {
+    /* Determines content positioning */
+    column-count: 3;
     column-gap: 40px;
     padding: 0.5rem 0;
 }
@@ -334,7 +343,7 @@ main {
 .infobox-card {
     padding: 1.5rem;
     background: var(--colour-background-contentbox);
-    border: 1px solid var(--colour-borders);
+    border: 1.5px solid var(--colour-borders);
     border-radius: var(--size-bordercurves);
     display: flex;
     flex-direction: column;
@@ -346,7 +355,7 @@ main {
     font-size: 1.2rem;
     font-weight: 600;
     padding-bottom: 0.5rem;
-    border-bottom: 1px solid var(--colour-borders);
+    border-bottom: 1.5px solid var(--colour-borders);
 }
 
 /* Subheader! */
@@ -459,7 +468,7 @@ main {
 
     /* Customization */
     background: var(--colour-background-contentbox);
-    border: 1px solid var(--colour-borders);
+    border: 1.5px solid var(--colour-borders);
     border-radius: var(--size-bordercurves);
 }
 
@@ -498,7 +507,7 @@ main {
 
     /* Customization */
     background: var(--colour-background-contentbox);
-    border: 1px solid var(--colour-borders);
+    border: 1.5px solid var(--colour-borders);
     border-radius: var(--size-bordercurves);
 }
 
@@ -530,12 +539,12 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    flex-wrap: wrap;
     transition: transform 0.15s ease, box-shadow 0.15s ease;
 
     /* Customization */
     background: var(--colour-background-inlinelink) 0.15s ease;
-    border: 1px solid var(--colour-borders);
+    border: 1.5px solid var(--colour-borders);
     border-radius: var(--size-bordercurves);
     text-decoration: none;
     color: var(--colour-text-default);
@@ -568,7 +577,7 @@ main {
 /* Make the button a rectangle to differentiate it from the rest of the content on the page */
 .addon-button {
   padding: 0.4rem 0.8rem;
-  border: 1px solid var(--colour-borders);
+  border: 1.5px solid var(--colour-borders);
   background: var(--colour-background-contentbox);
   color: var(--colour-text-default);
   cursor: pointer;
@@ -594,6 +603,7 @@ main {
         align-items: center;
         padding-top: 10px;
         padding-right: 5px;
+        padding-left: 5px;
         overflow-x: auto;
         overflow-y: hidden;
 
@@ -603,7 +613,7 @@ main {
         width: 100%;
 
         border-right: none;
-        border-top: 1px solid var(--colour-borders);
+        border-top: 1.5px solid var(--colour-borders);
 
         position: fixed;
         bottom: 0;
@@ -626,6 +636,60 @@ main {
 
     .blocks-categorypage_items{
         column-count: 1;
+    }
+
+    .topnav input,
+    .topnav input:focus{
+        width: 100%;
+        max-width: 200px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .container{
+        flex-direction: column;
+    }
+
+    #sidebar{
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding-top: 10px;
+        padding-right: 5px;
+        padding-left: 5px;
+        overflow-x: auto;
+        overflow-y: hidden;
+
+        white-space: nowrap;
+
+        height: 50px;
+        width: 100%;
+
+        border-right: none;
+        border-top: 1.5px solid var(--colour-borders);
+
+        position: fixed;
+        bottom: 0;
+        top: unset;
+    }
+
+    #sidebar a{
+        display: block;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .contentpage-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .blocks-categorypage_afflictions{
+        column-count: 2;
+    }
+
+    .blocks-categorypage_items{
+        column-count: 2;
     }
 
     .topnav input,

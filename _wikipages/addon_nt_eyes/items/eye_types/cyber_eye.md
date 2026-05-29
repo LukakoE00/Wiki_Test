@@ -40,7 +40,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 1000 marks"
+          - "Base Price: 1000 Marks"
           - "Minimum level difficulty: 30%"
           - "Buyable at Outposts: Research"
 

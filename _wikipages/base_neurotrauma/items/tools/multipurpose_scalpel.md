@@ -5,7 +5,7 @@ category: items
 subcategory: tools
 permalink: /items/tools/multipurpose_scalpel
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/tools/multipurpose_scalpel.png
+inline_image: /images/base_neurotrauma/items/tools/multipurpose_scalpel.png
 
 infobox:
   - title: Labels
@@ -38,7 +38,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 210 marks"
+          - "Base Price: 210 Marks"
           - "Buyable at Merchant: Medical"
 
 blocks:

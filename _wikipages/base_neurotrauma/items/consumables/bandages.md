@@ -5,7 +5,7 @@ category: items
 subcategory: consumables
 permalink: /items/consumables/bandages
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/consumables/bandages.png
+inline_image: /images/base_neurotrauma/items/consumables/bandages.png
 
 infobox:
   - title: Labels
@@ -35,7 +35,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 30 marks"
+          - "Base Price: 30 Marks"
           - "Buyable at Outposts: All"
           - "Buyable at Merchant: Medical"
 

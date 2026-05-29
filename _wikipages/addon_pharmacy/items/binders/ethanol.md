@@ -31,7 +31,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 60 marks"
+          - "Base Price: 60 Marks"
           - "Buyable at Outposts: All"
           - "Buyable at Merchant: Nightclub"
           - "Found in Vending Machines"

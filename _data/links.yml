@@ -70,6 +70,15 @@ INCENDIUM_CRYSTAL:
 DEMENTONITE_CLUSTER:
   url: https://barotraumagame.com/wiki/Dementonite_Cluster
   image: /images/non-neurotrauma/resources/dementonite_cluster.png
+LEAD:
+  url: https://barotraumagame.com/wiki/Lead
+  image: /images/non-neurotrauma/resources/lead.png
+POOP:
+  url: https://barotraumagame.com/wiki/Poop
+  image: /images/non-neurotrauma/resources/poop.png
+THORIUM:
+  url: https://barotraumagame.com/wiki/Thorium
+  image: /images/non-neurotrauma/resources/thorium.png
 
 # MATERIALS
 PLASTIC:
@@ -159,6 +168,24 @@ TONIC_LIQUID:
 POMEGRENADE_EXTRACT:
   url: https://barotraumagame.com/wiki/Pomegrenade_Extract
   image: /images/non-neurotrauma/resources/pomegrenade_extract.png
+CALYXANIDE:
+  url: https://barotraumagame.com/wiki/Calyxanides
+  image: /images/non-neurotrauma/resources/calyxanide.png
+CALYX_EXTRACT:
+  url: https://barotraumagame.com/wiki/Calyx_Extract
+  image: /images/non-neurotrauma/resources/calyxanide.png
+DELIRIUMINE:
+  url: https://barotraumagame.com/wiki/Deliriumine
+  image: /images/non-neurotrauma/resources/deliriumine.png
+DELIRIUMINE_ANTIDOTE:
+  url: https://barotraumagame.com/wiki/Deliriumine_Antidote
+  image: /images/non-neurotrauma/resources/deliriumine_antidote.png
+HALLUCINOGENIC_BUFOTOXIN:
+  url: https://barotraumagame.com/wiki/Hallucinogenic_Bufotoxin
+  image: /images/non-neurotrauma/resources/hallucinogenic_bufotoxin.png
+PRESSURE_STABILIZER:
+  url: https://barotraumagame.com/wiki/Pressure_Stabilizer
+  image: /images/non-neurotrauma/resources/pressure_stabilizer.png
 
 # NON-NEUROTRAUMA MEDICAL AFFLICTIONS
 OPIATE_ADDICTION:
@@ -185,6 +212,9 @@ VIGOR:
 PARALYSIS_RESISTANCE:
   url: https://barotraumagame.com/wiki/Paralysis_Resistance
   image: /images/non-neurotrauma/afflictions/psychosis_resistance.png
+PARALYSIS:
+  url: https://barotraumagame.com/wiki/Paralysis
+  image: /images/non-neurotrauma/afflictions/paralysis.png
 PSYCHOSIS_RESISTANCE:
   url: https://barotraumagame.com/wiki/Psychosis_Resistance
   image: /images/non-neurotrauma/afflictions/psychosis_resistance.png
@@ -532,232 +562,232 @@ VANILLA_ORGAN_DAMAGE:
 # Consumables
 ADRENALINE:
   url: /items/consumables/adrenaline
-  image: //images/base_neurotrauma/items/consumables/adrenaline.png
+  image: /images/base_neurotrauma/items/consumables/adrenaline.png
 ALIEN_BLOOD:
   url: /items/consumables/alien_blood
-  image: //images/base_neurotrauma/items/consumables/alien_blood.png
+  image: /images/base_neurotrauma/items/consumables/alien_blood.png
 ANAPARALYZANT:
   url: /items/consumables/anaparalyzant
-  image: //images/base_neurotrauma/items/consumables/anaparalyzant.png
+  image: /images/base_neurotrauma/items/consumables/anaparalyzant.png
 ANTIBIOTIC_GLUE:
   url: /items/consumables/antibiotic_glue
-  image: //images/base_neurotrauma/items/consumables/antibiotic_glue.png
+  image: /images/base_neurotrauma/items/consumables/antibiotic_glue.png
 ANTIBIOTIC_OINTMENT:
   url: /items/consumables/antibiotic_ointment
-  image: //images/base_neurotrauma/items/consumables/antibiotic_ointment.png
+  image: /images/base_neurotrauma/items/consumables/antibiotic_ointment.png
 ANTISEPTIC:
   url: /items/consumables/antiseptic
-  image: //images/base_neurotrauma/items/consumables/antiseptic.png
+  image: /images/base_neurotrauma/items/consumables/antiseptic.png
 AZATHIOPRINE:
   url: /items/consumables/azathioprine
-  image: //images/base_neurotrauma/items/consumables/azathioprine.png
+  image: /images/base_neurotrauma/items/consumables/azathioprine.png
 BANDAGES:
   url: /items/consumables/bandages
-  image: //images/base_neurotrauma/items/consumables/bandages.png
+  image: /images/base_neurotrauma/items/consumables/bandages.png
 BLOOD_PACKS:
   url: /items/consumables/blood_packs
-  image: //images/base_neurotrauma/items/consumables/blood_packs.png
+  image: /images/base_neurotrauma/items/consumables/blood_packs.png
 BROAD_SPECTRUM_ANTIBIOTICS:
   url: /items/consumables/broad_spectrum_antibiotics
-  image: //images/base_neurotrauma/items/consumables/broad_spectrum_antibiotics.png
+  image: /images/base_neurotrauma/items/consumables/broad_spectrum_antibiotics.png
 COMBAT_STIMULANT:
   url: /items/consumables/combat_stimulant
-  image: //images/base_neurotrauma/items/consumables/combat_stimulant.png
+  image: /images/base_neurotrauma/items/consumables/combat_stimulant.png
 DEUSIZINE:
   url: /items/consumables/deusizine
-  image: //images/base_neurotrauma/items/consumables/deusizine.png
+  image: /images/base_neurotrauma/items/consumables/deusizine.png
 DRAINAGE:
   url: /items/consumables/drainage
-  image: //images/base_neurotrauma/items/consumables/drainage.png
+  image: /images/base_neurotrauma/items/consumables/drainage.png
 EMPTY_BLOOD_PACK:
   url: /items/consumables/empty_blood_pack
-  image: //images/base_neurotrauma/items/consumables/empty_blood_pack.png
+  image: /images/base_neurotrauma/items/consumables/empty_blood_pack.png
 ENDOVASCULAR_BALLOON:
   url: /items/consumables/endovascular_balloon
-  image: //images/base_neurotrauma/items/consumables/endovascular_balloon.png
+  image: /images/base_neurotrauma/items/consumables/endovascular_balloon.png
 FENTANYL:
   url: /items/consumables/fentanyl
-  image: //images/base_neurotrauma/items/consumables/fentanyl.png
+  image: /images/base_neurotrauma/items/consumables/fentanyl.png
 GYPSUM:
   url: /items/consumables/gypsum
-  image: //images/base_neurotrauma/items/consumables/gypsum.png
+  image: /images/base_neurotrauma/items/consumables/gypsum.png
 HALOPERIDOL:
   url: /items/consumables/haloperidol
-  image: //images/base_neurotrauma/items/consumables/haloperidol.png
+  image: /images/base_neurotrauma/items/consumables/haloperidol.png
 HYPERZINE:
   url: /items/consumables/hyperzine
-  image: //images/base_neurotrauma/items/consumables/hyperzine.png
+  image: /images/base_neurotrauma/items/consumables/hyperzine.png
 LIQUID_OXYGENITE:
   url: /items/consumables/liquid_oxygenite
-  image: //images/base_neurotrauma/items/consumables/liquid_oxygenite.png
+  image: /images/base_neurotrauma/items/consumables/liquid_oxygenite.png
 MANNITOL:
   url: /items/consumables/mannitol
-  image: //images/base_neurotrauma/items/consumables/mannitol.png
+  image: /images/base_neurotrauma/items/consumables/mannitol.png
 MEDICAL_STENT:
   url: /items/consumables/medical_stent
-  image: //images/base_neurotrauma/items/consumables/medical_stent.png
+  image: /images/base_neurotrauma/items/consumables/medical_stent.png
 METHAMPHETAMINE:
   url: /items/consumables/methamphetamine
-  image: //images/base_neurotrauma/items/consumables/methamphetamine.png
+  image: /images/base_neurotrauma/items/consumables/methamphetamine.png
 MORPHINE:
   url: /items/consumables/morphine
-  image: //images/base_neurotrauma/items/consumables/morphine.png
+  image: /images/base_neurotrauma/items/consumables/morphine.png
 NALOXONE:
   url: /items/consumables/naloxone
-  image: //images/base_neurotrauma/items/consumables/naloxone.png
+  image: /images/base_neurotrauma/items/consumables/naloxone.png
 NEEDLE:
   url: /items/consumables/needle
-  image: //images/base_neurotrauma/items/consumables/needle.png
+  image: /images/base_neurotrauma/items/consumables/needle.png
 NITROGLYCERIN:
   url: /items/consumables/nitroglycerin
-  image: //images/base_neurotrauma/items/consumables/nitroglycerin.png
+  image: /images/base_neurotrauma/items/consumables/nitroglycerin.png
 OPIUM:
   url: /items/consumables/opium
-  image: //images/base_neurotrauma/items/consumables/opium.png
+  image: /images/base_neurotrauma/items/consumables/opium.png
 OSTEOSYNTHESIS_IMPLANTS:
   url: /items/consumables/osteosynthesis_implants
-  image: //images/base_neurotrauma/items/consumables/osteosynthesis_implants.png
+  image: /images/base_neurotrauma/items/consumables/osteosynthesis_implants.png
 PLASTISEAL:
   url: /items/consumables/plastiseal
-  image: //images/base_neurotrauma/items/consumables/plastiseal.png
+  image: /images/base_neurotrauma/items/consumables/plastiseal.png
 PROPOFOL:
   url: /items/consumables/propofol
-  image: //images/base_neurotrauma/items/consumables/propofol.png
+  image: /images/base_neurotrauma/items/consumables/propofol.png
 RAPTOR_BANE_EXTRACT:
   url: /items/consumables/raptor_bane_extract
-  image: //images/base_neurotrauma/items/consumables/raptor_bane_extract.png
+  image: /images/base_neurotrauma/items/consumables/raptor_bane_extract.png
 RINGERS_SOLUTION:
   url: /items/consumables/ringers_solution
-  image: //images/base_neurotrauma/items/consumables/ringers_solution.png
+  image: /images/base_neurotrauma/items/consumables/ringers_solution.png
 SALINE:
   url: /items/consumables/saline
-  image: //images/base_neurotrauma/items/consumables/saline.png
+  image: /images/base_neurotrauma/items/consumables/saline.png
 SODIUM_NITROPRUSSIDE:
   url: /items/consumables/sodium_nitroprusside
-  image: //images/base_neurotrauma/items/consumables/sodium_nitroprusside.png
+  image: /images/base_neurotrauma/items/consumables/sodium_nitroprusside.png
 SPINAL_CORD_IMPLANTS:
   url: /items/consumables/spinal_cord_implants
-  image: //images/base_neurotrauma/items/consumables/spinal_cord_implants.png
+  image: /images/base_neurotrauma/items/consumables/spinal_cord_implants.png
 STREPTOKINASE:
   url: /items/consumables/streptokinase
-  image: //images/base_neurotrauma/items/consumables/streptokinase.png
+  image: /images/base_neurotrauma/items/consumables/streptokinase.png
 SUTURES:
   url: /items/consumables/sutures
-  image: //images/base_neurotrauma/items/consumables/sutures.png
+  image: /images/base_neurotrauma/items/consumables/sutures.png
 THIAMINE:
   url: /items/consumables/thiamine
-  image: //images/base_neurotrauma/items/consumables/thiamine.png
+  image: /images/base_neurotrauma/items/consumables/thiamine.png
 TOURNIQUET:
   url: /items/consumables/tourniquet
-  image: //images/base_neurotrauma/items/consumables/tourniquet.png
+  image: /images/base_neurotrauma/items/consumables/tourniquet.png
 
 # Tools
 AED:
   url: /items/tools/aed
-  image: //images/base_neurotrauma/items/tools/aed.png
+  image: /images/base_neurotrauma/items/tools/aed.png
 AMBUBAG:
   url: /items/tools/ambubag
-  image: //images/base_neurotrauma/items/tools/ambubag.png
+  image: /images/base_neurotrauma/items/tools/ambubag.png
 ANTISEPTIC_SPRAYER:
   url: /items/tools/antiseptic_sprayer
-  image: //images/base_neurotrauma/items/tools/antiseptic_sprayer.png
+  image: /images/base_neurotrauma/items/tools/antiseptic_sprayer.png
 AUTOPULSE:
   url: /items/tools/autopulse
-  image: //images/base_neurotrauma/items/tools/autopulse.png
+  image: /images/base_neurotrauma/items/tools/autopulse.png
 BLUE_SHARK:
   url: /items/tools/blue_shark
-  image: //images/base_neurotrauma/items/tools/blue_shark.png
+  image: /images/base_neurotrauma/items/tools/blue_shark.png
 BODY_BAG:
   url: /items/tools/body_bag
-  image: //images/base_neurotrauma/items/tools/body_bag.png
+  image: /images/base_neurotrauma/items/tools/body_bag.png
 DIVING_KNIFE:
   url: /items/tools/diving_knife
-  image: //images/base_neurotrauma/items/tools/diving_knife.png
+  image: /images/base_neurotrauma/items/tools/diving_knife.png
 GEL_COOLANT_PACK:
   url: /items/tools/gel_coolant_pack
-  image: //images/base_neurotrauma/items/tools/gel_coolant_pack.png
+  image: /images/base_neurotrauma/items/tools/gel_coolant_pack.png
 HEALTH_SCANNER:
   url: /items/tools/health_scanner
-  image: //images/base_neurotrauma/items/tools/health_scanner.png
+  image: /images/base_neurotrauma/items/tools/health_scanner.png
 HEMATOLOGY_ANALYZER:
   url: /items/tools/hematology_analyzer
-  image: //images/base_neurotrauma/items/tools/hematology_analyzer.png
+  image: /images/base_neurotrauma/items/tools/hematology_analyzer.png
 HEMOSTAT:
   url: /items/tools/hemostat
-  image: //images/base_neurotrauma/items/tools/hemostat.png
+  image: /images/base_neurotrauma/items/tools/hemostat.png
 MANUAL_DEFIBRILLATOR:
   url: /items/tools/manual_defibrillator
-  image: //images/base_neurotrauma/items/tools/manual_defibrillator.png
+  image: /images/base_neurotrauma/items/tools/manual_defibrillator.png
 MULTIPURPOSE_SCALPEL:
   url: /items/tools/multipurpose_scalpel
-  image: //images/base_neurotrauma/items/tools/multipurpose_scalpel.png
+  image: /images/base_neurotrauma/items/tools/multipurpose_scalpel.png
 REFRIGERATED_CONTAINER:
   url: /items/tools/refrigerated_container
-  image: //images/base_neurotrauma/items/tools/refrigerated_container.png
+  image: /images/base_neurotrauma/items/tools/refrigerated_container.png
 REFRIGERATED_CRATE:
   url: /items/tools/refrigerated_crate
-  image: //images/base_neurotrauma/items/tools/refrigerated_crate.png
+  image: /images/base_neurotrauma/items/tools/refrigerated_crate.png
 SCALPEL:
   url: /items/tools/scalpel
-  image: //images/base_neurotrauma/items/tools/scalpel.png
+  image: /images/base_neurotrauma/items/tools/scalpel.png
 SKIN_RETRACTORS:
   url: /items/tools/skin_retractors
-  image: //images/base_neurotrauma/items/tools/skin_retractors.png
+  image: /images/base_neurotrauma/items/tools/skin_retractors.png
 STASIS_BAG:
   url: /items/tools/stasis_bag
-  image: //images/base_neurotrauma/items/tools/stasis_bag.png
+  image: /images/base_neurotrauma/items/tools/stasis_bag.png
 SURGERY_TABLE:
   url: /items/tools/surgery_table
-  image: //images/base_neurotrauma/items/tools/surgery_table.png
+  image: /images/base_neurotrauma/items/tools/surgery_table.png
 SURGICAL_DRILL:
   url: /items/tools/surgical_drill
-  image: //images/base_neurotrauma/items/tools/surgical_drill.png
+  image: /images/base_neurotrauma/items/tools/surgical_drill.png
 SURGICAL_SAW:
   url: /items/tools/surgical_saw
-  image: //images/base_neurotrauma/items/tools/surgical_saw.png
+  image: /images/base_neurotrauma/items/tools/surgical_saw.png
 TRAUMA_SHEARS:
   url: /items/tools/trauma_shears
-  image: //images/base_neurotrauma/items/tools/trauma_shears.png
+  image: /images/base_neurotrauma/items/tools/trauma_shears.png
 TWEEZERS:
   url: /items/tools/tweezers
-  image: //images/base_neurotrauma/items/tools/tweezers.png
+  image: /images/base_neurotrauma/items/tools/tweezers.png
 WRENCH:
   url: /items/tools/wrench
-  image: //images/base_neurotrauma/items/tools/wrench.png
+  image: /images/base_neurotrauma/items/tools/wrench.png
 
 # Transplants
 ARM_TRANSPLANT:
   url: /items/transplants/arm_transplant
-  image: //images/base_neurotrauma/items/transplants/arm_transplant.png
+  image: /images/base_neurotrauma/items/transplants/arm_transplant.png
 BRAIN_TRANSPLANT:
   url: /items/transplants/brain_transplant
-  image: //images/base_neurotrauma/items/transplants/brain_transplant.png
+  image: /images/base_neurotrauma/items/transplants/brain_transplant.png
 HEART_TRANSPLANT:
   url: /items/transplants/heart_transplant
-  image: //images/base_neurotrauma/items/transplants/heart_transplant.png
+  image: /images/base_neurotrauma/items/transplants/heart_transplant.png
 KIDNEY_TRANSPLANT:
   url: /items/transplants/kidney_transplant
-  image: //images/base_neurotrauma/items/transplants/kidney_transplant.png
+  image: /images/base_neurotrauma/items/transplants/kidney_transplant.png
 LEG_TRANSPLANT:
   url: /items/transplants/leg_transplant
-  image: //images/base_neurotrauma/items/transplants/leg_transplant.png
+  image: /images/base_neurotrauma/items/transplants/leg_transplant.png
 LIVER_TRANSPLANT:
   url: /items/transplants/liver_transplant
-  image: //images/base_neurotrauma/items/transplants/liver_transplant.png
+  image: /images/base_neurotrauma/items/transplants/liver_transplant.png
 LUNG_TRANSPLANT:
   url: /items/transplants/lung_transplant
-  image: //images/base_neurotrauma/items/transplants/lung_transplant.png
+  image: /images/base_neurotrauma/items/transplants/lung_transplant.png
 
 # Upgrades
 ANALGESIC_TANK:
   url: /items/upgrades/analgesic_tank
-  image: //images/base_neurotrauma/items/upgrades/analgesic_tank.png
+  image: /images/base_neurotrauma/items/upgrades/analgesic_tank.png
 DIALYSIS_FILTER:
   url: /items/upgrades/dialysis_filter
-  image: //images/base_neurotrauma/items/upgrades/dialysis_filter.png
+  image: /images/base_neurotrauma/items/upgrades/dialysis_filter.png
 TOXIN_FILTER:
   url: /items/upgrades/toxin_filter
-  image: //images/base_neurotrauma/items/upgrades/toxin_filter.png
+  image: /images/base_neurotrauma/items/upgrades/toxin_filter.png
 
 # PROCEDURES
 AMPUTATION_SURGERY:
@@ -781,8 +811,10 @@ CONFIGURATION_MENU:
   url: /mechanics/configuration_menu
 FIBRILLATION:
   url: /mechanics/fibrillation
+  image: /images/base_neurotrauma/mechanics/fibrillation.png
 IMMUNITY:
   url: /mechanics/immunity
+  image: /images/base_neurotrauma/mechanics/immunity.png
 ORGAN_REJECTION:
   url: /mechanics/organ_rejection
 

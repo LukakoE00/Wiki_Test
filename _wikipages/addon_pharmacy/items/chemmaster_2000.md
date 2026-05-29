@@ -22,7 +22,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 1500 marks"
+          - "Base Price: 1500 Marks"
           - "Buyable at Merchant: Engineering"
 
 blocks:

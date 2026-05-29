@@ -5,7 +5,7 @@ category: items
 subcategory: consumables
 permalink: /items/consumables/sutures
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/consumables/sutures.png
+inline_image: /images/base_neurotrauma/items/consumables/sutures.png
 
 infobox:
   - title: Labels
@@ -36,7 +36,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 9 marks"
+          - "Base Price: 9 Marks"
           - "Buyable at Outposts: Habitation, Colony"
           - "Buyable at Merchant: Medical"
 

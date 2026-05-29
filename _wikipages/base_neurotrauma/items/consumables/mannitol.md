@@ -5,7 +5,7 @@ category: items
 subcategory: consumables
 permalink: /items/consumables/mannitol
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/consumables/mannitol.png
+inline_image: /images/base_neurotrauma/items/consumables/mannitol.png
 
 addons:
   - id: vanilla
@@ -46,7 +46,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 300 marks"
+          - "Base Price: 300 Marks"
           - "Buyable at Merchant: Medical"
 
 blocks:

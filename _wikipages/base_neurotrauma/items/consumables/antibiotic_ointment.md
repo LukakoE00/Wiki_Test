@@ -5,7 +5,7 @@ category: items
 subcategory: consumables
 permalink: /items/consumables/antibiotic_ointment
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/consumables/antibiotic_ointment.png
+inline_image: /images/base_neurotrauma/items/consumables/antibiotic_ointment.png
 
 infobox:
   - title: Labels
@@ -36,7 +36,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 40 marks"
+          - "Base Price: 40 Marks"
           - "Buyable at Outposts: Habitation, Colony"
           - "Buyable at Merchant: Medical"
 

@@ -31,7 +31,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 200 marks"
+          - "Base Price: 200 Marks"
           - "Buyable at Outpost: Military, Mine"
 
 blocks:

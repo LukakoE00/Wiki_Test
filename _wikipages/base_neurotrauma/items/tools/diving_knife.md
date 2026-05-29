@@ -5,7 +5,7 @@ category: items
 subcategory: tools
 permalink: /items/tools/diving_knife
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/tools/diving_knife.png
+inline_image: /images/base_neurotrauma/items/tools/diving_knife.png
 
 infobox:
   - title: Labels
@@ -33,7 +33,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 29 marks"
+          - "Base Price: 29 Marks"
           - "Buyable at Outposts: All"
           - "Buyable at Merchant: Military, Armory"
 

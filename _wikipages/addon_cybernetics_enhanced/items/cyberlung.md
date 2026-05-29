@@ -41,7 +41,7 @@ infobox:
     sections:
       - items:
           - "Minimum Difficulty: 8%"
-          - "Base Price: 2000 marks"
+          - "Base Price: 2000 Marks"
           - "Buyable at Merchant: Medical, Research"
 
   - title: Crafting (T2 Cyberlung)
@@ -66,7 +66,7 @@ infobox:
     sections:
       - items:
           - "Minimum Difficulty: 30%"
-          - "Base Price: 3500 marks"
+          - "Base Price: 3500 Marks"
           - "Buyable at Merchant: Medical, Research"
 
 blocks:

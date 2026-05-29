@@ -35,7 +35,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 10 marks"
+          - "Base Price: 10 Marks"
           - "Buyable at Outposts: All"
           - "Buyable at Merchant: Engineering"
 

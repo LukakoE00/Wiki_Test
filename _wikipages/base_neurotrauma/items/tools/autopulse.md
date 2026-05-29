@@ -5,7 +5,7 @@ category: items
 subcategory: tools
 permalink: /items/tools/autopulse
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/tools/autopulse.png
+inline_image: /images/base_neurotrauma/items/tools/autopulse.png
 
 infobox:
   - title: Labels
@@ -37,7 +37,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 300 marks"
+          - "Base Price: 300 Marks"
           - "Buyable at Merchant: Medical"
 
 blocks:

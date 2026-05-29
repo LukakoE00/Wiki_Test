@@ -5,7 +5,7 @@ category: items
 subcategory: consumables
 permalink: /items/consumables/antibiotic_glue
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/consumables/antibiotic_glue.png
+inline_image: /images/base_neurotrauma/items/consumables/antibiotic_glue.png
 
 infobox:
   - title: Labels
@@ -37,7 +37,7 @@ infobox:
     sections:
       - items:
           - "Minimum Difficulty: 25%"
-          - "Base Price: 80 marks"
+          - "Base Price: 80 Marks"
           - "Buyable at Outposts: Habitation, Colony"
           - "Buyable at Merchant: Medical"
 

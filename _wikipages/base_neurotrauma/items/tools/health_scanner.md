@@ -5,7 +5,7 @@ category: items
 subcategory: tools
 permalink: /items/tools/health_scanner
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/tools/health_scanner.png
+inline_image: /images/base_neurotrauma/items/tools/health_scanner.png
 
 infobox:
   - title: Labels
@@ -35,7 +35,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 150 marks"
+          - "Base Price: 150 Marks"
           - "Buyable at Outpost: Colony"
           - "Buyable at Merchant: Research, Military, Medical"
 

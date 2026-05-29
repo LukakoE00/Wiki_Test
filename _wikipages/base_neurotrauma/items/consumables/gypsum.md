@@ -5,7 +5,7 @@ category: items
 subcategory: consumables
 permalink: /items/consumables/gypsum
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/consumables/gypsum.png
+inline_image: /images/base_neurotrauma/items/consumables/gypsum.png
 
 infobox:
   - title: Labels
@@ -34,7 +34,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 50 marks"
+          - "Base Price: 50 Marks"
           - "Buyable at Outposts: Habitation, Colony"
           - "Buyable at Merchant: Medical"
 

@@ -5,7 +5,7 @@ category: items
 subcategory: tools
 permalink: /items/tools/trauma_shears
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/tools/trauma_shears.png
+inline_image: /images/base_neurotrauma/items/tools/trauma_shears.png
 
 infobox:
   - title: Labels
@@ -35,7 +35,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 50 marks"
+          - "Base Price: 50 Marks"
           - "Buyable at Outpost: Habitation, Colony"
           - "Buyable at Merchant: Medical"
 

@@ -5,7 +5,7 @@ category: items
 subcategory: tools
 permalink: /items/tools/hematology_analyzer
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/tools/hematology_analyzer.png
+inline_image: /images/base_neurotrauma/items/tools/hematology_analyzer.png
 
 infobox:
   - title: Labels
@@ -39,7 +39,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 250 marks"
+          - "Base Price: 250 Marks"
           - "Buyable at Merchant: Medical"
 
 blocks:

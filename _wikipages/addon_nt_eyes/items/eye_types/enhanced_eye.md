@@ -38,7 +38,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 500 marks"
+          - "Base Price: 500 Marks"
           - "Minimum level difficulty: 20%"
           - "Buyable at Outposts: Research"
           - "Buyable at Merchant: Medical"

@@ -37,7 +37,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 80 marks"
+          - "Base Price: 80 Marks"
           - "Buyable at Outposts: Habitation, Research, Military, Mine"
           - "Buyable at Merchant: Engineering"
 

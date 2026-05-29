@@ -5,7 +5,7 @@ category: items
 subcategory: upgrades
 permalink: /items/upgrades/analgesic_tank
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/upgrades/analgesic_tank.png
+inline_image: /images/base_neurotrauma/items/upgrades/analgesic_tank.png
 
 infobox:
   - title: Labels
@@ -36,7 +36,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 270 marks"
+          - "Base Price: 270 Marks"
           - "Buyable at Outposts: Habitation, Colony"
           - "Buyable at Merchant: Medical"
 

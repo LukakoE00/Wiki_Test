@@ -5,7 +5,7 @@ category: items
 subcategory: tools
 permalink: /items/tools/surgical_saw
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/tools/surgical_saw.png
+inline_image: /images/base_neurotrauma/items/tools/surgical_saw.png
 
 infobox:
   - title: Labels
@@ -34,7 +34,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 100 marks"
+          - "Base Price: 100 Marks"
           - "Buyable at Merchant: Medical"
 
 blocks:

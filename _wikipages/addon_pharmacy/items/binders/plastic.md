@@ -34,7 +34,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 45 marks"
+          - "Base Price: 45 Marks"
           - "Buyable at Outposts: All"
     
 blocks:

@@ -5,7 +5,7 @@ category: items
 subcategory: tools
 permalink: /items/tools/hemostat
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/tools/hemostat.png
+inline_image: /images/base_neurotrauma/items/tools/hemostat.png
 
 infobox:
   - title: Labels
@@ -34,7 +34,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 35 marks"
+          - "Base Price: 35 Marks"
           - "Buyable at Merchant: Medical"
 
 blocks:

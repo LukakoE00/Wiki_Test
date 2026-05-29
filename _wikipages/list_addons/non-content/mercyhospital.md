@@ -2,7 +2,7 @@
 layout: contentpage
 title: "NT: Mercy Hospital"
 category: addons
-subcategory: not_wiki
+subcategory: non_content
 permalink: /addons/mercy_hospital/
 
 blocks:

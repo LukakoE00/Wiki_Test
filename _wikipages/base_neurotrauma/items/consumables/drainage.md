@@ -5,7 +5,7 @@ category: items
 subcategory: consumables
 permalink: /items/consumables/drainage
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/consumables/drainage.png
+inline_image: /images/base_neurotrauma/items/consumables/drainage.png
 
 infobox:
   - title: Labels
@@ -35,7 +35,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 70 marks"
+          - "Base Price: 70 Marks"
           - "Buyable at Merchant: Medical"
 
 blocks:

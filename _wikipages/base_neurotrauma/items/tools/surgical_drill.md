@@ -5,7 +5,7 @@ category: items
 subcategory: tools
 permalink: /items/tools/surgical_drill
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/tools/surgical_drill.png
+inline_image: /images/base_neurotrauma/items/tools/surgical_drill.png
 
 infobox:
   - title: Labels
@@ -35,7 +35,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 80 marks"
+          - "Base Price: 80 Marks"
           - "Buyable at Merchant: Medical"
 
 blocks:

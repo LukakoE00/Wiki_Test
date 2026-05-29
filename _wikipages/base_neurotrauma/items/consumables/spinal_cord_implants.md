@@ -5,7 +5,7 @@ category: items
 subcategory: consumables
 permalink: /items/consumables/spinal_cord_implants
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/consumables/spinal_cord_implants.png
+inline_image: /images/base_neurotrauma/items/consumables/spinal_cord_implants.png
 
 infobox:
   - title: Labels
@@ -38,7 +38,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 350 marks"
+          - "Base Price: 350 Marks"
           - "Buyable at Merchant: Medical"
 
 blocks:

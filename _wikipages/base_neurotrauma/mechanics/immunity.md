@@ -4,6 +4,7 @@ title: Immunity
 category: gamemechanics
 subcategory: base_mechanics
 permalink: /mechanics/immunity
+inline_image: /images/base_neurotrauma/mechanics/immunity.png
 
 blocks:
   - type: description

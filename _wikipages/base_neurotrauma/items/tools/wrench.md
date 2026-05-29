@@ -5,7 +5,7 @@ category: items
 subcategory: tools
 permalink: /items/tools/wrench
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/tools/wrench.png
+inline_image: /images/base_neurotrauma/items/tools/wrench.png
 
 infobox:
   - title: Labels
@@ -34,7 +34,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 20 marks"
+          - "Base Price: 20 Marks"
           - "Buyable at Outposts: All"
           - "Buyable at Merchant: Engineering"
 

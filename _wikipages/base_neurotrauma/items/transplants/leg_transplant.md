@@ -5,7 +5,7 @@ category: items
 subcategory: transplants
 permalink: /items/transplants/leg_transplant
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/transplants/leg_transplant.png
+inline_image: /images/base_neurotrauma/items/transplants/leg_transplant.png
 
 infobox:
   - title: Labels
@@ -33,7 +33,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 1000 marks"
+          - "Base Price: 1000 Marks"
           - "Buyable at Merchant: Medical (Bionic Leg)"
 
 blocks:

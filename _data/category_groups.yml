@@ -82,3 +82,6 @@ addons:
 
   - key: not_wiki
     label: Not On Wiki
+
+  - key: non_content
+    label: Support Mods

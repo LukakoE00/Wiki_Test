@@ -5,7 +5,7 @@ category: items
 subcategory: transplants
 permalink: /items/transplants/brain_transplant
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/transplants/brain_transplant.png
+inline_image: /images/base_neurotrauma/items/transplants/brain_transplant.png
 
 infobox:
   - title: Labels

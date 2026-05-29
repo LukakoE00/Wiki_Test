@@ -5,7 +5,7 @@ category: items
 subcategory: consumables
 permalink: /items/consumables/blood_packs
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/consumables/blood_packs.png
+inline_image: /images/base_neurotrauma/items/consumables/blood_packs.png
 
 addons:
   - id: vanilla
@@ -42,7 +42,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 240 marks"
+          - "Base Price: 240 Marks"
           - "Buyable at Merchant: Medical, Husk"
 
 blocks:

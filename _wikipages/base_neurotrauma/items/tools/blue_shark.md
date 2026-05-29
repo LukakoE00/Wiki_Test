@@ -5,7 +5,7 @@ category: items
 subcategory: tools
 permalink: /items/tools/blue_shark
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/tools/blue_shark.png
+inline_image: /images/base_neurotrauma/items/tools/blue_shark.png
 
 infobox:
   - title: Labels

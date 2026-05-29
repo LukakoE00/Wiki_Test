@@ -31,7 +31,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 40 marks"
+          - "Base Price: 40 Marks"
           - "Buyable at Outposts: Research, Colony"
           - "Buyable at Merchant: Medical"
     

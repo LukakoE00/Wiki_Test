@@ -5,7 +5,7 @@ category: items
 subcategory: consumables
 permalink: /items/consumables/ringers_solution
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/consumables/ringers_solution.png
+inline_image: /images/base_neurotrauma/items/consumables/ringers_solution.png
 
 addons:
   - id: vanilla
@@ -44,7 +44,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 100 marks"
+          - "Base Price: 100 Marks"
           - "Buyable at Merchant: Medical"
 
 blocks:

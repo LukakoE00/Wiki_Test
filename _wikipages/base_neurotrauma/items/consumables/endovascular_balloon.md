@@ -5,7 +5,7 @@ category: items
 subcategory: consumables
 permalink: /items/consumables/endovascular_balloon
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/consumables/endovascular_balloon.png
+inline_image: /images/base_neurotrauma/items/consumables/endovascular_balloon.png
 
 infobox:
   - title: Labels
@@ -38,7 +38,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 80 marks"
+          - "Base Price: 80 Marks"
           - "Buyable at Merchant: Medical"
 
 blocks:

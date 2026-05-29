@@ -5,7 +5,7 @@ category: items
 subcategory: tools
 permalink: /items/tools/aed
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/tools/aed.png
+inline_image: /images/base_neurotrauma/items/tools/aed.png
 
 infobox:
   - title: Labels

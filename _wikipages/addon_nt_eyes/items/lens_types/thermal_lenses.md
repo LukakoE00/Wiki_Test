@@ -29,7 +29,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 350 marks"
+          - "Base Price: 350 Marks"
           - "Buyable at Outpost: Research"
 
 blocks:

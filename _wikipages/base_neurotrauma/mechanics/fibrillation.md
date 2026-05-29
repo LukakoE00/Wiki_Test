@@ -4,6 +4,7 @@ title: Fibrillation
 category: gamemechanics
 subcategory: base_mechanics
 permalink: /mechanics/fibrillation
+inline_image: /images/base_neurotrauma/mechanics/fibrillation.png
 
 blocks:
   - type: description

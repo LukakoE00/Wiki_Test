@@ -5,7 +5,7 @@ category: items
 subcategory: transplants
 permalink: /items/transplants/heart_transplant
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/transplants/heart_transplant.png
+inline_image: /images/base_neurotrauma/items/transplants/heart_transplant.png
 
 infobox:
   - title: Labels
@@ -34,7 +34,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 4000 marks"
+          - "Base Price: 4000 Marks"
           - "Buyable at Merchant: Medical"
 
 blocks:

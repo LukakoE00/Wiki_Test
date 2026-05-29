@@ -5,7 +5,7 @@ category: items
 subcategory: consumables
 permalink: /items/consumables/empty_blood_pack
 image: /images/svg/anybodypart.svg
-inline_image: //images/base_neurotrauma/items/consumables/empty_blood_pack.png
+inline_image: /images/base_neurotrauma/items/consumables/empty_blood_pack.png
 
 infobox:
   - title: Labels
@@ -34,7 +34,7 @@ infobox:
   - title: Store
     sections:
       - items:
-          - "Base Price: 25 marks"
+          - "Base Price: 25 Marks"
           - "Buyable at Merchant: Medical"
 
 blocks:
